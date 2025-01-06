@@ -4,8 +4,8 @@ function App() {
 
   return (
     <>
-        <span>Hello World</span>
-        <img src="https://tandhconsult.com/wp-content/uploads/2021/05/logo.png" alt="Logo"  />
+        <div className='text-red-900'>hello world</div>
+        {/* <img src="https://tandhconsult.com/wp-content/uploads/2021/05/logo.png" alt="Logo"  /> */}
     </>
   )
 }
