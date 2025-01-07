@@ -1,3 +1,120 @@
-.color{
-    color: red;
+.heading{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 23px;
+    .header_part{
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 1598px;
+        margin: 0 auto;
+        padding: 0 15px;
+        padding-top: 23px;
+        .header_row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        
+            .header_inner{
+                width: 100%;
+                margin-left: 114px;
+                padding-top: 13px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .nav_header{
+                    position: relative;
+                    display: inline-flex;
+                    margin: 0 20px;
+                    padding-bottom: 15px;
+                    padding-left: 0;
+                    .page{
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: normal;
+                        color: #fff;
+                    }
+        
+                }
+                .arrow{
+                    &::after{
+                        position: absolute;
+                        bottom: 8px;
+                        left: 50%;
+                        width: 0;
+                        height: 0;
+                        content: '';
+                        transition: all .3s ease;
+                        transform: translateX(-50%);
+                        border-width: 3px 3px 0 3px;
+                        border-style: solid;
+                        border-color: #fff transparent transparent transparent;
+                    }
+                }
+            }
+        
+            .header_logo{
+                position: relative;
+                /* z-index: 3; */
+                z-index: 1;
+                display: block;
+                width: 100%;
+                height: auto;
+                transition: all .4s ease;
+                opacity: 1;
+                flex: 0 0 226px;
+            }
+            .btn_quote{
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 1.4;
+                overflow: hidden;
+                min-height: 60px;
+                padding: 15px 30px;
+                transition: background-position .5s ease;
+                text-align: center;
+                text-transform: uppercase;
+                color: #fff !important;
+                border-radius: 5px;
+                background: linear-gradient(to right, #32509d, #6faadb, #32509d);
+                background-size: 300% 100%;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .controls{
+            position: relative;
+            z-index: 4;
+            display: flex;
+            margin-right: 20px;
+            align-items: center;
+            width: 9rem;
+            .header__controlls_separate {
+                position: relative;
+                top: -1px;
+                display: block;
+                width: 1px;
+                height: 15px;
+                margin: 0 10px;
+                background-color: rgba(255, 255, 255, .21);
+            }
+            .person{
+                mask-image: url('https://tandhconsult.com/wp-content/uploads/2021/05/cart.svg');
+                width: 12px;
+                height: 14.51px;
+        
+            }
+            .txtlogin{
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 1.4;
+                display: inline-flex;
+                color: #fff;
+                margin-left: .5rem;
+            }
+        }
+    }
 }
+

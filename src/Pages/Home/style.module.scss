@@ -1,0 +1,456 @@
+.homepage{
+    .first_banner{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
+        padding: 307px 0 231px;
+        .banner_bg{
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            display: block;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            &::before{
+                top: 0;
+                background: linear-gradient(to bottom, rgba(43, 42, 42, .7), rgba(0, 0, 0, 0));
+                position: absolute;
+                z-index: 2;
+                left: 0;
+                width: 100%;
+                height: 42%;
+                content: "";
+            }
+            &::after{
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                content: '';
+                opacity: .56;
+                background-color: #242424;
+            }
+        }
+        .container{
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 1598px;
+            margin: 0 auto;
+            padding: 0 15px;
+            position: relative;
+            z-index: 3;
+            .inner_banner{
+                box-sizing: border-box;
+                padding-left: 8px;
+                h1{
+                    font-size: 67px;
+                    font-weight: bold;
+                    line-height: 1.17;
+                    max-width: 720px;
+                    margin-bottom: 24px;
+                    color: #fff;
+                }
+                .banner_info{
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 1.79;
+                    max-width: 524px;
+                    margin-bottom: 38px;
+                    color: #fff;
+                    h2{
+                        display: block;
+                        font-size: 1.5em;
+                        margin-block-start: 0.83em;
+                        margin-block-end: 0.83em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                        font-weight: bold;
+                        unicode-bidi: isolate;
+                    }
+                }
+
+                .banner_btn{
+                    display: inline-flex;
+                    align-items: center;
+                    margin-bottom: 35px;
+                    padding: 15px 95px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 1.4;
+                    overflow: hidden;
+                    min-height: 60px;
+                    transition: background-position .5s ease;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #fff !important;
+                    border-radius: 5px;
+                    background: linear-gradient(to right, #32509d, #6faadb, #32509d);
+                    background-size: 300% 100%;
+                }
+                .banner_star{
+                    display: flex;
+                    align-items: center;
+                    .banner_stars_text{
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 1.77;
+                        margin-right: 11px;
+                        color: #fff;
+                    }
+                    .banner_stars_star{
+                        display: inline-flex ;
+                        margin-right: 10px;
+                        align-items: center;
+                        .banner_star_item{
+                            display: flex;
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 5px;
+                            background-color: #dcdce6;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        .banner_star_item_active{
+                            background-color: #00b67a;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .banner_solution{
+        overflow: hidden;
+        max-width: 100%;
+        padding: 82px 0 40px;
+        .container{
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 1598px;
+            margin: 0 auto;
+            padding: 0 15px;
+            .title_solution{
+                font-size: 42px;
+                font-weight: bold;
+                line-height: 1.354;
+                margin-bottom: 40px;
+                span{
+                    background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            .solution_wrapper{
+                display: flex;
+                width: 100%;
+                margin-bottom: 1px;
+                justify-content: space-between;
+                flex-flow: row wrap;
+            }
+        }
+        .more_details{
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 1598px;
+            margin: 0 auto;
+            padding: 0 15px;
+            display: flex;
+            justify-content: flex-end;
+            .moreLink{
+                font-size: 18px;
+                font-weight: 600;
+                line-height: normal;
+                display: inline-flex;
+                color: #000;
+                align-items: center;
+                gap: .5rem;
+                .arrow_right{
+                    width: 32px;
+                    height: 14px;
+                    display: inline-block;
+                    background-size: contain;
+                    background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+                    mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+                    z-index: 1;
+                    
+                }
+            }
+        }
+    }
+    .banner_about_us{
+        overflow: hidden;
+        max-width: 100%;
+        padding: 41px 0 150px;
+        .container{
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 1598px;
+            margin: 0 auto;
+            padding: 0 15px;
+            .title_about{
+                font-size: 42px;
+                font-weight: bold;
+                line-height: 1.354;
+                margin-bottom: 40px;
+                span{
+                    background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            .about_wrapper{
+                display: flex;
+                width: 100%;
+                align-items: stretch;
+                justify-content: space-between;
+                .about_pic{
+                    display: block;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                    width: 100%;
+                    max-width: 756px;
+                    height: auto;
+                    padding-top: 6px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        -o-object-fit: cover;
+                        object-fit: cover;
+                    }
+                }
+                .about_content{
+                    width: 100%;
+                    max-width: 770px;
+                    margin-left: 55px;
+                    .about_subtitle{
+                        font-size: 22px;
+                        font-weight: 600;
+                        line-height: 1.354;
+                        margin-bottom: 21px;
+                        span{
+                            background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+                    }
+                    .about_info{
+                        font-size: 14px;
+                        font-weight: normal;
+                        line-height: 1.79;
+                        margin-bottom: 30px;
+                    }
+                    .btn_gradient{
+                        font-size: 14px;
+                        font-weight: bold;
+                        line-height: 1.4;
+                        overflow: hidden;
+                        min-height: 60px;
+                        transition: background-position .5s ease;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #fff !important;
+                        border-radius: 5px;
+                        background: linear-gradient(to right, #32509d, #6faadb, #32509d);
+                        background-size: 300% 100%;
+                        padding: 15px 111px;
+                        display: inline-flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+    .banner_digital{
+        position: relative;
+        overflow: hidden;
+        max-width: 100%;
+        padding: 188px 0 212px;
+        &::before{
+            top: 0;
+            height: 42%;
+            opacity: .6;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0) 51.48%, #1f1f1f 100%);
+        }
+        &::after{
+            bottom: 0;
+            height: 54%;
+            opacity: .6;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 51.48%, #1f1f1f 100%);
+        }
+        .digital_bg{
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            display: block;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                -o-object-fit: cover;
+                object-fit: cover;
+            
+            }
+        }
+        .container{
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 1598px;
+            margin: 0 auto;
+            padding: 0 15px;
+            position: relative;
+            z-index: 3;
+            .digital_title{
+                font-size: 40px;
+                font-weight: bold;
+                line-height: 1.354;
+                width: 100%;
+                max-width: 1210px;
+                margin: 0 auto 75px;
+                text-align: center;
+                color: #fff;
+            }
+            .digital_wrapper{
+                position: relative;
+                display: flex;
+                width: 100%;
+                max-width: 1470px;
+                margin: 0 auto -55px;
+                align-items: center;
+                justify-content: space-between;
+                flex-flow: row wrap;
+                &::after{
+                    position: absolute;
+                    top: -17px;
+                    bottom: 42px;
+                    left: 50%;
+                    width: 1px;
+                    content: '';
+                    transform: translateX(-50%);
+                    opacity: .19;
+                    background-color: #fff;
+                }
+                .digital_item{
+                    display: flex;
+                    width: 100%;
+                    max-width: calc(50% - 110px);
+                    margin-bottom: 55px;
+                    align-items: center;
+                    .digital_icon{
+                        display: flex;
+                        width: 83px;
+                        margin-right: 26px;
+                        justify-content: center;
+                        flex-grow: 0;
+                        flex-shrink: 0;
+                    }
+                    .digital_text{
+                        font-size: 22px;
+                        font-weight: bold;
+                        line-height: 1.739;
+                        display: block;
+                        width: 100%;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .banner_partner{
+        overflow: hidden;
+        max-width: 100%;
+        padding: 70px 0 57px;
+        background-color: #f5f5f5;
+        .container{
+            max-width: 1622px;
+            padding: 0 45px;
+            box-sizing: border-box;
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            z-index: 3;
+            .partner_slider{
+                position: relative;
+                width: 100%;
+                max-width: 100%;
+                .slick_list{
+                    margin: 0 -20px;
+                    .slick_track{
+                        display: flex !important;
+                        align-items: center;
+                        .partner_pic{
+                            display: flex !important;
+                            margin: 0 20px;
+                            transition: all .3s ease;
+                            justify-content: center;
+                            filter: grayscale(100%);
+                            will-change: filter;
+                            width: 185px;
+                            img{
+                                max-width: 100%;
+                                height: auto;
+                                -o-object-fit: contain;
+                                object-fit: contain;
+                            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.star_shine{
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/star.svg);
+    background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/star.svg);
+    display: inline-block;
+    background-size: contain;
+}
+
+.headphone_icon{
+    width: 77px;
+    height: 80px;
+    background-color: #fff;
+    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/headphone.svg);
+    background: url(https://tandhconsult.com/wp-content/uploads/2021/05/headphone.svg);
+    display: inline-block;
+    // mask-size: 100% auto;
+}
+
+.triplet_star_icon{
+    width: 77px;
+    height: 80px;
+    background-color: #fff;
+    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/user.svg);
+    background: url(https://tandhconsult.com/wp-content/uploads/2021/05/user.svg);
+    display: inline-block;
+    background-size: contain;
+}
+
+.board_icon{
+    width: 77px;
+    height: 80px;
+    background-color: #fff;
+    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/analysis.svg);
+    background: url(https://tandhconsult.com/wp-content/uploads/2021/05/analysis.svg);
+    display: inline-block;
+}
+
+.PC_icon{
+    width: 80px;
+    height: 74px;
+    background-color: #fff;
+    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/invest.svg);
+    background: url(https://tandhconsult.com/wp-content/uploads/2021/05/invest.svg);
+    display: inline-block;
+}
