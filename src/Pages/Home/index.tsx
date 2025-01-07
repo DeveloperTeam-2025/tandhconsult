@@ -185,6 +185,26 @@ const index = () => {
           </a>
         </div>
       </section>
+      <section className={styles.banner_consult}>
+      <div className={styles.container}>
+        <div className={styles.consult_wrapper}>
+          <div className={styles.consult_col}>
+            <span></span>
+            <h2></h2>
+            <div>
+              <form action=""></form>
+            </div>
+          </div>
+          <div className={styles.consult_col}>
+            <span></span>
+            <h2></h2>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      </section> 
      </div>
      <Footer></Footer>
     </>
