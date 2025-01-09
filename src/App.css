@@ -44,3 +44,38 @@ body{
   font-family: sans-serif;
   line-height: 2;
 }
+.breadcrumbs__separator {
+  position: relative;
+  top: 0px;
+  width: 4px;
+  height: 4px;
+  margin: 0 8px;
+  border-radius: 50%;
+  background-color: #67a5da;
+}
+
+.separator_container{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1598px;
+  margin: 0 auto;
+  padding: 6px 15px;
+}
+
+.bread__link{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  color: #868686;
+}
+
+.bread{
+  overflow: hidden;
+  max-width: 100%;
+  padding: 8px 0 6px;
+  background-color: #f1f1f1;
+}
+
+
+
+

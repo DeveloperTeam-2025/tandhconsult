@@ -126,7 +126,7 @@
     .banner_solution{
         overflow: hidden;
         max-width: 100%;
-        padding: 82px 0 40px;
+        padding: 82px 0 115px;
         .container{
             box-sizing: border-box;
             width: 100%;
@@ -405,6 +405,7 @@
             }
         }
     }
+
 }
 
 .star_shine{
@@ -453,4 +454,37 @@
     mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/invest.svg);
     background: url(https://tandhconsult.com/wp-content/uploads/2021/05/invest.svg);
     display: inline-block;
+}
+
+.plus_icon{
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/add.svg);
+    mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/add.svg);
+    display: inline-block;
+}
+
+.arrow_right_icon{
+    width: 32px;
+    height: 14px;
+    display: inline-block;
+    // background-color: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+    background: #fff!important;
+    background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+    mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+}
+
+.chatbot{
+    z-index: 3;
+    right: -3rem;
+    top: 18rem;
+    rotate: 270deg;
+    background-color: #4A90E2;
+    color: white;
+    padding: .3rem 1rem 0rem 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 1rem;
+    font-size: .85rem;
+    position: fixed;
 }
