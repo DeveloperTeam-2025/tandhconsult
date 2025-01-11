@@ -1,10 +1,17 @@
 import React from 'react'
 import styles from './style.module.scss'
 import classNames from 'classnames'
-const index = (props: any) => {
-    const{ image, size, name, more } = props
+interface Props {
+  image: string;
+  size?: string; // Optional because size might not always be provided
+  name: string;
+  more?: boolean;
+  style?: React.CSSProperties; // Ensure style is correctly typed
+}
+
+const index = ({ image, size, name, more, style = {} } : Props) => {
   return (
-    <a className={classNames(`${styles.picBox} wow  animate__fadeInLeft animate__animated`)} style={{maxWidth: `${size} `}}>
+    <a className={classNames(`${styles.picBox} wow  animate__fadeInLeft animate__animated`)} style={{maxWidth: `${size} `, ...style}}>
       <picture className={styles.framePic}>
         <img src={image} alt="" />
       </picture>

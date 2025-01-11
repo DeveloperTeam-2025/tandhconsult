@@ -12,12 +12,17 @@ import Certificate from './Pages/Certificate/index'
 import Team from './Pages/Team/index'
 import Solutions from './Pages/Solutions/index'
 import Partner from './Pages/Partner/index'
+import Investigation from './Pages/Investigation/index'
+import Documental from './Pages/Documental/index'
+import Cryptocurrency from './Pages/Cryptocurrency/index'
+import Business from './Pages/Business/index'
+import Contact from './Pages/Contact/index'
+import Blog from './Pages/Blog/index'
 function App() {
   const path = window.location.pathname.replace('/', '')
   const capitalizeFirst = (str:any) => str.charAt(0).toUpperCase() + str.slice(1);
   const word = path.replace('-', ' ')
   const result = capitalizeFirst(word) 
-  console.log(result, 'word')
   return (
     <>   
     <Header pathname={path}/>
@@ -44,6 +49,12 @@ function App() {
           <Route path="/our-team" element={<Team />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/partner" element={<Partner />} />
+          <Route path="/product-category/investigations-disputes" element={<Investigation />} />
+          <Route path="/product-category/consulting-documental-support" element={<Documental />} />
+          <Route path="/product-category/cryptocurrency-investigation-compliance" element={<Cryptocurrency />} />
+          <Route path="/product-category/business-services" element={<Business />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/category/blog" element={<Blog />} />
         </Routes>
     </Router>
     <Footer/>

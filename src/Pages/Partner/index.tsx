@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './style.module.scss'
 import classNames from 'classnames'
 const index = () => {
@@ -190,22 +189,64 @@ const index = () => {
       </div>
     </section>
     <section className={classNames(`${styles.banner_partner} wow  animate__fadeIn animate__animated`)}>
-        <div className={styles.container}>
-          <div className={styles.partner_slider}>
-            <div className={styles.slick_list}>
-              <div className={styles.slick_track}>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/nordvpn_logo_rgb_primary_blue_black.png" alt="1" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/bitrank_registersymbol_2019_oneline_329x70.png" alt="2" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2022/12/logo3.webp" alt="3" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/logotype-color-horizontal.png" alt="4" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/qlue_tm_2019_193x55.png" alt="5" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/learnvent_colour.png" alt="6" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/navy-1.png" alt="7" /></picture>
-              </div>
+      <div className={styles.container}>
+        <div className={styles.partner_slider}>
+          <div className={styles.slick_list}>
+            <div className={styles.slick_track}>
+              <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/nordvpn_logo_rgb_primary_blue_black.png" alt="1" /></picture>
+              <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/bitrank_registersymbol_2019_oneline_329x70.png" alt="2" /></picture>
+              <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2022/12/logo3.webp" alt="3" /></picture>
+              <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/logotype-color-horizontal.png" alt="4" /></picture>
+              <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/qlue_tm_2019_193x55.png" alt="5" /></picture>
+              <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/learnvent_colour.png" alt="6" /></picture>
+              <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/navy-1.png" alt="7" /></picture>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <section className={styles.call} id="call">
+      <div className={styles.container}>
+        <div className={classNames(styles.callRow, 'wow', 'animate__fadeIn')}>
+          <div className={classNames(styles.callCol, styles.callColTitle)}>
+            <h2 className={styles.callTitle}>Become a partner</h2>
+            <span className={styles.callSubtitle}>Interested in working with us?</span>
+          </div>
+          <div className={classNames(styles.callCol, styles.callColContacts)}>
+            <span className={styles.callTeamText}>
+              <i className={styles.i_phone_call}></i>Contact the team on
+            </span>
+            <div className={styles.callTeam}>
+              <div className={styles.callLink}>
+                <p>
+                  <a href="tel:+3614088556">+36 1 408 8556</a>
+                  <br />
+                  <a href="tel:+36212620640">+36 2 126 20640</a>
+                </p>
+                <div className={styles.footerContactsLine}>
+                  <div className={styles.footerContactsIcon}></div>
+                  <div className={styles.footerContactsContent}></div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.callMail}>
+              <p>
+                <a href="mailto:partners@tandhconsult.com">partners@tandhconsult.com</a>
+              </p>
+            </div>
+          </div>
+          <div className={classNames(styles.callCol, styles.callColBtn)}>
+            <a
+              className={classNames(styles.btn, styles.btnWhite, styles.callBtn)}
+              href="#modal-header"
+              data-modal=""
+            >
+              <span>Apply now</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     </>
   )
 }
