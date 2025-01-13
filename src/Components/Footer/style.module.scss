@@ -12,6 +12,15 @@
         margin: 0 auto;
         padding: 0 15px;
         .inner_footer{
+            .footer_text {
+                font-size: 12px;
+                font-weight: normal;
+                line-height: 1.83;
+                max-width: 310px;
+                margin-bottom: 20px;
+                opacity: .8;
+                color: #060606;
+            }
             display: flex;
             align-items: flex-start;
             justify-content: space-between;
@@ -102,6 +111,15 @@
     }
 }
 
+.footer_logo {
+    display: block;
+    max-width: 185px;
+    width: 100%;
+    /* max-width: 376px; */
+    margin-bottom: 21px;
+    opacity: 1;
+}
+
 
 .linkedIn_Icon{
                 
@@ -172,3 +190,8 @@
     mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/pin.svg);
     background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/pin.svg);
 }
+
+
+
+
+

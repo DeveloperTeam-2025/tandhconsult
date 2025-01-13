@@ -35,9 +35,42 @@
                         font-weight: 600;
                         line-height: normal;
                         color: #fff;
+                        cursor: pointer;
                     }
         
                 }
+                .down {
+                    position: relative;
+                  
+                    .hover {
+                        opacity: 0; // Initially hidden
+                        visibility: hidden; // Prevents interaction while hidden
+                        transform: translateY(-10px); // Optional: adds a movement effect
+                        transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+                        background-color: rgba(255, 255, 255, .95);
+                        display: flex;
+                        flex-direction: column;
+                        padding: 1rem 1rem;
+                        text-align: center;
+                        .btn_a{
+                            color: black ;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: normal;
+                            padding-bottom: 15px;
+                        }
+                    
+                    }
+                  
+                    &:hover {
+                      .hover {
+                        opacity: 1; // Fully visible on hover
+                        visibility: visible;
+                        transform: translateY(0); // Resets position
+                      }
+                    }
+                }
+                  
                 .arrow{
                     &::after{
                         position: absolute;
@@ -51,6 +84,21 @@
                         border-width: 3px 3px 0 3px;
                         border-style: solid;
                         border-color: #fff transparent transparent transparent;
+                    }
+                }
+                .arrow2{
+                    &::after{
+                        position: absolute;
+                        bottom: 8px;
+                        left: 50%;
+                        width: 0;
+                        height: 0;
+                        content: '';
+                        transition: all .3s ease;
+                        transform: translateX(-50%);
+                        border-width: 3px 3px 0 3px;
+                        border-style: solid;
+                        border-color: #000 transparent transparent transparent;
                     }
                 }
             }

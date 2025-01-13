@@ -18,11 +18,11 @@ import Cryptocurrency from './Pages/Cryptocurrency/index'
 import Business from './Pages/Business/index'
 import Contact from './Pages/Contact/index'
 import Blog from './Pages/Blog/index'
+
 function App() {
   const path = window.location.pathname.replace('/', '')
-  const capitalizeFirst = (str:any) => str.charAt(0).toUpperCase() + str.slice(1);
-  const word = path.replace('-', ' ')
-  const result = capitalizeFirst(word) 
+  const category = path?.split('').map((data)=> data === '-' ? ' ' : data).join('')
+  const Capitalize = category?.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
   return (
     <>   
     <Header pathname={path}/>
@@ -32,7 +32,7 @@ function App() {
           <div className='flex items-center '>
             <div className='bread__link'>Home</div>
             <div className='breadcrumbs__separator'></div>
-            <div className='bread__link'>{result}</div>
+            <div className='bread__link'>{Capitalize}</div>
           </div>
         </div>
       </div>   
@@ -43,18 +43,19 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/terms-and-conditions" element={<Terms />} />
           <Route path="/privacy-policy" element={<Privacy />} />
-          <Route path="/about-us/scam-awareness" element={<Fraud />} />
-          <Route path="/cryptocurrency-investigations-faq" element={<Faq />} />
+          <Route path="/scam-awareness" element={<Fraud />} />
+          <Route path="/faq" element={<Faq />} />
           <Route path="/our-certificates" element={<Certificate />} />
           <Route path="/our-team" element={<Team />} />
           <Route path="/solutions" element={<Solutions />} />
-          <Route path="/partner" element={<Partner />} />
-          <Route path="/product-category/investigations-disputes" element={<Investigation />} />
+          <Route path="/partners" element={<Partner />} />
+          <Route path="/product-category/investigations-and-disputes" element={<Investigation />} />
           <Route path="/product-category/consulting-documental-support" element={<Documental />} />
-          <Route path="/product-category/cryptocurrency-investigation-compliance" element={<Cryptocurrency />} />
+          <Route path="/product-category/cryptocurrency-investigation-and-compliance" element={<Cryptocurrency />} />
           <Route path="/product-category/business-services" element={<Business />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/category/blog" element={<Blog />} />
+          
         </Routes>
     </Router>
     <Footer/>

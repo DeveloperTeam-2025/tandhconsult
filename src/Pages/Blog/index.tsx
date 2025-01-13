@@ -1,8 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
-import styles from './style.module.scss'; // Adjust this path as needed
+import styles from './style.module.scss'; 
+import { useParams } from 'react-router-dom';
 
 const Index = () => {
+  const {categoryName} = useParams()
+  console.log(categoryName, 'categoryName')
   return (
     <section className={styles.blogs} id="blogs">
       <div className={styles.container}>

@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
 } */
-
+@import "@fontsource/montserrat/index.css";
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -41,7 +41,7 @@
   color: #888;
 }
 body{
-  font-family: sans-serif;
+  font-family:'Montserrat', sans-serif;
   line-height: 2;
 }
 .breadcrumbs__separator {

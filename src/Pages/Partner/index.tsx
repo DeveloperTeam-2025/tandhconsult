@@ -5,10 +5,10 @@ const index = () => {
     <>
         <section className={styles.overlay}>
             <picture className={classNames(`${styles.overlay_bg} wow animate__animated animate__fadeIn`)}>
-                <img src="	https://tandhconsult.com/wp-content/uploads/2021/07/sam-moqadam-pdovqfpz4z8-unsplash-1-scaled.jpg" alt="overlay" />
+                <img src="https://tandhconsult.com/wp-content/uploads/2021/05/overlay-bg-2.jpg" alt="overlay" />
             </picture>
             <div className={styles.container}>
-                <h1 className={classNames(`${styles.overlay_title} wow animate__animated animate__fadeInUp`)}>About Us</h1>
+                <h1 className={classNames(`${styles.overlay_title} wow animate__animated animate__fadeInUp`)}>Partners</h1>
             </div>
         </section>
         
