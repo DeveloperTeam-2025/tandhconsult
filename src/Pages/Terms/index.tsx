@@ -9,10 +9,10 @@ const Index = () => {
     <>
       <section className={styles.condition} id="condition">
         <div className={styles.container}>
-          <h1 className={classNames(`${styles.title} ${styles.condition_title} wow animate_animated animate__fadeInLeft`)} >
+          <h1 className={classNames(`${styles.title} ${styles.condition_title} wow animate__animated animate__fadeInLeft`)} >
             <span>Terms and Conditions</span>
           </h1>
-          <article className={classNames(`${styles.condition_short} wow animate_animated animate__fadeInUp`)} >
+          <article className={classNames(`${styles.condition_short} wow animate__animated animate__fadeInUp`)} >
             <picture className={styles.condition_pic}>
               <img src="" alt="" />
             </picture>
@@ -24,7 +24,7 @@ const Index = () => {
             </div>
           </article>
 
-          <article className={classNames(`${styles.condition_block} wow animate_animated animate__fadeInUp`)} >
+          <article className={classNames(`${styles.condition_block} wow animate__animated animate__fadeInUp`)} >
             <h3>Introduction</h3>
             <p>By engaging with T&H Consulting on our official website, <a href="http://www.tandhconsult.com/" target="_new">www.tandhconsult.com</a>, you (“Client”, “You”, “Your”) are accepting our Terms and Conditions. These Terms and Conditions define your rights and responsibilities when using our site and services. The terms “The Company”, “T&H Consulting”, “Ourselves”, “We”, “Our”, and “Us” denote our Company.</p>
             <p>We reserve the right to amend these Terms and Conditions at any time. Any changes will be marked by a revised “last updated” date at the bottom of this page. It is your responsibility to review these Terms and Conditions regularly. Your continued use of our site after any changes signifies your acceptance of the updated terms.</p>

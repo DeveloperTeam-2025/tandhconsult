@@ -101,11 +101,50 @@ const index = () => {
                             <div className={classNames(`${styles.abt_app} wow animate_animated animate__fadeInUp`)}>
                                 <h3 className={styles.abt_app_title}><span>Interested in getting to know more about us?</span></h3>
                                 <span className={styles.abt_app_text}>Consulting is more than giving advice. Here you can find out more about our company, approach to work and certificates.</span>
-                                <div className={styles.abt_app_row}>
-                                    <Button direct='https://tandhconsult.com/contact-us/'>
+                                <div className={classNames(styles.abt_app_row, 'gap-[.8rem]')}>
+                                    <Button direct='https://tandhconsult.com/contact-us/' 
+                                    style={{    
+                                    fontSize:" 14px",
+                                    fontWeight:" bold",
+                                    lineHeight:" 1.4",
+                                    overflow:" hidden",
+                                    minHeight:" 60px",
+                                    padding:" 15px 30px",
+                                    transition:" background-position .5s ease",
+                                    textAlign: "center",
+                                    color:" #fff",
+                                    borderRadius:" 5px",
+                                    background:" linear-gradient(to right, #32509d, #6faadb, #32509d)",
+                                    textTransform: "uppercase",
+                                    backgroundSize:" 300% 100%",
+                                    position:"relative",
+                                    display:" inline-flex",
+                                    outlineWidth:"0",
+                                    alignItems:"center",
+                                    }}>
                                         <span>Download our Company Presentation</span>
                                     </Button>
-                                    <Button direct='https://tandhconsult.com/contact-us/'>
+                                    <Button direct='https://tandhconsult.com/contact-us/'
+                                    style={{    
+                                        fontSize:" 14px",
+                                        fontWeight:" bold",
+                                        lineHeight:" 1.4",
+                                        overflow:" hidden",
+                                        minHeight:" 60px",
+                                        padding:" 15px 30px",
+                                        transition:" background-position .5s ease",
+                                        textAlign: "center",
+                                        color:" #fff",
+                                        borderRadius:" 5px",
+                                        background:" linear-gradient(to right, #32509d, #6faadb, #32509d)",
+                                        backgroundSize:" 300% 100%",
+                                        position:"relative",
+                                        display:" inline-flex",
+                                        outlineWidth:"0",
+                                        textTransform: "uppercase",
+                                        alignItems:"center",
+                                        }}
+                                    >
                                         <span>Check out our certificates</span>
                                     </Button>
                                 </div>

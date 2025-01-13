@@ -57,15 +57,17 @@ function App(props: any) {
                             <li  className={classNames(`${styles.nav_header} ${ color === "#000"? styles.arrow2 : styles.arrow} ${styles.down}`)}>
                                 <a className={styles.page} style={{color: `${color}`}} href='/solutions'>Solutions</a>
                                 <ul className={classNames(`absolute left-0 w-[26rem] left-[-10.5rem] top-[1.5rem] h-[auto] mt-2 bg-white border border-gray-300 rounded-md shadow-lg z-10 `, styles.hover)}>
-                                    {solutions.map((option, index) => (
+                                    {solutions.map((option, index) => {
+                                    const url = option.toLowerCase().replace(/\s+/g, '-')
+                                    return(
                                     <li
                                         key={index}
-                                        className={classNames(`hover:bg-blue-100 cursor-pointer`, styles.btn_a)}
-                                        onClick={() => {}}
+                                        className={classNames(`hover:[color:#70abdc!important] cursor-pointer`, styles.btn_a)}
+                                        onClick={() => {window.location.pathname = `product-category/${url}`}}
                                     >
                                         {option}
                                     </li>
-                                    ))}
+                                    )})}
                                 </ul>
                             </li>
                             <li  className={ classNames(`${styles.nav_header}`)}>

@@ -207,5 +207,76 @@
                 }
             }
         }
+        .pagination{
+            display: flex;
+            gap: .5rem;
+            justify-content: center;
+            .prev_item{
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 1.354;
+                position: relative;
+                display: inline-flex;
+                width: 45px;
+                height: 45px;
+                background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                align-items: center;
+                justify-content: center;
+                background: #f8f8f8;
+                border: 1px solid #efecee;
+                border-radius: 4px;
+                color: #000;
+                padding: 3px 6px;
+
+            }
+            .next_item{
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 1.354;
+                position: relative;
+                display: inline-flex;
+                width: 45px;
+                height: 45px;
+                background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                align-items: center;
+                justify-content: center;
+                background: #f8f8f8;
+                border: 1px solid #efecee;
+                border-radius: 4px;
+                color: #000;
+                padding: 3px 6px;
+
+            }
+            .page_item{
+                display: inline-block;
+                min-height: auto;
+                z-index: 3;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 1.354;
+                position: relative;
+                display: inline-flex;
+                width: 45px;
+                height: 45px;
+                align-items: center;
+                justify-content: center;
+                color: #32509d ;
+                background: white;
+                border: 1px solid #32509d !important;
+                /* border-image: linear-gradient(to right, #32509d, #70abdc, #fff, #fff) !important; */
+                transition: 0.5s;
+                border-radius: .2rem;
+                &:hover{
+                    color: white !important;
+                    background: #32509d !important;
+                }
+            }
+            .active{
+                opacity: 1 ;
+                color: white ;
+                background: linear-gradient(to right, #32509d 0%, #70abdc 100%) ;
+                transition: 0.5s;
+            }
+        }
     }
 }

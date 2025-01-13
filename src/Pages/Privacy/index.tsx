@@ -6,10 +6,10 @@ const index = () => {
     <>
       <section className={styles.privacy} id="privacy">
         <div className={styles.container}>
-          <h1 className={classNames(`${styles.title} ${styles.privacy__title} wow animate_animated animate__fadeInLeft`)}>
+          <h1 className={classNames(`${styles.title} ${styles.privacy__title} wow animate__animated animate__fadeInLeft`)}>
             <span>Privacy Policy</span>
           </h1>
-          <div className={classNames(`${styles.privacy__block} wow animate_animated animate__fadeInUp`)}>
+          <div className={classNames(`${styles.privacy__block} wow animate__animated animate__fadeInUp`)}>
             <p>Effective Date: February 03, 2019</p>
             <p>Last Updated: July 7, 2023</p>
             <h3 className={styles.wp_block_heading}>Introduction</h3>

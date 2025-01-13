@@ -7,10 +7,10 @@ const index = () => {
     <>
       <section className={styles.privacy} id="privacy">
         <div className={styles.container}>
-          <h1 className={classNames(`${styles.title} ${styles.privacy__title} wow animate_animated animate__fadeInLeft`)}>
+          <h1 className={classNames(`${styles.title} ${styles.privacy__title} wow animate__animated animate__fadeInLeft`)}>
             <span>Cryptocurrency Investigations FAQ</span>
           </h1>
-          <div className={classNames(`${styles.privacy__block} wow animate_animated animate__fadeInUp`)}>
+          <div className={classNames(`${styles.privacy__block} wow animate__animated animate__fadeInUp`)}>
             <p className={styles.has_medium_font_size}>
               Welcome to T&amp;H Consulting’s cryptocurrency investigations FAQ page. Here, we provide answers to common questions related to the in-depth analysis of digital assets like blockchains and smart contracts. Discover the process, significance, and specialized approach of our investigations, and gain insights into navigating the world of cryptocurrencies.
             </p>

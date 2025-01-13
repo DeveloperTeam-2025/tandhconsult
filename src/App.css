@@ -76,6 +76,16 @@ body{
   background-color: #f1f1f1;
 }
 
+.warning{
+  text-align: center;
+  padding: .5rem;
+  color: #ffffff;
+  background: #f5c001;
+  font-weight: bolder;
+  font-size: 0.92rem;
+  font-family: sans-serif;
+}
+
 
 
 

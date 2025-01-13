@@ -18,6 +18,7 @@ import Cryptocurrency from './Pages/Cryptocurrency/index'
 import Business from './Pages/Business/index'
 import Contact from './Pages/Contact/index'
 import Blog from './Pages/Blog/index'
+import Login from './Pages/Login/index'
 
 function App() {
   const path = window.location.pathname.replace('/', '')
@@ -25,6 +26,10 @@ function App() {
   const Capitalize = category?.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
   return (
     <>   
+    <div className='warning'>
+      <span>BEWARE IMPERSONATION SCAMS! Ensure you're communicating with official T&amp;H Consulting via @tandhconsult.com emails. 
+      <a href="//tandhconsult.com/about-us/scam-awareness/”" style={{color: "red"}}>Learn more &gt;&gt;&gt;</a></span>
+    </div>
     <Header pathname={path}/>
     { path &&
       <div className="wow animate__animated animate__fadeInUp bread mt-40">
@@ -43,7 +48,7 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/terms-and-conditions" element={<Terms />} />
           <Route path="/privacy-policy" element={<Privacy />} />
-          <Route path="/scam-awareness" element={<Fraud />} />
+          <Route path="/fraud-awareness" element={<Fraud />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/our-certificates" element={<Certificate />} />
           <Route path="/our-team" element={<Team />} />
@@ -55,7 +60,7 @@ function App() {
           <Route path="/product-category/business-services" element={<Business />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/category/blog" element={<Blog />} />
-          
+          <Route path="/my-account" element={<Login />} />
         </Routes>
     </Router>
     <Footer/>

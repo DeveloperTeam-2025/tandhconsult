@@ -7,10 +7,10 @@ const Index = () => {
     <>
       <section className={styles.privacy} id="privacy">
         <div className={styles.container}>
-          <h1 className={classNames(`${styles.title} ${styles.privacy__title} wow animate_animated animate__fadeInLeft`)}>
+          <h1 className={classNames(`${styles.title} ${styles.privacy__title} wow animate__animated animate__fadeInLeft`)}>
             <span>Scam Alert – Use of the T&amp;H Consulting Brand</span>
           </h1>
-          <div className={classNames(`${styles.privacy__block} wow animate_animated animate__fadeInUp`)}>
+          <div className={classNames(`${styles.privacy__block} wow animate__animated animate__fadeInUp`)}>
             <h2 className={styles.wp_block_heading}>The T&amp;H Consulting Brand</h2>
             <p>
               T&amp;H Consulting has discovered fraudulent activities involving the unauthorized use of our brand and logo by scammers. These individuals or groups create deceptive websites and communications that mimic our official T&amp;H Consulting website. Their fraudulent activities include promising high returns for investments, full guaranteed recovery of funds, impersonating our staff to solicit funds or personal information, and conducting unauthorized sales of our services. Firstly, T&amp;H Consulting does not request cryptocurrency payments. Secondly, our specialists never request access to bank accounts, cryptocurrency wallets from our clients. We prioritize the security and privacy of our clients’ financial information. Any communication or request asking for such sensitive information is not legitimate and should be treated as suspicious. Thirdly, and&nbsp;most importantly, our representatives will always contact you from an “@tandhconsult.com” email address.
