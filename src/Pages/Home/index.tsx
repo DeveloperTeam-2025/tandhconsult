@@ -1,13 +1,22 @@
-import React from 'react'
-import Header from '../../Components/Header/index'
-import Footer from '../../Components/Footer/index'
 import styles from './style.module.scss'
 import classNames from 'classnames'
 import Button from '../../Components/Reusable/Buttons/index'
 import ImageBox from '../../Components/Reusable/ImageBox/index'
-import Input from '../../Components/Reusable/Inputs/index'
 import Consult from '../../Components/Reusable/Form/Consult/index'
+import Solutions from '../Solutions/index'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+
 const index = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrow: true
+  };
   return (
     <>
     <div className={styles.chatbot}>
@@ -29,7 +38,7 @@ const index = () => {
               </h2>
             </div>
             <Button direct='https://tandhconsult.com/contact-us/'>
-            <span>About Us</span>
+              <span>About Us</span>
             </Button>
             <div className={classNames(`${styles.banner_star} wow  animate__fadeInUp animate__animated`)}>
               <span className={styles.banner_stars_text}>
@@ -56,25 +65,7 @@ const index = () => {
           </div>
         </div>
       </section>
-      <section className={styles.banner_solution}>
-        <div className={styles.container}>
-          <h2 className={classNames(`${styles.title_solution} wow  animate__fadeInLeft animate__animated`)}>
-            <span>Solutions</span>            
-          </h2>
-          <div className={styles.solution_wrapper}>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/05/combination-lock-and-different-gadgets-2023-11-27-04-51-43-utc-scaled.jpg" name="Digital Products" size="calc(50% - 15px)" more={true}/>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2023/06/blockchain-technology-concept-2021-08-26-15-33-00-utc-scaled.jpg" name="Cryptocurrency Investigation and Compliance" size="calc(50% - 15px)" more={true}/>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2023/06/group-of-businesswoman-and-accountant-checking-dat-2022-10-14-19-35-28-utc-scaled.jpg" name="Investigations and Disputes" size="calc(50% - 15px)" more={true}/>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2023/06/business-documents-auditor-business-asian-woman-c-2023-04-25-05-28-52-utc-scaled.jpg" name="Consulting and Documental Support" size="calc(50% - 15px)" more={true}/>
-                <ImageBox image=" https://tandhconsult.com/wp-content/uploads/2023/06/serious-colleagues-discussing-business-project-clo-2023-05-30-11-29-23-utc-scaled.jpg" name="Business Services" size="calc(50% - 15px)" more={true}/>
-            </div>
-        </div>
-        <div className={classNames(`${styles.more_details} wow  animate__fadeInUp animate__animated`)}>
-          <a href="" className={styles.moreLink}>
-              <span>More details</span><i className={styles.arrow_right} style={{background:"#000"}}></i>
-          </a>
-        </div>
-      </section>
+      <Solutions/>
       <section className={styles.banner_about_us}>
         <div className={styles.container}>
           <h2 className={classNames(`${styles.title_about} wow  animate__fadeInLeft animate__animated`)}><span>About us</span></h2>
@@ -122,7 +113,7 @@ const index = () => {
           <div className={styles.digital_wrapper}>
             <div className={classNames(`${styles.digital_item} wow  animate__fadeInLeft animate__animated`)}>
               <div className={styles.digital_icon}>
-                <i className={styles.headphone_icon}></i>
+                <i className={styles.headphone_icon}/>
               </div>
               <span className={styles.digital_text}>
                 From our headquarters in Budapest, and with the aid of international partners and industry experts, we serve clients worldwide.
@@ -130,7 +121,7 @@ const index = () => {
             </div>
             <div className={classNames(`${styles.digital_item} wow  animate__fadeInLeft animate__animated`)}>
               <div className={styles.digital_icon}>
-                <i className={styles.triplet_star_icon}></i>
+                <i className={styles.triplet_star_icon}/>
               </div>
               <span className={styles.digital_text}>
                 T&H Consulting is owned by its directors. All are dedicated to one mission: delivering efficiency and excellence in all areas of our work.
@@ -138,7 +129,7 @@ const index = () => {
             </div>
             <div className={classNames(`${styles.digital_item} wow  animate__fadeInLeft animate__animated`)}>
               <div className={styles.digital_icon}>
-                <i className={styles.board_icon}></i>
+                <i className={styles.board_icon}/>
               </div>
               <span className={styles.digital_text}>
                 When we start working with a business or a private client, we always carry out a transparent analysis and evaluation. After all, our aim is to provide a high level of service and achieve results.
@@ -146,7 +137,7 @@ const index = () => {
             </div>
             <div className={classNames(`${styles.digital_item} wow  animate__fadeInLeft animate__animated`)}>
               <div className={styles.digital_icon}>
-                <i className={styles.PC_icon}></i>
+                <i className={styles.PC_icon}/>
               </div>
               <span className={styles.digital_text}>
                 We use the world’s most comprehensive cryptocurrency investigation softwares that links real-world entities to cryptocurrency activity.
@@ -172,6 +163,17 @@ const index = () => {
           </div>
         </div>
       </section>
+      {/* <div className={classNames(`${styles.banner_partner} wow  animate__fadeIn animate__animated`)}>
+        <Slider {...settings}>
+          <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/nordvpn_logo_rgb_primary_blue_black.png" alt="1" /></picture>
+          <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/bitrank_registersymbol_2019_oneline_329x70.png" alt="2" /></picture>
+            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2022/12/logo3.webp" alt="3" /></picture>
+            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/logotype-color-horizontal.png" alt="4" /></picture>
+            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/qlue_tm_2019_193x55.png" alt="5" /></picture>
+            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/learnvent_colour.png" alt="6" /></picture>
+            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/navy-1.png" alt="7" /></picture>
+        </Slider>
+      </div> */}
       <section className={styles.banner_solution}>
         <div className={styles.container}>
           <h2 className={classNames(`${styles.title_solution} wow  animate__fadeInLeft animate__animated`)}>

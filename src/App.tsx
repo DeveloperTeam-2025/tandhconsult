@@ -55,14 +55,14 @@ function App() {
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/partners" element={<Partner />} />
           <Route path="/product-category/investigations-and-disputes" element={<Investigation />} />
-          <Route path="/product-category/consulting-documental-support" element={<Documental />} />
+          <Route path="/product-category/consulting-and-documental-support" element={<Documental />} />
           <Route path="/product-category/cryptocurrency-investigation-and-compliance" element={<Cryptocurrency />} />
           <Route path="/product-category/business-services" element={<Business />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/category/blog" element={<Blog />} />
           <Route path="/my-account" element={<Login />} />
         </Routes>
-    </Router>
+      </Router>
     <Footer/>
     </>
   )

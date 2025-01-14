@@ -37,7 +37,7 @@ const TeamSection = () => {
   return (
     <section className={styles.partner} id="partners">
       <div className={styles.container}>
-        <h1 className={classNames(`${styles.title} wow animate__fadeInUp`)} data-wow-delay="0.6s">
+        <h1 className={classNames(`${styles.title} wow animate__animated animate__fadeInUp`)} data-wow-delay="0.6s">
           <span>Get to Know Our Team: T&amp;H Consulting’s Investigations Services</span>
         </h1>
       </div>

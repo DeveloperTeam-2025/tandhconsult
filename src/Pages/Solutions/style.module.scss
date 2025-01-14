@@ -1,7 +1,18 @@
+@use 'sass:math';
+
+@function Clamp-all($half, $viewH, $full, $viewport: 1920) {
+    $scaled-value-px: math.div($half, 2);
+    $scaled-value-vw: math.div($viewH, $viewport) * 100;
+    @return clamp(
+        calc(#{$scaled-value-px}px), // Half value in px
+        calc(#{$scaled-value-vw}vw), // Viewport-based value in vw
+        #{$full} 
+    );
+}
 .banner_solution{
     overflow: hidden;
     max-width: 100%;
-    padding: 82px 0 115px;
+    padding: Clamp-all(82, 82, 82px ) 0 Clamp-all(115, 115, 115px );
     .container{
         box-sizing: border-box;
         width: 100%;
@@ -9,7 +20,7 @@
         margin: 0 auto;
         padding: 0 15px;
         .title_solution{
-            font-size: 42px;
+            font-size: Clamp-all(58, 42, 42px );
             font-weight: bold;
             line-height: 1.354;
             margin-bottom: 40px;
@@ -25,6 +36,9 @@
             margin-bottom: 1px;
             justify-content: space-between;
             flex-flow: row wrap;
+            @media only screen and (max-width: 765px) {
+                flex-direction: column;
+            }
         }
     }
     .more_details{

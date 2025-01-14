@@ -78,7 +78,7 @@ body{
 
 .warning{
   text-align: center;
-  padding: .5rem;
+  padding: .5rem 30px;
   color: #ffffff;
   background: #f5c001;
   font-weight: bolder;

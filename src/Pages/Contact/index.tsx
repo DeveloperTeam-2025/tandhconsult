@@ -76,7 +76,7 @@ const index = () => {
                 <p>We will reply to your questions as soon as possible. T&H Consulting is open to answer calls and email messages from 9:00 a.m. to 6:00 p.m (CET) In Weekdays.</p>
               </div>
             </div>
-            <div className='w-[45%] wow animate__animated animate__fadeInUp'>
+            <div className={classNames(styles.contact__right ,`wow animate__animated animate__fadeInUp`)}>
               <Contact/>
             </div>
           </div>
@@ -99,7 +99,7 @@ const index = () => {
                 <span>Make an appointment</span>
               </a>
             </div>
-            <div className='w-[45%] h-[34rem] overflow-hidden wow animate__animated animate__fadeInUp'>
+            <div className={classNames(styles.contact__right,' h-[34rem] overflow-hidden wow animate__animated animate__fadeInUp')}>
               <Map/>
             </div>
           </div>

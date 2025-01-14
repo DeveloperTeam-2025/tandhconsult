@@ -85,14 +85,14 @@ const index = () => {
     <main>
       <section className={styles.privacy} id="privacy">
         <div className={styles.container}>
-          <h1 className={classNames(`${styles.title} ${styles.privacy__title} wow animate_animated animate__fadeInLeft`)}>
+          <h1 className={classNames(`${styles.title} ${styles.privacy__title} wow animate__animated animate__fadeInLeft`)}>
             <span>Certificates</span>
           </h1>
-            <div className={classNames(`${styles.privacy__block} wow animate_animated animate__fadeInUp`)}>
-                <p>
-                Our team is composed of some very talented professionals. They are people, who are always prepared for new challenges, capable to provide our customers with the best quality work. Our team is one of the most important assets, which helps us to improve our products on a daily basis.
-                </p>
-                <div className="certificate-gallery grid gap-8" style={{gridTemplateColumns: "auto auto"}}>
+          <div className={classNames(`${styles.privacy__block} wow animate__animated animate__fadeInUp`)}>
+              <p>
+              Our team is composed of some very talented professionals. They are people, who are always prepared for new challenges, capable to provide our customers with the best quality work. Our team is one of the most important assets, which helps us to improve our products on a daily basis.
+              </p>
+              <div className={classNames(styles.certificate_gallery,` grid gap-8`)} >
                 {certificates.map((certificate, index) => (
                     <figure key={index} className="certificate-item">
                     <img
@@ -108,8 +108,8 @@ const index = () => {
                     }
                     </figure>
                 ))}
-                </div>
-            </div>
+              </div>
+          </div>
         </div>
       </section>
     </main>

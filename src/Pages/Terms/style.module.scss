@@ -1,3 +1,15 @@
+@use 'sass:math';
+
+@function Clamp-all($half, $viewH, $full, $viewport: 1920) {
+    $scaled-value-px: math.div($half, 2);
+    $scaled-value-vw: math.div($viewH, $viewport) * 100;
+    @return clamp(
+        calc(#{$scaled-value-px}px), // Half value in px
+        calc(#{$scaled-value-vw}vw), // Viewport-based value in vw
+        #{$full} 
+    );
+}
+
 .condition{
     overflow: hidden;
     max-width: 100%;
@@ -9,10 +21,10 @@
         margin: 0 auto;
         padding: 0 15px;
         .condition_title{
-            margin-bottom: 28px;
+            margin-bottom: Clamp-all(28, 28, 28px );
         }
         .title{
-            font-size: 42px;
+            font-size: Clamp-all(42, 42, 42px );
             font-weight: bold;
             line-height: 1.354;
             margin-bottom: 40px;

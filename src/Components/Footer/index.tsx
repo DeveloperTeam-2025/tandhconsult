@@ -22,7 +22,7 @@ const index = () => {
                         <a href="" className={styles.footer_socItem}><i className={styles.viber_Icon}></i></a>
                     </div>
                 </div>
-                <div className='wow animate__animated animate__fadeInUp'>
+                <div className={classNames(styles.add_foot,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>Menu</span>
                     <ul>
                         <li className={styles.list_Footer}><a href="">Home</a></li>
@@ -31,7 +31,7 @@ const index = () => {
                         <li className={styles.list_Footer}><a href="">Contact Us</a></li>
                     </ul>
                 </div>
-                <div className='wow animate__animated animate__fadeInUp'>
+                <div className={classNames(styles.add_foot,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>About Us</span>
                     <ul>
                         <li className={styles.list_Footer}><a href="">Terms and Condition</a></li>
@@ -40,7 +40,7 @@ const index = () => {
                         <li className={styles.list_Footer}><a href="">Certificates</a></li>
                     </ul>
                 </div>
-                <div className='wow animate__animated animate__fadeInUp'>
+                <div className={classNames(styles.add_foot,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>Solutions</span>
                     <ul>
                         <li className={styles.list_Footer}><a href="">Investigations and Disputes</a></li>
@@ -49,12 +49,12 @@ const index = () => {
                         <li className={styles.list_Footer}><a href="">Cryptocurrency Investigation and Compliance</a></li>
                     </ul>
                 </div>
-                <div className='wow animate__animated animate__fadeInUp'>
+                <div className={classNames(styles.footer__col__contacts,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>Contact Us</span>
                     <div>
                         <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.phone_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>+3619010272</a></p></div>
                         <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.email_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>info@tandhconsult.com</a></p></div>
-                        <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.pin_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>Headquarters: 1052, Vármegye <br/> u. 3-5, 2nd floor, Budapest</a></p></div>
+                        <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.pin_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>Headquarters: 1052, Vármegye u. 3-5, 2nd floor, Budapest</a></p></div>
                     </div>
                 </div>
                 <div className='wow animate__animated animate__fadeInUp'>

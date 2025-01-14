@@ -98,6 +98,7 @@ const index = () => {
                                 <div className={classNames(`${styles.abt_platform_content}`)}><span className={classNames(`${styles.abt_platform_name}`)}><span>Serve Clients</span></span><span className={classNames(`${styles.abt_platform_count}`)}><span>Worldwide</span></span></div>
                                 </div>
                             </div>
+                            <div className={classNames(`${styles.outer} wow animate_animated animate__fadeInUp`)} >
                             <div className={classNames(`${styles.abt_app} wow animate_animated animate__fadeInUp`)}>
                                 <h3 className={styles.abt_app_title}><span>Interested in getting to know more about us?</span></h3>
                                 <span className={styles.abt_app_text}>Consulting is more than giving advice. Here you can find out more about our company, approach to work and certificates.</span>
@@ -149,8 +150,9 @@ const index = () => {
                                     </Button>
                                 </div>
                             </div>
+                            </div>
                         </article>
-                        <Carousel></Carousel>
+                        {/* <Carousel></Carousel> */}
                         <article className={classNames(`${styles.abt_block_2} wow animate_animated animate__fadeInUp mt-20`)}>
                             <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>Explore more:</span></h2>
                             <div className={classNames(`${styles.abt_explore}`)}>

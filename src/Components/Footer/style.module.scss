@@ -12,6 +12,15 @@
         margin: 0 auto;
         padding: 0 15px;
         .inner_footer{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            @media only screen and (max-width: 1130px) {
+                justify-content: space-around;
+            }
+            @media only screen and (max-width: 765px) {
+                flex-direction: column;
+            }
             .footer_text {
                 font-size: 12px;
                 font-weight: normal;
@@ -21,9 +30,12 @@
                 opacity: .8;
                 color: #060606;
             }
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
+            .add_foot{
+                display: block;
+                @media only screen and (max-width: 1130px) {
+                    display: none;
+                }
+            }
             .footer_title{
                 font-size: 18px;
                 font-weight: bold;
@@ -84,7 +96,14 @@
                 display: inline-flex;
                 margin-right: 5px;
             }
-
+            .footer__col__contacts {
+                width: 100%;
+                /* max-width: 274px; */
+                max-width: 230px;
+                @media only screen and (max-width: 765px) {
+                    max-width: 100%;
+                }
+            }
         }
     }
     .footer_bottom{
