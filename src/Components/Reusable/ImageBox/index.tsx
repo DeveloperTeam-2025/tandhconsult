@@ -7,13 +7,14 @@ interface Props {
   name: string;
   more?: boolean;
   style?: React.CSSProperties; // Ensure style is correctly typed
+  href?: string;
 }
 
-const index = ({ image, size, name, more, style = {} } : Props) => {
+const index = ({ image, size, name, more, style = {}, href } : Props) => {
   return (
-    <a className={classNames(`${styles.picBox} wow  animate__fadeInLeft animate__animated`)} style={{maxWidth: `${size} `, ...style}}>
+    <a className={classNames(`${styles.picBox} wow  animate__fadeInLeft animate__animated`)} style={{maxWidth: `${size} `, ...style}} href={href}>
       <picture className={styles.framePic}>
-        <img src={image} alt="" />
+        <img src={image} alt="images" />
       </picture>
       <span className={styles.picName}>{name}</span>
       {

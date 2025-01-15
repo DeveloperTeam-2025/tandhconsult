@@ -25,7 +25,7 @@ const Index = () => {
                 <>
                   <div className={classNames(styles.blogs__item, 'wow', 'animate_animated','animate__fadeInUp')}>
                     <picture className={styles.blogs__pic}>
-                      <a href={data.href}>
+                      <a >
                         <img
                           src={data.img}
                           alt="data"
@@ -48,7 +48,7 @@ const Index = () => {
                       <>
                         <div className={classNames(styles.blogs__item2, 'wow', 'animate_animated','animate__fadeInUp')} >
                           <picture className={styles.blogs__pic}>
-                            <a href={val.href}>
+                            <a>
                               <img
                                 src={val.img}
                                 alt={idx.toString()}
@@ -59,7 +59,7 @@ const Index = () => {
                             <span className={styles.blogs__date}>{val.date}</span>
                             <a
                               className={styles.blogs__name}
-                              href="https://tandhconsult.com/blog/common-ticket-scams/"
+                              
                             >
                               {val.name}
                             </a>

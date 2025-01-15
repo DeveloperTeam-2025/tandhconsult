@@ -15,38 +15,38 @@ const index = () => {
                         <p>Helping you prove the facts and turning it into an <br/> obtainable outcome</p>
                     </div>
                     <div className={styles.footer_soc}>
-                        <a href="" className={styles.footer_socItem}><i className={styles.linkedIn_Icon}></i></a>
-                        <a href="" className={styles.footer_socItem}><i className={styles.insta_Icon}></i></a>
-                        <a href="" className={styles.footer_socItem}><i className={styles.facebook_Icon}></i></a>
-                        <a href="" className={styles.footer_socItem}><i className={styles.telegram_Icon}></i></a>
-                        <a href="" className={styles.footer_socItem}><i className={styles.viber_Icon}></i></a>
+                        <a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F30123626%2F" className={styles.footer_socItem}><i className={styles.linkedIn_Icon}></i></a>
+                        <a href="https://www.instagram.com/tandhconsult/" className={styles.footer_socItem}><i className={styles.insta_Icon}></i></a>
+                        <a href="https://www.facebook.com/tandhconsult/" className={styles.footer_socItem}><i className={styles.facebook_Icon}></i></a>
+                        <a href="https://t.me/thconsult_news" className={styles.footer_socItem}><i className={styles.telegram_Icon}></i></a>
+                        <a href="https://t.me/thconsult_news" className={styles.footer_socItem}><i className={styles.viber_Icon}></i></a>
                     </div>
                 </div>
                 <div className={classNames(styles.add_foot,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>Menu</span>
                     <ul>
-                        <li className={styles.list_Footer}><a href="">Home</a></li>
-                        <li className={styles.list_Footer}><a href="">Partners</a></li>
-                        <li className={styles.list_Footer}><a href="">Blog</a></li>
-                        <li className={styles.list_Footer}><a href="">Contact Us</a></li>
+                        <li className={styles.list_Footer}><a href="/">Home</a></li>
+                        <li className={styles.list_Footer}><a href="/partners">Partners</a></li>
+                        <li className={styles.list_Footer}><a href="/category/blog">Blog</a></li>
+                        <li className={styles.list_Footer}><a href="/contact-us">Contact Us</a></li>
                     </ul>
                 </div>
                 <div className={classNames(styles.add_foot,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>About Us</span>
                     <ul>
-                        <li className={styles.list_Footer}><a href="">Terms and Condition</a></li>
-                        <li className={styles.list_Footer}><a href="">Privacy Policy</a></li>
-                        <li className={styles.list_Footer}><a href="">Our Team</a></li>
-                        <li className={styles.list_Footer}><a href="">Certificates</a></li>
+                        <li className={styles.list_Footer}><a href="/terms-and-conditions">Terms and Condition</a></li>
+                        <li className={styles.list_Footer}><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li className={styles.list_Footer}><a href="/our-team">Our Team</a></li>
+                        <li className={styles.list_Footer}><a href="/our-certificates">Certificates</a></li>
                     </ul>
                 </div>
                 <div className={classNames(styles.add_foot,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>Solutions</span>
                     <ul>
-                        <li className={styles.list_Footer}><a href="">Investigations and Disputes</a></li>
-                        <li className={styles.list_Footer}><a href="">Consulting and Documental Support</a></li>
-                        <li className={styles.list_Footer}><a href="">Business Services</a></li>
-                        <li className={styles.list_Footer}><a href="">Cryptocurrency Investigation and Compliance</a></li>
+                        <li className={styles.list_Footer}><a href="/product-category/investigations-and-disputes">Investigations and Disputes</a></li>
+                        <li className={styles.list_Footer}><a href="/product-category/consulting-and-documental-support">Consulting and Documental Support</a></li>
+                        <li className={styles.list_Footer}><a href="/product-category/business-services">Business Services</a></li>
+                        <li className={styles.list_Footer}><a href="/product-category/cryptocurrency-investigation-and-compliance">Cryptocurrency Investigation and Compliance</a></li>
                     </ul>
                 </div>
                 <div className={classNames(styles.footer__col__contacts,'wow animate__animated animate__fadeInUp')}>

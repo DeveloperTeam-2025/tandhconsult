@@ -6,17 +6,66 @@ import Consult from '../../Components/Reusable/Form/Consult/index'
 import Solutions from '../Solutions/index'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Slider from 'react-slick';
-
+import Slider from 'react-slick'
+import { useRef, useState } from 'react'
+import Carousell from '../../Components/Reusable/Swiper'
 const index = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrow: true
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const carouselTrackRef = useRef<HTMLDivElement | null>(null);
+  const [detect,setDetect] = useState(0)
+  
+
+  const moveToNextSlide = () => {
+    const element = document.querySelector("#slick_list"); // The scrollable element
+    const track = document.querySelector("#slick_track"); // The track containing slides
+    
+    if (element && track) {
+      if (element.scrollWidth > element.clientWidth) {
+        const currentSlide = track.children[detect] as HTMLElement;
+        if (currentSlide) {
+          const slideWidth = currentSlide.offsetWidth;
+          const nextScrollLeft = element.scrollLeft + slideWidth;
+  
+          // Loop back to the start if at the end
+          if (nextScrollLeft + element.clientWidth >= element.scrollWidth) {
+            element.scrollTo({ left: 0, behavior: "smooth" });
+            setDetect(0);
+          } else {
+            element.scrollTo({ left: nextScrollLeft, behavior: "smooth" });
+            setDetect(detect + 1);
+          }
+        }
+      }
+    }
   };
+  
+  const moveToPreviousSlide = () => {
+    const element = document.querySelector("#slick_list"); // The scrollable element
+    const track = document.querySelector("#slick_track"); // The track containing slides
+    
+    if (element && track) {
+      if (element.scrollWidth > element.clientWidth) {
+        const currentSlide = track.children[detect] as HTMLElement;
+        if (currentSlide) {
+          const slideWidth = currentSlide.offsetWidth;
+          const previousScrollLeft = element.scrollLeft - slideWidth;
+  
+          // Loop back to the end if at the start
+          if (previousScrollLeft < 0) {
+            const lastSlide = track.children[track.children.length - 1] as HTMLElement;
+            const lastScrollLeft = element.scrollWidth - lastSlide.offsetWidth;
+            element.scrollTo({ left: lastScrollLeft, behavior: "smooth" });
+            setDetect(track.children.length - 1);
+          } else {
+            element.scrollTo({ left: previousScrollLeft, behavior: "smooth" });
+            setDetect(detect - 1);
+          }
+        }
+      }
+    }
+  };
+  
+
   return (
     <>
     <div className={styles.chatbot}>
@@ -37,7 +86,7 @@ const index = () => {
                 Expert in blockchain, we deliver top-tier investigation services, dispute support, compliance and strategic consulting for individuals and businesses navigating this complex field.
               </h2>
             </div>
-            <Button direct='https://tandhconsult.com/contact-us/'>
+            <Button direct='/about-us'>
               <span>About Us</span>
             </Button>
             <div className={classNames(`${styles.banner_star} wow  animate__fadeInUp animate__animated`)}>
@@ -97,7 +146,7 @@ const index = () => {
               {/* <a href="" className={styles.btn_gradient}>
                 <span>About Us</span>
               </a> */}
-              <Button direct="https://tandhconsult.com/contact-us/">
+              <Button direct="/about-us">
                 <span>About Us</span>
               </Button>
             </div>
@@ -146,34 +195,7 @@ const index = () => {
           </div>
         </div>
       </section>
-      <section className={classNames(`${styles.banner_partner} wow  animate__fadeIn animate__animated`)}>
-        <div className={styles.container}>
-          <div className={styles.partner_slider}>
-            <div className={styles.slick_list}>
-              <div className={styles.slick_track}>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/nordvpn_logo_rgb_primary_blue_black.png" alt="1" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/bitrank_registersymbol_2019_oneline_329x70.png" alt="2" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2022/12/logo3.webp" alt="3" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/logotype-color-horizontal.png" alt="4" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/qlue_tm_2019_193x55.png" alt="5" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/learnvent_colour.png" alt="6" /></picture>
-                <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/navy-1.png" alt="7" /></picture>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <div className={classNames(`${styles.banner_partner} wow  animate__fadeIn animate__animated`)}>
-        <Slider {...settings}>
-          <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/nordvpn_logo_rgb_primary_blue_black.png" alt="1" /></picture>
-          <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/bitrank_registersymbol_2019_oneline_329x70.png" alt="2" /></picture>
-            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2022/12/logo3.webp" alt="3" /></picture>
-            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2024/04/logotype-color-horizontal.png" alt="4" /></picture>
-            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2021/09/qlue_tm_2019_193x55.png" alt="5" /></picture>
-            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/learnvent_colour.png" alt="6" /></picture>
-            <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/navy-1.png" alt="7" /></picture>
-        </Slider>
-      </div> */}
+      <Carousell></Carousell>
       <section className={styles.banner_solution}>
         <div className={styles.container}>
           <h2 className={classNames(`${styles.title_solution} wow  animate__fadeInLeft animate__animated`)}>
@@ -189,7 +211,7 @@ const index = () => {
             </div>
         </div>
         <div className={classNames(`${styles.more_details} wow  animate__fadeInUp animate__animated`)}>
-          <a href="" className={styles.moreLink}>
+          <a href="/category/blog" className={styles.moreLink}>
               <span>View all articles</span><i className={styles.arrow_right} style={{background:"#000"}}></i>
           </a>
         </div>

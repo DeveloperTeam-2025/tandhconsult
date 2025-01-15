@@ -103,7 +103,7 @@ const index = () => {
                                 <h3 className={styles.abt_app_title}><span>Interested in getting to know more about us?</span></h3>
                                 <span className={styles.abt_app_text}>Consulting is more than giving advice. Here you can find out more about our company, approach to work and certificates.</span>
                                 <div className={classNames(styles.abt_app_row, 'gap-[.8rem]')}>
-                                    <Button direct='https://tandhconsult.com/contact-us/' 
+                                    <Button direct='https://tandhconsult.com/wp-content/uploads/2022/01/th-consulting_b2b-services.pdf' 
                                     style={{    
                                     fontSize:" 14px",
                                     fontWeight:" bold",
@@ -125,7 +125,7 @@ const index = () => {
                                     }}>
                                         <span>Download our Company Presentation</span>
                                     </Button>
-                                    <Button direct='https://tandhconsult.com/contact-us/'
+                                    <Button direct='/our-certificates'
                                     style={{    
                                         fontSize:" 14px",
                                         fontWeight:" bold",
@@ -152,19 +152,19 @@ const index = () => {
                             </div>
                             </div>
                         </article>
-                        {/* <Carousel></Carousel> */}
+                        <Carousel></Carousel>
                         <article className={classNames(`${styles.abt_block_2} wow animate_animated animate__fadeInUp mt-20`)}>
                             <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>Explore more:</span></h2>
                             <div className={classNames(`${styles.abt_explore}`)}>
-                                <a className={classNames(`${styles.abt_explore_item}`)} href="https://tandhconsult.com/partners/">
+                                <a className={classNames(`${styles.abt_explore_item}`)} href="/partners">
                                     <i className={styles.partner_icon}></i>
                                     <span className={classNames(`${styles.abt_explore_name}`)}>Partner with us</span>
                                 </a>
-                                <a className={classNames(`${styles.abt_explore_item}`)}  href="https://tandhconsult.com/contact-us/">
+                                <a className={classNames(`${styles.abt_explore_item}`)}  href="/contact-us">
                                     <i className={styles.fake_news_icon}></i>
                                     <span className={classNames(`${styles.abt_explore_name}`)}>Report fraud</span>
                                 </a>
-                                <a className={classNames(`${styles.abt_explore_item}`)}  href="https://tandhconsult.com/contact-us/">
+                                <a className={classNames(`${styles.abt_explore_item}`)}  href="/contact-us">
                                     <i className={styles.complain_icon}></i>
                                     <span className={classNames(`${styles.abt_explore_name}`)}>Submit a complaint</span>
                                 </a>

@@ -59,15 +59,9 @@ const TeamSection = () => {
               <span style={{ fontSize: '24px' }}>{member.name}</span>
             </h2>
             <p
-              className={classNames(`${styles.title} wow animate__fadeInUp animate__animated`)}
+              className={classNames(`${styles.title} ${styles.title2} wow animate__fadeInUp animate__animated`)}
               data-wow-delay={member.animationDelay}
-              style={{
-                marginBottom: '0px',
-                background: 'linear-gradient(to right, rgb(50, 80, 157) 0%, rgb(112, 171, 220) 100%)',
-                WebkitTextFillColor: 'transparent',
-                fontSize: '18px',
-                fontWeight: '300',
-              }}
+
             >
               {member.role}
             </p>
