@@ -122,11 +122,14 @@
     }
 }
 .title2{
-  margin-bottom: '0px';
-  -webkit-text-fill-color: 'transparent';
-  font-size: '18px';
-  font-weight: '300';
-  background: 'linear-gradient(to right, rgb(50, 80, 157) 0%, rgb(112, 171, 220) 100%)',
+  margin-bottom: 0px;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: 300;
+  visibility: visible;
+  // animation-name: fadeInUp;
+  // animation-delay: 0.5s;
+  background: linear-gradient(to right, rgb(50, 80, 157) 0%, rgb(112, 171, 220) 100%) text;
 }
 .team_container{
     display: grid;
