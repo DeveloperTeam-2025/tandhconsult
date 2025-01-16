@@ -1,0 +1,44 @@
+.modal{
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    // height: 106vh;
+    display: block;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_wrapper{
+        position: relative;
+        width: 26%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        height: auto;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+        border-radius: 1rem;
+        .form{
+            width: 100%;
+        }
+        .exit{
+            position: absolute;
+            z-index: 76;
+            color: #fff;
+            top: -9px;
+            right: -9px;
+            background: rgba(0, 0, 0, 0.56);
+            border-radius: 5rem;
+            padding: .4rem .5rem;
+            line-height: 1rem;
+            font-family: cursive;
+            cursor: pointer;
+        }
+    }
+    // padding: 156px 20px 0;
+}

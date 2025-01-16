@@ -1,0 +1,75 @@
+@use 'sass:math';
+
+@function Clamp-all($half, $viewH, $full, $viewport: 1920) {
+    $scaled-value-px: math.div($half, 2);
+    $scaled-value-vw: math.div($viewH, $viewport) * 100;
+    @return clamp(
+        calc(#{$scaled-value-px}px), // Half value in px
+        calc(#{$scaled-value-vw}vw), // Viewport-based value in vw
+        #{$full} 
+    );
+}
+
+
+
+.banner_solution{
+    overflow: hidden;
+    max-width: 100%;
+    padding: Clamp-all(82, 82, 82px ) 0 Clamp-all(115, 115, 115px );
+    .container{
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 1598px;
+        margin: 0 auto;
+        padding: 0 15px;
+        .title_solution{
+            font-size: Clamp-all(58, 42, 42px );
+            font-weight: bold;
+            line-height: 1.354;
+            margin-bottom: 40px;
+            span{
+                background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        .solution_wrapper{
+            display: flex;
+            width: 100%;
+            margin-bottom: 1px;
+            justify-content: space-between;
+            flex-flow: row wrap;
+            @media only screen and (max-width: 765px) {
+                flex-direction: column;
+            }
+        }
+    }
+    .more_details{
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 1598px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+        justify-content: flex-end;
+        .moreLink{
+            font-size: 18px;
+            font-weight: 600;
+            line-height: normal;
+            display: inline-flex;
+            color: #000;
+            align-items: center;
+            gap: .5rem;
+            .arrow_right{
+                width: 32px;
+                height: 14px;
+                display: inline-block;
+                background-size: contain;
+                background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+                mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+                z-index: 1;
+                
+            }
+        }
+    }
+}
