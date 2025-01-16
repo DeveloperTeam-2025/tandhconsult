@@ -1,4 +1,4 @@
-import React from 'react';
+
 import classNames from 'classnames';
 import styles from './style.module.scss';
 import ImageBox from '../../Components/Reusable/ImageBox/index'
@@ -68,7 +68,7 @@ const index = () => {
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2022/03/shopping-and-online-payment-2022-03-14-18-13-37-utc-768x512.jpg",
                     "name": "Chargeback Process for Merchants"
                 }
-            ].map((item, index) => (
+            ].map((item) => (
                     <ImageBox image={item.imgSrc} name={item.name} size=""   style={{ maxWidth: "100%", height: "100%" }}  more={true} />
                 ))}
             </div>

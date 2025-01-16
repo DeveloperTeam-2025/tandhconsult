@@ -6,65 +6,9 @@ import Consult from '../../Components/Reusable/Form/Consult/index'
 import Solutions from '../Solutions/index'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Slider from 'react-slick'
-import { useRef, useState } from 'react'
 import Carousell from '../../Components/Reusable/Swiper'
 const index = () => {
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
-  const carouselTrackRef = useRef<HTMLDivElement | null>(null);
-  const [detect,setDetect] = useState(0)
-  
 
-  const moveToNextSlide = () => {
-    const element = document.querySelector("#slick_list"); // The scrollable element
-    const track = document.querySelector("#slick_track"); // The track containing slides
-    
-    if (element && track) {
-      if (element.scrollWidth > element.clientWidth) {
-        const currentSlide = track.children[detect] as HTMLElement;
-        if (currentSlide) {
-          const slideWidth = currentSlide.offsetWidth;
-          const nextScrollLeft = element.scrollLeft + slideWidth;
-  
-          // Loop back to the start if at the end
-          if (nextScrollLeft + element.clientWidth >= element.scrollWidth) {
-            element.scrollTo({ left: 0, behavior: "smooth" });
-            setDetect(0);
-          } else {
-            element.scrollTo({ left: nextScrollLeft, behavior: "smooth" });
-            setDetect(detect + 1);
-          }
-        }
-      }
-    }
-  };
-  
-  const moveToPreviousSlide = () => {
-    const element = document.querySelector("#slick_list"); // The scrollable element
-    const track = document.querySelector("#slick_track"); // The track containing slides
-    
-    if (element && track) {
-      if (element.scrollWidth > element.clientWidth) {
-        const currentSlide = track.children[detect] as HTMLElement;
-        if (currentSlide) {
-          const slideWidth = currentSlide.offsetWidth;
-          const previousScrollLeft = element.scrollLeft - slideWidth;
-  
-          // Loop back to the end if at the start
-          if (previousScrollLeft < 0) {
-            const lastSlide = track.children[track.children.length - 1] as HTMLElement;
-            const lastScrollLeft = element.scrollWidth - lastSlide.offsetWidth;
-            element.scrollTo({ left: lastScrollLeft, behavior: "smooth" });
-            setDetect(track.children.length - 1);
-          } else {
-            element.scrollTo({ left: previousScrollLeft, behavior: "smooth" });
-            setDetect(detect - 1);
-          }
-        }
-      }
-    }
-  };
-  
 
   return (
     <>

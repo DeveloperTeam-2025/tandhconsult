@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './style.module.scss';
 
 import Consult from '../../Components/Reusable/Form/Consult/index'

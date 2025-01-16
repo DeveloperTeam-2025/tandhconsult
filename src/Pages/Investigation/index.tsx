@@ -1,4 +1,4 @@
-import React from 'react';
+
 import classNames from 'classnames';
 import styles from './style.module.scss';
 import ImageBox from '../../Components/Reusable/ImageBox/index'
@@ -65,7 +65,7 @@ const index = () => {
                     "https://tandhconsult.com/wp-content/uploads/2021/06/beatriz-perez-moya-xn4t2pvuugk-unsplash-768x417.jpg",
                     name: "Dispute Settlement “Basic Package”",
                 },
-                ].map((item, index) => (
+                ].map((item) => (
                     <ImageBox image={item.imgSrc} name={item.name} size=""   style={{ maxWidth: "100%", height: "100%" }}  more={true} />
                 ))}
             </div>

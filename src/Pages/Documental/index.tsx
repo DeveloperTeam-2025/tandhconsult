@@ -1,4 +1,4 @@
-import React from 'react';
+
 import classNames from 'classnames';
 import styles from './style.module.scss';
 import ImageBox from '../../Components/Reusable/ImageBox/index'
@@ -84,7 +84,7 @@ const index = () => {
                     "https://tandhconsult.com/wp-content/uploads/2021/07/canva-confident-coach-giving-handout-to-diverse-seminar-participants-768x512.jpg",
                     name: "Evaluation and Initial Consultation”",
                 },
-                ].map((item, index) => (
+                ].map((item) => (
                     <ImageBox image={item.imgSrc} name={item.name} size=""   style={{ maxWidth: "100%", height: "100%" }}  more={true} />
                 ))}
             </div>

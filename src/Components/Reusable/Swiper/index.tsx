@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import  { useEffect, useRef, useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -7,7 +7,7 @@ import styles from './style.module.scss';
 import classNames from 'classnames';
 
 export default function index() {
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
+
   const carouselTrackRef = useRef<HTMLDivElement | null>(null);
   const [detect,setDetect] = useState(0)
   const [screenWidth, setScreenWidth] = useState(0);

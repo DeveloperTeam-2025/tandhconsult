@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Map from '../../Components/Map/index'
 import Contact from '../../Components/Reusable/Form/Contact/index'
 import styles from './style.module.scss'

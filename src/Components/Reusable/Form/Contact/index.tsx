@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styles from './style.module.scss'
 import Input from '../../Inputs/index'
 import Button from '../../Buttons/index'

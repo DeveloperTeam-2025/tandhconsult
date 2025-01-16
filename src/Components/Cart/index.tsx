@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import styles from './style.module.scss'
-import Form from '../Reusable/Form/Contact'
 interface Modal{
     func?: () => void | undefined,
     func2?: () => void | undefined,

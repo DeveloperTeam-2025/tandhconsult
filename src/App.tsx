@@ -2,7 +2,7 @@ import Home from './Pages/Home/index'
 import './App.css'
 import Footer from './Components/Footer/index'
 import Header from './Components/Header/index'
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import About from './Pages/AboutUs/index'
 import Terms from './Pages/Terms/index'
 import Privacy from './Pages/Privacy/index'
@@ -20,7 +20,7 @@ import Contact from './Pages/Contact/index'
 import Blog from './Pages/Blog/index'
 import Login from './Pages/Login/index'
 import { Helmet } from 'react-helmet';
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useState } from 'react'
 import Modal from './Components/Modal/index'
 import Cart from './Components/Cart/index'
 function App() {
