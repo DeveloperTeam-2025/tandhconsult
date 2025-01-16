@@ -34,7 +34,7 @@ const Index = () => {
                     </picture>
                     <div className={styles.blogs__content}>
                       <span className={styles.blogs__date}>{data.date}</span>
-                      <a  className={styles.blogs__name}  href="https://tandhconsult.com/blog/why-you-shouldnt-face-banks-alone-the-importance-of-professional-help-in-scam-cases/">
+                      <a  className={styles.blogs__name}  >
                         {data.name}
                       </a>
                       <p className={styles.blogs__desc}>

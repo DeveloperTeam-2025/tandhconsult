@@ -31,7 +31,7 @@ const Index = () => {
             <p>Please note that our services are intended for individuals who are 18 years of age or older. Individuals under the age of 18 are not permitted to use this website.</p>
 
             <h3>Privacy and Cookies</h3>
-            <p>Your privacy is of utmost importance to us. T&H Consulting is committed to protecting your personal data and respecting your privacy rights. For comprehensive details regarding the Company’s collection, use, and storage of user information, please refer to <a href="https://tandhconsult.com/privacy-policy/">T&H Consulting’s Privacy Policy</a>.</p>
+            <p>Your privacy is of utmost importance to us. T&H Consulting is committed to protecting your personal data and respecting your privacy rights. For comprehensive details regarding the Company’s collection, use, and storage of user information, please refer to <a href="/privacy-policy">T&H Consulting’s Privacy Policy</a>.</p>
             <p>By using our site, you consent to the use of cookies. These are small files used to track user interactions and detect potential problems, helping us improve our services. You can control the use of cookies at the individual browser level. Please note, if you reject cookies, you may still use our site, but your ability to use some features or areas of our site may be limited.</p>
 
             <h3>Content and Copyright</h3>

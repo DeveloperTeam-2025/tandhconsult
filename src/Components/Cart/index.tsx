@@ -37,7 +37,7 @@ const index: React.FC<Modal>= ({func, func2}) => {
               <h1 className={styles.title}>
                 Dispute Settlement “Special Package”
               </h1>
-              <a href='/product-category/investigations-and-disputes'>Read More</a>
+              <a href='/solutions/investigations-and-disputes'>Read More</a>
             </div>
           </div>
           <a className={styles.btn_shop} onClick={() => {func?.(), func2?.()}}>

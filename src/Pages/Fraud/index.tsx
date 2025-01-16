@@ -19,10 +19,10 @@ const Index = () => {
             <h2 className={styles.wp_block_heading}>Websites</h2>
             <p>
               Please be aware that we exclusively conduct official business through our official website,{' '}
-              <a href="http://www.tandhconsult.com/">www.tandhconsult.com</a>. Which provides accurate and up-to-date
+              <a href="/">www.tandhconsult.com</a>. Which provides accurate and up-to-date
               information about T&amp;H Consulting, our services, products, and more. If you have any doubts about the
               authenticity of a website using the T&amp;H Consulting logo or brand, visit our official website at{' '}
-              <a href="http://www.tandhconsult.com/">www.tandhconsult.com</a>.
+              <a href="/">www.tandhconsult.com</a>.
             </p>
 
             <h2 className={styles.wp_block_heading}>Report Fraud</h2>
@@ -44,7 +44,7 @@ const Index = () => {
               Remember that T&amp;H Consulting never solicits individual funds and only contacts you from an
               “@tandhconsult.com” email address. If you suspect any fraudulent activity, promptly report it to T&amp;H
               Consulting at <a href="mailto:support@tandhconsult.com">support@tandhconsult.com</a> or{' '}
-              <a href="https://tandhconsult.com/contact-us/">here</a>. Stay vigilant and well-informed to protect
+              <a href="/contact-us">here</a>. Stay vigilant and well-informed to protect
               yourself from falling victim to a scam.
             </p>
 

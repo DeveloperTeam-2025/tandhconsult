@@ -106,15 +106,15 @@ const index = () => {
           <article className={classNames(`${styles.abt_block_2} wow animate__animated animate__fadeInUp mt-20`)}>
             <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>Explore more:</span></h2>
             <div className={classNames(`${styles.abt_explore}`)}>
-              <a className={classNames(`${styles.abt_explore_item}`)} href="https://tandhconsult.com/partners/">
+              <a className={classNames(`${styles.abt_explore_item}`)} href="/partners">
                 <i className={styles.partner_icon}></i>
                 <span className={classNames(`${styles.abt_explore_name}`)}>Partner with us</span>
               </a>
-              <a className={classNames(`${styles.abt_explore_item}`)}  href="https://tandhconsult.com/contact-us/">
+              <a className={classNames(`${styles.abt_explore_item}`)}  href="/contact-us">
                 <i className={styles.fake_news_icon}></i>
                 <span className={classNames(`${styles.abt_explore_name}`)}>Report fraud</span>
               </a>
-              <a className={classNames(`${styles.abt_explore_item}`)}  href="https://tandhconsult.com/contact-us/">
+              <a className={classNames(`${styles.abt_explore_item}`)}  href="/contact-us">
                 <i className={styles.complain_icon}></i>
                 <span className={classNames(`${styles.abt_explore_name}`)}>Submit a complaint</span>
               </a>

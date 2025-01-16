@@ -17,7 +17,7 @@ const index = () => {
 
             <h2 className={classNames(`${styles.wp_block_heading} ${styles.has_medium_font_size}`)}>What Do Cryptocurrency Investigations Involve?</h2>
             <p className={styles.has_medium_font_size}>
-              <a href="https://tandhconsult.com/product-category/cryptocurrency-investigation-compliance/">Cryptocurrency investigations</a> revolve around in-depth analysis of digital assets like blockchains and smart contracts to facilitate dispute resolution, litigation, or prosecution. These investigations encompass diverse areas, such as cybercrime, NFT marketplace issues, and investment due diligence.
+              <a href="/solutions/cryptocurrency-investigation-and-compliance">Cryptocurrency investigations</a> revolve around in-depth analysis of digital assets like blockchains and smart contracts to facilitate dispute resolution, litigation, or prosecution. These investigations encompass diverse areas, such as cybercrime, NFT marketplace issues, and investment due diligence.
             </p>
             
             <h2 className={classNames(`${styles.wp_block_heading} ${styles.has_medium_font_size}`)}>Which Cryptocurrencies Are Subject to Investigation?</h2>
@@ -32,7 +32,7 @@ const index = () => {
 
             <h2 className={classNames(`${styles.wp_block_heading} ${styles.has_medium_font_size}`)}>Why Should I Hire a Specialized Provider for Cryptocurrency Investigations?</h2>
             <p className={styles.has_medium_font_size}>
-              Investigations involving digital assets are intricate and necessitate a wide range of <a href="https://tandhconsult.com/our-certificates/">expertise</a>. At T&amp;H Consulting, our <a href="https://tandhconsult.com/our-team/">team</a> comprises crypto practitioners, valuation experts, open-source investigators, legal specialists, intelligence analysts, and accountants. We utilize this collective knowledge and various data sources to conduct thorough investigations.
+              Investigations involving digital assets are intricate and necessitate a wide range of <a href="/our-certificates">expertise</a>. At T&amp;H Consulting, our <a href="/our-team">team</a> comprises crypto practitioners, valuation experts, open-source investigators, legal specialists, intelligence analysts, and accountants. We utilize this collective knowledge and various data sources to conduct thorough investigations.
             </p>
 
             <h2 className={classNames(`${styles.wp_block_heading} ${styles.has_medium_font_size}`)}>Are Cryptocurrency Investigations Worth It?</h2>

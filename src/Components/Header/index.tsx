@@ -69,10 +69,10 @@ function App(props: any) {
                             <li className={styles.arrow_down} onClick={()=> setSolution(!Solution)}>
                                 <a href="/solutions">Solutions</a> 
                                 <ul style={{display: Solution ? 'block' : 'none'}}>
-                                    <li><a href="/product-category/investigations-and-disputes">Investigation and Disputes</a></li>
-                                    <li><a href="/product-category/consulting-and-documental-support">Consulting and Documental Support</a></li>
-                                    <li><a href="/product-category/cryptocurrency-investigation-and-compliance">Cryptocurrency Investigation and Compliance</a></li>
-                                    <li><a href="/product-category/business-services">Business Services</a></li>
+                                    <li><a href="/solutions/investigations-and-disputes">Investigation and Disputes</a></li>
+                                    <li><a href="/solutions/consulting-and-documental-support">Consulting and Documental Support</a></li>
+                                    <li><a href="/solutions/cryptocurrency-investigation-and-compliance">Cryptocurrency Investigation and Compliance</a></li>
+                                    <li><a href="/solutions/business-services">Business Services</a></li>
                                 </ul>
                             </li>
                             <li> <a href="/category/blog">Blog</a> </li>
@@ -148,7 +148,7 @@ function App(props: any) {
                                     <li
                                         key={index}
                                         className={classNames(`hover:[color:#70abdc!important] cursor-pointer`, styles.btn_a)}
-                                        onClick={() => {window.location.pathname = `product-category/${url}`}}
+                                        onClick={() => {window.location.pathname = `solutions/${url}`}}
                                     >
                                         {option}
                                     </li>
