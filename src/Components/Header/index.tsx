@@ -21,8 +21,11 @@ function App(props: any) {
         window.removeEventListener('resize', handleResize);
       };
     }, []);
+    useEffect(()=>{
+        
+    },[])
     const {pathname, click, cart} = props
-    const color = pathname ? "#000" : "#ffffff"
+    const color =  pathname ? "#000" : "#ffffff"
     const icon = pathname ? 'https://tandhconsult.com/wp-content/uploads/2021/05/logo-black.png' : 'https://tandhconsult.com/wp-content/uploads/2021/05/logo.png'
     const option = ["Terms and Conditions", "Privacy Policy", "Fraud Awareness", "Partners", "FAQ"]
     const options = !option ? [""] : option;
@@ -43,6 +46,9 @@ function App(props: any) {
             body.style.overflow = 'scroll'
         } 
     },[])
+
+    const filter = pathname ? pathname.split('').map((data: any) => data === '-' ? ' ': data).join('') : 'home'
+    console.log(filter === 'home', pathname , 'pathname')
   return (
     <>
     <div className={styles.heading}>
@@ -53,9 +59,9 @@ function App(props: any) {
                     Modal && 
                     <article className={classNames(styles.Modal, designs ? styles.openModal : styles.closeModal)} >
                         <ul className={styles.wrapperModal}>
-                            <li> <a href="/">Home</a> </li>
+                            <li> <a href="/" style={{color: filter === 'home' ? '#70abdc' : ''}}>Home</a> </li>
                             <li className={styles.arrow_down} onClick={()=> setAbout(!About)}>
-                                <a href="/about-us" >About us</a> 
+                                <a href="/about-us" style={{color: filter === 'about us' ? '#70abdc' : ''}} >About us</a> 
                                 <ul style={{display: About ? 'block' : 'none'}}>
                                     <li><a href="/terms-and-conditions">Terms and Condition</a></li>
                                     <li><a href="/privacy-policy">Privacy Policy</a></li>
@@ -64,10 +70,10 @@ function App(props: any) {
                                     <li><a href="/faq">FAQ</a></li>
                                 </ul>
                             </li>
-                            <li> <a href="/our-team">Our Team</a> </li>
-                            <li> <a href="/our-certificates">Certificates</a> </li>
+                            <li> <a href="/our-team" style={{color: filter === 'our team' ? '#70abdc' : ''}}>Our Team</a> </li>
+                            <li> <a href="/our-certificates" style={{color: filter === 'our certificates' ? '#70abdc' : ''}}>Certificates</a> </li>
                             <li className={styles.arrow_down} onClick={()=> setSolution(!Solution)}>
-                                <a href="/solutions">Solutions</a> 
+                                <a href="/solutions" style={{color: filter === 'solutions' ? '#70abdc' : ''}}>Solutions</a> 
                                 <ul style={{display: Solution ? 'block' : 'none'}}>
                                     <li><a href="/solutions/investigations-and-disputes">Investigation and Disputes</a></li>
                                     <li><a href="/solutions/consulting-and-documental-support">Consulting and Documental Support</a></li>
@@ -75,8 +81,8 @@ function App(props: any) {
                                     <li><a href="/solutions/business-services">Business Services</a></li>
                                 </ul>
                             </li>
-                            <li> <a href="/category/blog">Blog</a> </li>
-                            <li> <a href="/contact-us">Contact Us</a> </li>
+                            <li> <a href="/category/blog" style={{color: filter === 'category/blog' ? '#70abdc' : ''}}>Blog</a> </li>
+                            <li> <a href="/contact-us" style={{color: filter === 'contact us' ? '#70abdc' : ''}} >Contact Us</a> </li>
                         </ul>
                     </article>
                 }
@@ -114,10 +120,10 @@ function App(props: any) {
                     <header className={styles.App_header}>
                         <ul className="wow animate__animated animate__fadeInDown">
                             <li  className={styles.nav_header}>
-                                <a className={styles.page} style={{color: `${color}`}} href="/">Home</a>
+                                <a className={styles.page} style={{color: `${ filter === 'home' ? '#70abdc' : color}`}} href="/" >Home</a>
                             </li>
                             <li  className={ classNames(`${styles.nav_header} ${ color === "#000"? styles.arrow2 : styles.arrow} ${styles.down}`)}>
-                                <a className={styles.page} style={{color: `${color}`}} href="/about-us" >About Us</a>
+                                <a className={styles.page} style={{color: `${filter === 'about us' ? '#70abdc' :color}`}} href="/about-us"  >About Us</a>
                                 <ul className={classNames(`absolute left-0 w-[14.5rem] left-[-5rem] top-[1.5rem] h-[auto] mt-2 bg-white border border-gray-300 rounded-md shadow-lg z-10 `, styles.hover)}>
                                     {options.map((option, index) => {
                                         const url = option.toLowerCase().replace(/\s+/g, '-')
@@ -134,13 +140,13 @@ function App(props: any) {
                                 </ul>
                             </li>
                             <li  className={styles.nav_header}>
-                                <a className={styles.page} style={{color: `${color}`}} href="/our-team">Our Team</a>
+                                <a className={styles.page} style={{color: `${filter === 'our team' ? '#70abdc' : color}`}} href="/our-team">Our Team</a>
                             </li>
                             <li  className={ classNames(`${styles.nav_header} `)}>
-                                <a className={styles.page} style={{color: `${color}`}} href="/our-certificates">Certificate</a>
+                                <a className={styles.page} style={{color: `${filter === 'our certificates' ? '#70abdc' : color}`}} href="/our-certificates">Certificate</a>
                             </li>
                             <li  className={classNames(`${styles.nav_header} ${ color === "#000"? styles.arrow2 : styles.arrow} ${styles.down}`)}>
-                                <a className={styles.page} style={{color: `${color}`}} href='/solutions'>Solutions</a>
+                                <a className={styles.page} style={{color: `${filter === 'solutions' ? '#70abdc' : color}`}} href='/solutions'>Solutions</a>
                                 <ul className={classNames(`absolute left-0 w-[26rem] left-[-10.5rem] top-[1.5rem] h-[auto] mt-2 bg-white border border-gray-300 rounded-md shadow-lg z-10 `, styles.hover)}>
                                     {solutions.map((option, index) => {
                                     const url = option.toLowerCase().replace(/\s+/g, '-')
@@ -156,10 +162,10 @@ function App(props: any) {
                                 </ul>
                             </li>
                             <li  className={ classNames(`${styles.nav_header}`)}>
-                                <a className={styles.page} style={{color: `${color}`}} href="/category/blog">Blog</a>
+                                <a className={styles.page} style={{color: `${filter === 'category/blog' ? '#70abdc' : color}`}} href="/category/blog">Blog</a>
                             </li>
                             <li  className={styles.nav_header}>
-                                <a className={styles.page} style={{color: `${color}`}} href="/contact-us">Contact Us</a>
+                                <a className={styles.page} style={{color: `${filter === 'contact us' ? '#70abdc' : color}`}} href="/contact-us">Contact Us</a>
                             </li>
                         </ul>
                     </header>
