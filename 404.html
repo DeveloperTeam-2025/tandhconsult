@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redirecting...</title>
     <script>
-      if (window.location.pathname !== '/') {
-        window.location.replace('/tandhconsult/');
-      }
+      // This will redirect all 404s back to index.html with the correct path
+      window.location.replace(window.location.pathname + window.location.search + '#');
     </script>
   </head>
   <body>
