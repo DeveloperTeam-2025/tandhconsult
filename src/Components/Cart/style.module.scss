@@ -1,3 +1,21 @@
+
+.openModal{
+    display: block;
+    animation: mymove 1s;
+}
+@keyframes mymove {
+    0%   {    transform: translateX(110%);}
+    100% {    transform: translateX(0);}
+}
+
+.closeModal{
+    display: block;
+    animation: mymove2 1s;
+}
+@keyframes mymove2 {
+    0%   {    transform: translateX(0);}
+    100% {    transform: translateX(110%);}
+}
 .modal{
     position: absolute;
     z-index: 6;
@@ -13,7 +31,7 @@
     align-items: center;
     &_wrapper{
         position: relative;
-        width: 16%;
+        width: 300px;
         display: flex;
         justify-content: flex-start;
         align-items: center;

@@ -34,14 +34,12 @@ function App() {
         if(body){
             body.style.overflow = 'hidden'
         } 
-        console.log(quote)
     },[])
     const Modalclose = useCallback(() => {
         const body = document.querySelector('body')
         if(body){
-            body.style.overflow = 'scroll'
+            body.style.overflowY = 'scroll'
         } 
-        console.log(quote)
     },[])
 
   return (

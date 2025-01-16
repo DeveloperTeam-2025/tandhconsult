@@ -1,3 +1,22 @@
+
+.openModal{
+    display: block;
+    animation: mymove 1s;
+}
+@keyframes mymove {
+    0%   {    transform: translateY(-110%);}
+    100% {    transform: translateY(0);}
+}
+
+.closeModal{
+    display: block;
+    animation: mymove2 1s;
+}
+@keyframes mymove2 {
+    0%   {    transform: translateY(0);}
+    100% {    transform: translateY(-110%);}
+}
+
 .modal{
     position: absolute;
     z-index: 6;

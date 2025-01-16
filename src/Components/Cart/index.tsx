@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './style.module.scss'
+import classNames from 'classnames';
 interface Modal{
     func?: () => void | undefined,
     func2?: () => void | undefined,
@@ -7,6 +8,7 @@ interface Modal{
 }
 const index: React.FC<Modal>= ({func, func2}) => {
     const [screenHeight, setScreenHeight] = useState(window.innerHeight);
+    const [animate, setAnimate] = useState(true);
     const handleResize = () => {
         setScreenHeight(window.innerHeight);
     };
@@ -19,11 +21,11 @@ const index: React.FC<Modal>= ({func, func2}) => {
   return (
     <>
     
-    <div className={styles.modal} style={{height: `${screenHeight + 10}px`}}>
+    <div className={classNames(styles.modal, animate ? styles.openModal : styles.closeModal)} style={{height: `${screenHeight + 10}px`}}>
       <div className={styles.modal_wrapper}>
         <div className={styles.cart_top}>
           <span className={styles.title}>Your Cart</span>
-          <span className={styles.exit} onClick={() => {func?.(), func2?.()}}>X</span>
+          <span className={styles.exit} onClick={() => {setTimeout(() => {func?.(), func2?.()},500), setAnimate(false) }}>X</span>
         </div>
         <div className={styles.product_content}>
           <span>Your cart is empty.</span>
@@ -39,7 +41,7 @@ const index: React.FC<Modal>= ({func, func2}) => {
               <a href='/solutions/investigations-and-disputes'>Read More</a>
             </div>
           </div>
-          <a className={styles.btn_shop} onClick={() => {func?.(), func2?.()}}>
+          <a className={styles.btn_shop} onClick={() => {setTimeout(() => {func?.(), func2?.()},500), setAnimate(false) }}>
             CONTINUE SHOPPING
           </a>
         </div>

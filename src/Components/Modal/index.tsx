@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from './style.module.scss'
 import Form from '../Reusable/Form/Contact'
+import classNames from 'classnames';
 interface Modal{
     func?: () => void | undefined,
     func2?: () => void | undefined,
@@ -8,6 +9,7 @@ interface Modal{
 }
 const index: React.FC<Modal>= ({func, func2}) => {
     const [screenHeight, setScreenHeight] = useState(window.innerHeight);
+        const [animate, setAnimate] = useState(true);
     const handleResize = () => {
         setScreenHeight(window.innerHeight);
     };
@@ -20,9 +22,9 @@ const index: React.FC<Modal>= ({func, func2}) => {
   return (
     <>
     
-    <div className={styles.modal} style={{height: `${screenHeight + 10}px`}}>
+    <div className={classNames(styles.modal, animate ? styles.openModal : styles.closeModal) } style={{height: `${screenHeight + 10}px`}}>
       <div className={styles.modal_wrapper}>
-        <span className={styles.exit} onClick={() => {func?.(), func2?.()}}>X</span>
+        <span className={styles.exit} onClick={() => {setTimeout(() => {func?.(), func2?.()},500), setAnimate(false)}}>X</span>
         <div className={styles.logo}>
             <img src="https://tandhconsult.com/wp-content/uploads/2021/05/logo-black.png" alt="logo"  />
         </div>
