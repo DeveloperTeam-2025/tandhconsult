@@ -65,7 +65,7 @@ const Index = () => {
                   </button>
                 </div>
                 <div className={classNames(styles['lost-password'])}>
-                  <a href="/my-account/lost-password/" className={styles.href}>
+                  <a  className={styles.href}>
                     Lost your password?
                   </a>
                 </div>
