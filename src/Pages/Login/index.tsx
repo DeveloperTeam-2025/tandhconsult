@@ -8,7 +8,7 @@ const Index = () => {
       <section className={classNames(styles.privacy)} id="privacy">
         <div className={classNames(styles.container)}>
           <h1 className={classNames(styles.title, styles.privacy__title)}>
-            <span>My Account</span>
+            <span>My account</span>
           </h1>
           <div className={classNames(styles.privacy__block)}>
             <div className={classNames(styles.woocommerce)}>
@@ -65,7 +65,7 @@ const Index = () => {
                   </button>
                 </div>
                 <div className={classNames(styles['lost-password'])}>
-                  <a  className={styles.href}>
+                  <a  className={styles.href} onClick={() => {window.location.pathname = '/my-account/lost-password'}}>
                     Lost your password?
                   </a>
                 </div>

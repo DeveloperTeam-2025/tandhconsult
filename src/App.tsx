@@ -23,12 +23,28 @@ import { Helmet } from 'react-helmet';
 import { useCallback, useState } from 'react'
 import Modal from './Components/Modal/index'
 import Cart from './Components/Cart/index'
+import Lost from './Pages/Lost_Password/index'
+import Reset from './Pages/Reset_Link/index'
+import Digital from './Components/Reusable/Content/index'
+import DigitalProduct from './Pages/Digital/index'
 function App() {
   const [quote, setquote] = useState(false)
   const [cart, setcart] = useState(false)
-  const path = window.location.pathname.replace('/', '')
-  const category = path?.split('').map((data)=>  data === '/' ? ' ' : data).join('')
-  const Capitalize = category?.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1))
+  const path = window.location.pathname
+  const category = path?.split('/').map((data)=>  data === '/' ? ' ' : data).join('')
+  const Capitalize = category === '' ? [] : category?.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1))
+  let filter: any
+  let Edit: any
+  let Add: any = []
+  if(Capitalize.length !== 0){
+    filter = Capitalize.filter(data => data !== Capitalize[Capitalize.length - 1])
+    Edit = Capitalize[Capitalize.length - 1].split('').map(data => data === '-' ? ' ' : data).join('') 
+    Add =  [...filter, Edit ]
+  }else{
+    Add =  [...Capitalize ]
+  }
+  
+  console.log(Add.length !== 0, 'here' , Add,category)
     const Modalopen = useCallback(() => {
         const body = document.querySelector('body')
         if(body){
@@ -45,20 +61,20 @@ function App() {
   return (
     <>   
     <Helmet>
-      <title>{Capitalize[0] === '' ? 'Home' : Capitalize[Capitalize.length - 1 ]}</title>
+      <title>{Capitalize[0] === '' ? 'Home' : Add[Add.length - 1 ]}</title>
     </Helmet>
     <div className='warning'>
       <span>BEWARE IMPERSONATION SCAMS! Ensure you're communicating with official T&amp;H Consulting via @tandhconsult.com emails. 
       <a href="//tandhconsult.com/about-us/scam-awareness/”" style={{color: "red"}}>Learn more &gt;&gt;&gt;</a></span>
     </div>
-    <Header pathname={path} click={()=> { Modalopen(), setquote(true)}} cart={()=>{Modalopen(), setcart(true)}}/>
-    { path &&
+    <Header pathname={path.replace('/', '')} click={()=> { Modalopen(), setquote(true)}} cart={()=>{Modalopen(), setcart(true)}}/>
+    { Add.length !== 0  &&
       <div className="wow animate__animated animate__fadeInUp bread mt-40">
         <div className="separator_container">
           <div className='flex items-center '>
             <div className='bread__link'>Home</div>
             {
-              Capitalize.map((data )=> {
+              Add.map((data: any )=> {
                 return (
                 <>
                   <div className='breadcrumbs__separator'/>
@@ -92,10 +108,14 @@ function App() {
           <Route path="/solutions/investigations-and-disputes" element={<Investigation />} />
           <Route path="/solutions/consulting-and-documental-support" element={<Documental />} />
           <Route path="/solutions/cryptocurrency-investigation-and-compliance" element={<Cryptocurrency />} />
+          <Route path="/solutions/digital-products" element={<DigitalProduct />} />
           <Route path="/solutions/business-services" element={<Business />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/category/blog" element={<Blog />} />
           <Route path="/my-account" element={<Login />} />
+          <Route path="/my-account/lost-password" element={<Lost />} />
+          <Route path="/my-account/lost-password/reset_link_true" element={<Reset />} />
+          <Route path="/solutions/digital-products/:id" element={<Digital />} />
         </Routes>
       </Router>
     <Footer/>
