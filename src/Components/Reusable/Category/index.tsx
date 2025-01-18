@@ -1,6 +1,5 @@
 import ShadowDOM from 'react-shadow';
 import { useParams } from 'react-router-dom';
-import classNames from 'classnames';
 const index = () => {
     const { id } = useParams();
   return (
