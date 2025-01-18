@@ -3,27 +3,39 @@ import classNames from 'classnames';
 import styles from './style.module.scss'; 
 import ReactPaginate from 'react-paginate';
 import static_value from './card.json'
+import { useEffect, useState } from 'react';
+import WOW from 'wow.js'
 const Index = () => {
-  const handlePageClick = () =>{
-    console.log('success')
-  }
-  
+  const [page, setPage] = useState(0);
+
+  const handlePageClick = (selectedItem: { selected: number }) => {
+    const newPage = selectedItem.selected;
+    setPage(newPage)
+    console.log(page)
+  };
+
+  useEffect(() => {
+    const wow = new WOW({
+      live: false, // Prevent rescanning the DOM unnecessarily
+    });
+    wow.init();
+  }, [page]); // Reinitialize WOW.js on page change
   return (
     <section className={styles.blogs} id="blogs">
       <div className={styles.container}>
-        <h1 className={classNames(styles.title, styles.blogs__title, 'wow', 'animate_animated','animate__fadeInLeft')}>
+        <h1 className={classNames(styles.title, styles.blogs__title, 'wow', 'animate__animated','animate__fadeInLeft')}>
           <span>Blog</span>
         </h1>
-        <div className={classNames(styles.blogs__tags, 'wow', 'animate_animated','animate__fadeInUp')}>
+        <div className={classNames(styles.blogs__tags, 'wow', 'animate__animated','animate__fadeInUp')}>
           <div className={styles.post_tags}></div>
         </div>
 
-        <div className={classNames(styles.blogs__wrapper, 'wow-delay')}>
+        <div className={classNames(styles.blogs__wrapper,'wow', 'animate__animated', 'wow-delay')}>
           {
-            static_value[0].map((data)=>{
+            static_value[page].map((data)=>{
               return(
                 <>
-                  <div className={classNames(styles.blogs__item, 'wow', 'animate_animated','animate__fadeInUp')}
+                  <div className={classNames(styles.blogs__item, 'wow', 'animate__animated','animate__fadeInUp')}
                   onClick={() => {window.location.href = data.href}}
                   >
                     <picture className={styles.blogs__pic}>
@@ -48,7 +60,7 @@ const Index = () => {
                    data && data.content.map((val, idx)=>{
                     return(
                       <>
-                        <div className={classNames(styles.blogs__item2, 'wow', 'animate_animated','animate__fadeInUp')}
+                        <div className={classNames(styles.blogs__item2, 'wow', 'animate__animated','animate__fadeInUp')}
                           onClick={() => {window.location.href = val.href}}
                         >
                           <picture className={styles.blogs__pic}>
@@ -85,11 +97,11 @@ const Index = () => {
           previousLabel={'«'}
           nextLabel={'»'}
           breakLabel={'...'}
-          pageCount={8}
+          pageCount={static_value.length}
           marginPagesDisplayed={2}
           pageRangeDisplayed={5}
           onPageChange={handlePageClick}
-          containerClassName={classNames(styles.pagination, 'wow', 'animate_animated','animate__fadeInUp')}
+          containerClassName={classNames(styles.pagination, 'wow', 'animate__animated','animate__fadeInUp')}
           pageClassName={styles.page_item}
           pageLinkClassName={'page-link'}
           previousClassName={styles.prev_item}

@@ -12,9 +12,9 @@ const index = () => {
 
   return (
     <>
-    <div className={styles.chatbot}>
+    {/* <div className={styles.chatbot}>
       <span>Chat with us</span>
-    </div>
+    </div> */}
      <div className={styles.homepage}>
       <section className={styles.first_banner}>
         <picture className={styles.banner_bg}>
@@ -23,11 +23,11 @@ const index = () => {
         <div className={styles.container}>
           <div className={styles.inner_banner}>
             <h1 className='wow  animate__lightSpeedInLeft animate__animated'>
-              Cryptocurrency investigations, dispute assistance and Consulting
+              Cryptocurrency Forensics, Conflict Resolution, and Advisory Services
             </h1>
             <div className={classNames(`${styles.banner_info} wow  animate__fadeInUp animate__animated`)}>
               <h2>
-                Expert in blockchain, we deliver top-tier investigation services, dispute support, compliance and strategic consulting for individuals and businesses navigating this complex field.
+                With expertise in blockchain, we provide comprehensive investigation solutions, dispute resolution, compliance guidance, and strategic consulting for both individuals and businesses operating in the cryptocurrency sector.
               </h2>
             </div>
             <Button direct='/about-us'>
