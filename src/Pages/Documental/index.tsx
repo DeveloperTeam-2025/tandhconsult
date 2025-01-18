@@ -51,41 +51,41 @@ const index = () => {
                 {[
                 {
                     delay: "0.1s",
-                    href: "https://tandhconsult.com/solutions/consulting-documental-support/chargeback-consultation/",
+                    href: "/solutions/consulting-and-documental-support/chargeback-consultation/",
                     imgSrc:
                     " https://tandhconsult.com/wp-content/uploads/2021/07/canva-credit-card-data-decryption-risk-768x511.jpg",
                     name: "Chargeback Consultation",
                 },
                 {
                     delay: "0.2s",
-                    href: "https://tandhconsult.com/solutions/consulting-documental-support/technical-translation-non-certified/",
+                    href: "/solutions/consulting-and-documental-support/technical-translation-non-certified/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/07/stem-t4l-ulrke7zqjpy-unsplash-768x513.jpg",
                     name: "Technical translation (non-certified)",
                 },
                 {
                     delay: "0.3s",
-                    href: "https://tandhconsult.com/solutions/consulting-documental-support/compilation-case-assessment/",
+                    href: "/solutions/consulting-and-documental-support/compilation-case-assessment/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_2588631621-768x473.jpg",
                     name: "Case Assessment & Compilation Services",
                 },
                 {
                     delay: "0.4s",
-                    href: "https://tandhconsult.com/solutions/consulting-documental-support/application-processing-drafting/",
+                    href: "/solutions/consulting-and-documental-support/application-processing-drafting/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_1883345692-768x512.jpg",
                     name: "Application Processing / Drafting",
                 },
                 {
                     delay: "0.5s",
-                    href: "https://tandhconsult.com/solutions/consulting-documental-support/evaluation-and-initial-consultation-fraud/",
+                    href: "/solutions/consulting-and-documental-support/evaluation-and-initial-consultation-fraud/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/07/canva-confident-coach-giving-handout-to-diverse-seminar-participants-768x512.jpg",
                     name: "Evaluation and Initial Consultation”",
                 },
                 ].map((item) => (
-                    <ImageBox image={item.imgSrc} name={item.name} size=""   style={{ maxWidth: "100%", height: "100%" }}  more={true} />
+                    <ImageBox image={item.imgSrc} name={item.name} size="" href={item.href}   style={{ maxWidth: "100%", height: "100%" }}  more={true} />
                 ))}
             </div>
 

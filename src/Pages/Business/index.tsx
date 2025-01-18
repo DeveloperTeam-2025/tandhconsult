@@ -6,7 +6,7 @@ import Consult from '../../Components/Reusable/Form/Consult'
 const index = () => {
   return (
     <>
-        <section className={classNames(styles.solutions)} id="solutions">
+        <section className={classNames(styles.solutions)} id="/solutions">
             <div className={classNames(styles.container)}>
             <h2
                 className={classNames(styles.title, styles.solutionsTitle, 'wow', 'animate_animated', 'animate__fadeInLeft')}
@@ -28,48 +28,48 @@ const index = () => {
             {[
                 {
                     "delay": "0.1s",
-                    "href": "https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/crypto-transaction-risk-audit/",
+                    "href": "/solutions/cryptocurrency-investigation-and-compliance/crypto-transaction-risk-audit",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2024/09/multiracial-female-brokers-share-knowledge-about-f-2023-11-27-05-15-38-utc-768x512.jpg",
                     "name": "Crypto Transaction Risk Audit"
                 },
                 {
                     "delay": "0.2s",
-                    "href": "https://tandhconsult.com/solutions/business-services/employee-background-check/",
+                    "href": "/solutions/business-services/employee-background-check",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/09/the-employer-is-checking-the-resumes-of-the-employ-2022-12-16-03-44-55-utc-768x512.jpg",
                     "name": "Employee Background Check Services"
                 },
                 {
                     "delay": "0.3s",
-                    "href": "https://tandhconsult.com/solutions/business-services/corporate-background-check/",
+                    "href": "/solutions/business-services/corporate-background-check",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/08/check-mark-and-rubber-stamp-over-white-background-2022-03-16-06-42-09-utc-768x475.jpg",
                     "name": "Corporate Background Check"
                 },
                 {
                     "delay": "0.4s",
-                    "href": "https://tandhconsult.com/solutions/business-services/corporate-fraud-investigation/",
+                    "href": "/solutions/business-services/corporate-fraud-investigation",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/07/businesswoman-or-auditor-looking-charts-and-graphs-2022-09-20-23-20-39-utc-768x432.jpg",
                     "name": "Corporate Fraud Investigation"
                 },
                 {
                     "delay": "0.5s",
-                    "href": "https://tandhconsult.com/solutions/business-services/company-valuation/",
+                    "href": "/solutions/business-services/company-valuation",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/06/two-business-teamwork-calculating-a-valuation-in-w-2022-08-24-09-40-41-utc-768x417.jpg",
                     "name": "Company Valuation"
                 },
                 {
                     "delay": "0.6s",
-                    "href": "https://tandhconsult.com/solutions/investigations-disputes/due-diligence-services/",
+                    "href": "/solutions/investigations-and-disputes/due-diligence-services",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/06/arlington-research-kz8nhvg_tgi-unsplash-768x513.jpg",
                     "name": "Due Diligence Services"
                 },
                 {
                     "delay": "0.7s",
-                    "href": "https://tandhconsult.com/solutions/business-services/chargeback-process-merchants/",
+                    "href": "/solutions/business-services/chargeback-process-merchants",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2022/03/shopping-and-online-payment-2022-03-14-18-13-37-utc-768x512.jpg",
                     "name": "Chargeback Process for Merchants"
                 }
             ].map((item) => (
-                    <ImageBox image={item.imgSrc} name={item.name} size=""   style={{ maxWidth: "100%", height: "100%" }}  more={true} />
+                    <ImageBox image={item.imgSrc} name={item.name} size=""  href={item.href}  style={{ maxWidth: "100%", height: "100%" }}  more={true} />
                 ))}
             </div>
 

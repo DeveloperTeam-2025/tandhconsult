@@ -23,7 +23,9 @@ const Index = () => {
             static_value[0].map((data)=>{
               return(
                 <>
-                  <div className={classNames(styles.blogs__item, 'wow', 'animate_animated','animate__fadeInUp')}>
+                  <div className={classNames(styles.blogs__item, 'wow', 'animate_animated','animate__fadeInUp')}
+                  onClick={() => {window.location.href = data.href}}
+                  >
                     <picture className={styles.blogs__pic}>
                       <a >
                         <img
@@ -46,7 +48,9 @@ const Index = () => {
                    data && data.content.map((val, idx)=>{
                     return(
                       <>
-                        <div className={classNames(styles.blogs__item2, 'wow', 'animate_animated','animate__fadeInUp')} >
+                        <div className={classNames(styles.blogs__item2, 'wow', 'animate_animated','animate__fadeInUp')}
+                          onClick={() => {window.location.href = val.href}}
+                        >
                           <picture className={styles.blogs__pic}>
                             <a>
                               <img

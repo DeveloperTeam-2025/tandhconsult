@@ -32,41 +32,41 @@ const index = () => {
                 {[
                 {
                     delay: "0.1s",
-                    href: "https://tandhconsult.com/solutions/investigations-disputes/due-diligence-services/",
+                    href: "/solutions/investigations-and-disputes/due-diligence-services/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2023/06/arlington-research-kz8nhvg_tgi-unsplash-768x513.jpg",
                     name: "Due Diligence Services",
                 },
                 {
                     delay: "0.2s",
-                    href: "https://tandhconsult.com/solutions/investigations-disputes/dispute-settlement-premium-package/",
+                    href: "/solutions/investigations-and-disputes/dispute-settlement-premium-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/romain-dancre-doplsdelx7e-unsplash.jpg",
                     name: "Dispute Settlement “Premium Package”",
                 },
                 {
                     delay: "0.3s",
-                    href: "https://tandhconsult.com/solutions/investigations-disputes/dispute-settlement-optimal-package/",
+                    href: "/solutions/investigations-and-disputes/dispute-settlement-optimal-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/gabrielle-henderson-hjckknwcxxq-unsplash-768x512.jpg",
                     name: "Dispute Settlement “Optimal Package”",
                 },
                 {
                     delay: "0.4s",
-                    href: "https://tandhconsult.com/solutions/investigations-disputes/dispute-settlement-special-package/",
+                    href: "/solutions/investigations-and-disputes/dispute-settlement-special-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/canva-boss-dictating-to-assistant-at-office-768x439.jpg",
                     name: "Dispute Settlement “Special Package”",
                 },
                 {
                     delay: "0.5s",
-                    href: "https://tandhconsult.com/solutions/investigations-disputes/dispute-settlement-basic-package/",
+                    href: "/solutions/investigations-and-disputes/dispute-settlement-basic-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/beatriz-perez-moya-xn4t2pvuugk-unsplash-768x417.jpg",
                     name: "Dispute Settlement “Basic Package”",
                 },
                 ].map((item) => (
-                    <ImageBox image={item.imgSrc} name={item.name} size=""   style={{ maxWidth: "100%", height: "100%" }}  more={true} />
+                    <ImageBox image={item.imgSrc} name={item.name} size="" href={item.href}  style={{ maxWidth: "100%", height: "100%" }}  more={true} />
                 ))}
             </div>
 

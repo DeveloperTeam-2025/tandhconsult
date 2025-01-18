@@ -28,49 +28,49 @@ const index = () => {
     {[
     {
         delay: "0.6s",
-        href: "https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/asset-search-and-tracing/",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/asset-search-and-tracing",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2024/11/workflow-process-improve-productivity-write-chalkb-2024-10-12-01-52-37-utc-768x512.jpg",
         name: "Asset Search and Tracing",
     },
     {
         delay: "0.7s",
-        href: "https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/crypto-transaction-risk-audit/",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/crypto-transaction-risk-audit",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2024/09/multiracial-female-brokers-share-knowledge-about-f-2023-11-27-05-15-38-utc-768x512.jpg",
         name: "Crypto Transaction Risk Audit",
     },
     {
         delay: "0.8s",
-        href: "https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/expert-witness-for-cryptocurrency/",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/expert-witness-for-cryptocurrency",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/07/saul-bucio-p5yn73kruaa-unsplash-1-768x510.jpg",
         name: "Expert Witness for Cryptocurrency",
     },
     {
         delay: "0.9s",
-        href: "https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-intelligence-report-for-business/",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-intelligence-report-for-business",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/07/thought-catalog-bj8u389a9n8-unsplash-768x512.jpg",
         name: "Cryptocurrency Intelligence Report for Business",
     },
     {
         delay: "1.0s",
-        href: "https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-investigation",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/07/digital-crime-by-an-anonymous-hacker-2022-12-16-00-45-57-utc-768x567.jpg",
         name: "Cryptocurrency Investigation",
     },
     {
         delay: "1.1s",
-        href: "https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-intelligence-report/",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-intelligence-report",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/08/photo-1579226905180-636b76d96082-770x460-768x459.jpg",
         name: "Cryptocurrency Intelligence Report",
     },
     {
         delay: "1.2s",
-        href: "https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-information-gathering-support/",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-information-gathering-support",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/07/online-study-768x513.jpeg",
         name: "Cryptocurrency Information Gathering Support",
     }
     ]
     .map((item) => (
-                    <ImageBox image={item.imgSrc} name={item.name} size=""   style={{ maxWidth: "100%", height: "100%" }}  more={true} />
+                    <ImageBox image={item.imgSrc} name={item.name} size=""  href={item.href} style={{ maxWidth: "100%", height: "100%" }}  more={true} />
                 ))}
             </div>
 

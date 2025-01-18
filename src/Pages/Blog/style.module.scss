@@ -54,7 +54,7 @@
                 }
             }
             .blogs__item{
-                
+                cursor: pointer;
                 &:hover {
                     box-shadow: 0 4px 11px rgba(0, 0, 0, .1);
                 }
@@ -145,6 +145,7 @@
                 }
             }
             .blogs__item2{
+                cursor: pointer;
                 &:hover {
                     box-shadow: 0 4px 11px rgba(0, 0, 0, .1);
                 }

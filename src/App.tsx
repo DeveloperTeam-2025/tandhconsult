@@ -27,6 +27,7 @@ import Lost from './Pages/Lost_Password/index'
 import Reset from './Pages/Reset_Link/index'
 import Digital from './Components/Reusable/Content/index'
 import DigitalProduct from './Pages/Digital/index'
+import Category from './Components/Reusable/Category/index'
 function App() {
   const [quote, setquote] = useState(false)
   const [cart, setcart] = useState(false)
@@ -106,12 +107,17 @@ function App() {
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/partners" element={<Partner />} />
           <Route path="/solutions/investigations-and-disputes" element={<Investigation />} />
+          <Route path="/solutions/investigations-and-disputes/:id" element={<Digital />} />
           <Route path="/solutions/consulting-and-documental-support" element={<Documental />} />
+          <Route path="/solutions/consulting-and-documental-support/:id" element={<Digital />} />
           <Route path="/solutions/cryptocurrency-investigation-and-compliance" element={<Cryptocurrency />} />
+          <Route path="/solutions/cryptocurrency-investigation-and-compliance/:id" element={<Digital />} />
           <Route path="/solutions/digital-products" element={<DigitalProduct />} />
           <Route path="/solutions/business-services" element={<Business />} />
+          <Route path="/solutions/business-services/:id" element={<Digital />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/category/blog" element={<Blog />} />
+          <Route path="/category/blog/:id" element={<Category />} />
           <Route path="/my-account" element={<Login />} />
           <Route path="/my-account/lost-password" element={<Lost />} />
           <Route path="/my-account/lost-password/reset_link_true" element={<Reset />} />
