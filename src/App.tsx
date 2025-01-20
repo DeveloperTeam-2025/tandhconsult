@@ -32,20 +32,13 @@ function App() {
   const [quote, setquote] = useState(false)
   const [cart, setcart] = useState(false)
   const path = window.location.pathname
-  const category = path?.split('/').map((data)=>  data === '/' ? ' ' : data).join('')
-  const Capitalize = category === '' ? [] : category?.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1))
-  let filter: any
+  const category = path?.split('/').filter((data)=>  data !== '' )
+  const Capitalize = category.join('') === '' ? [] : category?.map(word => word.charAt(0).toUpperCase() + word.slice(1))
   let Edit: any
   let Add: any = []
-  if(Capitalize.length !== 0){
-    filter = Capitalize.filter(data => data !== Capitalize[Capitalize.length - 1])
-    Edit = Capitalize[Capitalize.length - 1].split('').map(data => data === '-' ? ' ' : data).join('') 
-    Add =  [...filter, Edit ]
-  }else{
-    Add =  [...Capitalize ]
-  }
+  Edit = Capitalize.map(data => data.split('').map(data => data === '-' ? ' ': data ).join(''))
+  Add = [...Edit]
   
-  console.log(Add.length !== 0, 'here' , Add,category)
     const Modalopen = useCallback(() => {
         const body = document.querySelector('body')
         if(body){
@@ -68,63 +61,68 @@ function App() {
       <span>BEWARE IMPERSONATION SCAMS! Ensure you're communicating with official T&amp;H Consulting via @tandhconsult.com emails. 
       <a href="//tandhconsult.com/about-us/scam-awareness/”" style={{color: "red"}}>Learn more &gt;&gt;&gt;</a></span>
     </div>
-    <Header pathname={path.replace('/', '')} click={()=> { Modalopen(), setquote(true)}} cart={()=>{Modalopen(), setcart(true)}}/>
-    { Add.length !== 0  &&
-      <div className="wow animate__animated animate__fadeInUp bread mt-40">
-        <div className="separator_container">
-          <div className='flex items-center '>
-            <div className='bread__link'>Home</div>
-            {
-              Add.map((data: any )=> {
-                return (
-                <>
-                  <div className='breadcrumbs__separator'/>
-                  <div className='bread__link'>{data}</div>
-                </>
-              )
-              })
-            }
+    <div className='main_homepage'>
+      <Header pathname={path.replace('/', '')} click={()=> { Modalopen(), setquote(true)}} cart={()=>{Modalopen(), setcart(true)}}/>
+      { Add.length !== 0  &&
+      <div className="pt-[10rem]">
+        <div className="wow animate__animated animate__fadeInUp bread ">
+          <div className="separator_container">
+            <div className='flex items-center '>
+              <div className='bread__link'>Home</div>
+              {
+                Add.map((data: any,id: number )=> {
+                  return (
+                  <div key={id} className='flex items-center'>
+                    <div className='breadcrumbs__separator' />
+                    <div className='bread__link'>{data}</div>
+                  </ div>
+                )
+                })
+              }
+            </div>
           </div>
-        </div>
-      </div>   
-    }
-    {
-      quote && <Modal func={Modalclose} func2={() => setquote(false)}/>
-    }
-    {
-      cart && <Cart func={Modalclose} func2={() => setcart(false)}/>
-    }
-    <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-us" element={<About />} />
-          <Route path="/terms-and-conditions" element={<Terms />} />
-          <Route path="/privacy-policy" element={<Privacy />} />
-          <Route path="/fraud-awareness" element={<Fraud />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/our-certificates" element={<Certificate />} />
-          <Route path="/our-team" element={<Team />} />
-          <Route path="/solutions" element={<Solutions />} />
-          <Route path="/partners" element={<Partner />} />
-          <Route path="/solutions/investigations-and-disputes" element={<Investigation />} />
-          <Route path="/solutions/investigations-and-disputes/:id" element={<Digital />} />
-          <Route path="/solutions/consulting-and-documental-support" element={<Documental />} />
-          <Route path="/solutions/consulting-and-documental-support/:id" element={<Digital />} />
-          <Route path="/solutions/cryptocurrency-investigation-and-compliance" element={<Cryptocurrency />} />
-          <Route path="/solutions/cryptocurrency-investigation-and-compliance/:id" element={<Digital />} />
-          <Route path="/solutions/digital-products" element={<DigitalProduct />} />
-          <Route path="/solutions/business-services" element={<Business />} />
-          <Route path="/solutions/business-services/:id" element={<Digital />} />
-          <Route path="/contact-us" element={<Contact />} />
-          <Route path="/category/blog" element={<Blog />} />
-          <Route path="/category/blog/:id" element={<Category />} />
-          <Route path="/my-account" element={<Login />} />
-          <Route path="/my-account/lost-password" element={<Lost />} />
-          <Route path="/my-account/lost-password/reset_link_true" element={<Reset />} />
-          <Route path="/solutions/digital-products/:id" element={<Digital />} />
-        </Routes>
-      </Router>
-    <Footer/>
+        </div>  
+      </div>
+ 
+      }
+      <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about-us" element={<About />} />
+            <Route path="/terms-and-conditions" element={<Terms />} />
+            <Route path="/privacy-policy" element={<Privacy />} />
+            <Route path="/fraud-awareness" element={<Fraud />} />
+            <Route path="/faq" element={<Faq />} />
+            <Route path="/our-certificates" element={<Certificate />} />
+            <Route path="/our-team" element={<Team />} />
+            <Route path="/solutions" element={<Solutions />} />
+            <Route path="/partners" element={<Partner />} />
+            <Route path="/solutions/investigations-and-disputes" element={<Investigation />} />
+            <Route path="/solutions/investigations-and-disputes/:id" element={<Digital />} />
+            <Route path="/solutions/consulting-and-documental-support" element={<Documental />} />
+            <Route path="/solutions/consulting-and-documental-support/:id" element={<Digital />} />
+            <Route path="/solutions/cryptocurrency-investigation-and-compliance" element={<Cryptocurrency />} />
+            <Route path="/solutions/cryptocurrency-investigation-and-compliance/:id" element={<Digital />} />
+            <Route path="/solutions/digital-products" element={<DigitalProduct />} />
+            <Route path="/solutions/business-services" element={<Business />} />
+            <Route path="/solutions/business-services/:id" element={<Digital />} />
+            <Route path="/contact-us" element={<Contact />} />
+            <Route path="/category/blog" element={<Blog />} />
+            <Route path="/category/blog/:id" element={<Category />} />
+            <Route path="/my-account" element={<Login />} />
+            <Route path="/my-account/lost-password" element={<Lost />} />
+            <Route path="/my-account/lost-password/reset_link_true" element={<Reset />} />
+            <Route path="/solutions/digital-products/:id" element={<Digital />} />
+          </Routes>
+        </Router>
+      <Footer/>
+    </div>
+      {
+        quote && <Modal func={Modalclose} func2={() => setquote(false)}/>
+      }
+      {
+        cart && <Cart func={Modalclose} func2={() => setcart(false)}/>
+      }
     </>
   )
 }

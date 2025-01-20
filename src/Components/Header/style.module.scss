@@ -1,3 +1,16 @@
+@use 'sass:math';
+
+@function Clamp-all($half, $viewH, $full, $viewport: 1920) {
+    $scaled-value-px: math.div($half, 2);
+    $scaled-value-vw: math.div($viewH, $viewport) * 100;
+    @return clamp(
+        calc(#{$scaled-value-px}px), // Half value in px
+        calc(#{$scaled-value-vw}vw), // Viewport-based value in vw
+        #{$full} 
+    );
+}
+
+
 .Modal{
     position: absolute;
     z-index: 3;
@@ -111,7 +124,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 4rem;
+    // padding-top: 4rem;
     .header_part{
         box-sizing: border-box;
         width: 100%;
@@ -153,7 +166,7 @@
                 }
                 @media screen and (max-width: 1039px) {
                     flex-direction: row;
-                    padding-right: 2rem;
+                    // padding-right: 2rem;
                     align-items: center;
                 }
                 .header__toggle{
@@ -342,21 +355,21 @@
                 height: auto;
                 transition: all .4s ease;
                 opacity: 1;
-                flex: 0 0 226px;
+                flex: 0 0 Clamp-all(206, 226, 226px);
                 img{
                     width: 100%;
                     max-width: 100%;
                     height: auto;
             
                 }
-                @media screen and (max-width: 1024px) {
-                    flex: 0 0 180px;
+                // @media screen and (max-width: 1024px) {
+                //     flex: 0 0 180px;
                     
-                }
-                @media screen and (max-width: 960px) {
-                    flex: 0 0 160px;
+                // }
+                // @media screen and (max-width: 960px) {
+                //     flex: 0 0 10px;
                     
-                }
+                // }
             }
             .btn_quote{
                 font-size: 14px;

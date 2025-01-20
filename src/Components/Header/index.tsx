@@ -48,7 +48,7 @@ function App(props: any) {
     },[])
 
     const filter = pathname ? pathname.split('').map((data: any) => data === '-' ? ' ': data).join('') : 'home'
-    console.log(filter === 'home', pathname , 'pathname')
+    // console.log(filter === 'home', pathname , 'pathname')
   return (
     <>
     <div className={styles.heading}>
