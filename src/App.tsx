@@ -54,38 +54,37 @@ function App() {
 
   return (
     <>   
-    <Helmet>
-      <title>{Capitalize[0] === '' ? 'Home' : Add[Add.length - 1 ]}</title>
-    </Helmet>
-    <div className='warning'>
-      <span>BEWARE IMPERSONATION SCAMS! Ensure you're communicating with official T&amp;H Consulting via @tandhconsult.com emails. 
-      <a href="//tandhconsult.com/about-us/scam-awareness/”" style={{color: "red"}}>Learn more &gt;&gt;&gt;</a></span>
-    </div>
-    <div className='main_homepage'>
-      <Header pathname={path.replace('/', '')} click={()=> { Modalopen(), setquote(true)}} cart={()=>{Modalopen(), setcart(true)}}/>
-      { Add.length !== 0  &&
-      <div className="pt-[10rem]">
-        <div className="wow animate__animated animate__fadeInUp bread ">
-          <div className="separator_container">
-            <div className='flex items-center '>
-              <div className='bread__link'>Home</div>
-              {
-                Add.map((data: any,id: number )=> {
-                  return (
-                  <div key={id} className='flex items-center'>
-                    <div className='breadcrumbs__separator' />
-                    <div className='bread__link'>{data}</div>
-                  </ div>
-                )
-                })
-              }
-            </div>
-          </div>
-        </div>  
+      <Helmet>
+        <title>{Capitalize[0] === '' ? 'Home' : Add[Add.length - 1 ]}</title>
+      </Helmet>
+      <div className='warning'>
+        <span>BEWARE IMPERSONATION SCAMS! Ensure you're communicating with official T&amp;H Consulting via @tandhconsult.com emails. 
+        <a href="//tandhconsult.com/about-us/scam-awareness/”" style={{color: "red"}}>Learn more &gt;&gt;&gt;</a></span>
       </div>
- 
-      }
-      <Router>
+      <div className='main_homepage'>
+        <Header pathname={path.replace('/', '')} click={()=> { Modalopen(), setquote(true)}} cart={()=>{Modalopen(), setcart(true)}}/>
+        { Add.length !== 0  &&
+          <div className="pt-[10rem]">
+            <div className="wow animate__animated animate__fadeInUp bread ">
+              <div className="separator_container">
+                <div className='flex items-center '>
+                  <div className='bread__link'>Home</div>
+                  {
+                    Add.map((data: any,id: number )=> {
+                      return (
+                      <div key={id} className='flex items-center'>
+                        <div className='breadcrumbs__separator' />
+                        <div className='bread__link'>{data}</div>
+                      </ div>
+                    )
+                    })
+                  }
+                </div>
+              </div>
+            </div>  
+          </div>
+        }
+        <Router>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<About />} />
@@ -115,8 +114,8 @@ function App() {
             <Route path="/solutions/digital-products/:id" element={<Digital />} />
           </Routes>
         </Router>
-      <Footer/>
-    </div>
+        <Footer/>
+      </div>
       {
         quote && <Modal func={Modalclose} func2={() => setquote(false)}/>
       }

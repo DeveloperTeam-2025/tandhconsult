@@ -146,12 +146,12 @@ const index = () => {
             <span>Blog</span>            
           </h2>
           <div className={styles.solution_wrapper}>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/09/we-can-help-2023-11-27-05-10-56-utc-1-scaled.jpg" name="Why You Shouldn’t Face Banks Alone: The Importance of Professional Help in Scams" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/09/shocked-businesswoman-with-credit-card-looking-at-2024-03-21-21-17-22-utc-scaled.jpg" name="Common Ticket Scams – What You Need to Know and How to Protect Yourself" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/09/internet-security-bank-cards-and-a-key-on-keyboar-2023-11-27-05-31-14-utc-scaled.jpg" name="Business Identity Theft – How to Identify and Respond to it" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/04/mikita-karasiou-ho6abryi3ke-unsplash-scaled.jpg" name="How to report a scam in Norway?" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/04/daniel-prado-2cox4tg0tc0-unsplash-scaled.jpg" name="How to report a Scam in Spain?" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/04/es.png" name="Cuidado con las Estafas de Completar Tareas y Empleo Falso: Protégete del Fraude en Línea" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/09/we-can-help-2023-11-27-05-10-56-utc-1-scaled.jpg" href="/category/blog/why-you-shouldnt-face-banks-alone-the-importance-of-professional-help-in-scam-cases/" name="Why You Shouldn’t Face Banks Alone: The Importance of Professional Help in Scams" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/09/shocked-businesswoman-with-credit-card-looking-at-2024-03-21-21-17-22-utc-scaled.jpg" href="/category/blog/common-ticket-scams/" name="Common Ticket Scams – What You Need to Know and How to Protect Yourself" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/09/internet-security-bank-cards-and-a-key-on-keyboar-2023-11-27-05-31-14-utc-scaled.jpg" href="/category/blog/business-identity-theft/" name="Business Identity Theft – How to Identify and Respond to it" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/04/mikita-karasiou-ho6abryi3ke-unsplash-scaled.jpg" href="/category/blog/how-to-report-a-scam-in-norway/" name="How to report a scam in Norway?" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/04/daniel-prado-2cox4tg0tc0-unsplash-scaled.jpg" href="/category/blog/how-to-report-a-scam-in-spain/" name="How to report a Scam in Spain?" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/04/es.png" href="/category/blog/estafas-de-empleo-falso/" name="Cuidado con las Estafas de Completar Tareas y Empleo Falso: Protégete del Fraude en Línea" size="calc(33.33333% - 20px)"></ImageBox>
             </div>
         </div>
         <div className={classNames(`${styles.more_details} wow  animate__fadeInUp animate__animated`)}>

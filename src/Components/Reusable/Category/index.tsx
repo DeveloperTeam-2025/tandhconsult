@@ -67,10 +67,10 @@ const index = () => {
                                     id === 'common-ticket-scams' &&
                                     <>
                                         <div className="article__short">
-                                            <picture className="article__pic">
+                                            <picture className="article__pic wow animate__animated animate__fadeInLeft">
                                                 <img src="https://tandhconsult.com/wp-content/uploads/2024/09/shocked-businesswoman-with-credit-card-looking-at-2024-03-21-21-17-22-utc-scaled.jpg" alt="image" />
                                             </picture>
-                                            <div className="article__content">
+                                            <div className="article__content wow animate__animated animate__fadeInUp">
                                                 <div className="blogs__tags article__tags"></div>
                                                 <span className="article__date">September 27, 2024</span>
                                                 <h1 className="article__name">Common Ticket Scams – What You Need to Know and How to Protect Yourself</h1>
