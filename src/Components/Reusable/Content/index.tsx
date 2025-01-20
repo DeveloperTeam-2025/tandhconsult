@@ -400,7 +400,7 @@ const index = () => {
                             <p><strong>Global Perspective:</strong> Understand the global landscape of financial fraud with examples from around the world.</p>
 
                             <h3>Act Now and Secure Your Financial Future</h3>
-                            <p>Equip yourself with the tools and knowledge to stay one step ahead of <a href="/blog/what-to-do-if-you-suspect-fraud/">fraudsters</a>. Purchase the Fraud Awareness Bundle today and start your journey to becoming a fraud prevention champion.</p>
+                            <p>Equip yourself with the tools and knowledge to stay one step ahead of <a href="https://tandhconsult.com/blog/what-to-do-if-you-suspect-fraud/">fraudsters</a>. Purchase the Fraud Awareness Bundle today and start your journey to becoming a fraud prevention champion.</p>
                             </div>
                         </div>
                     </section>
@@ -441,7 +441,7 @@ const index = () => {
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="/solutions/cryptocurrency-investigation-and-compliance/crypto-transaction-risk-audit/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/crypto-transaction-risk-audit/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33046"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -594,7 +594,7 @@ const index = () => {
                                 <strong>asset search and tracing services</strong>, with a strong focus on{" "}
                                 <strong>digital assets and cryptocurrencies</strong>. Our experienced team employs{" "}
                                 <a href="https://crystalintelligence.com">cutting-edge technology</a> and{" "}
-                                <a href="/blog/cryptocurrency-investigations/">
+                                <a href="https://tandhconsult.com/blog/cryptocurrency-investigations/">
                                     advanced investigative techniques
                                 </a>{" "}
                                 to uncover and trace assets, ensuring a seamless and effective process for our
@@ -602,7 +602,7 @@ const index = () => {
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="/solutions/cryptocurrency-investigation-and-compliance/asset-search-and-tracing/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/asset-search-and-tracing/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33273"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -732,7 +732,7 @@ const index = () => {
                                 <h3>Comprehensive Cryptocurrency Analysis and Investigation</h3>
                                 <p>
                                 Our team at T&amp;H Consulting conducts thorough{" "}
-                                <a href="/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-investigation/">
+                                <a href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                                     cryptocurrency analysis and investigations
                                 </a>{" "}
                                 to deliver customized reports and case responses for our clients. We comprehend
@@ -764,12 +764,12 @@ const index = () => {
                                 officers gain a clear understanding of the subject matter. Benefit from our
                                 extensive international experience and the utilization of advanced tools and
                                 methodologies.{" "}
-                                <a href="/contact-us">Contact T&amp;H Consulting</a>{" "}
+                                <a href="contact-us">Contact T&amp;H Consulting</a>{" "}
                                 today to secure successful outcomes in your cryptocurrency-related legal cases.
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="/solutions/cryptocurrency-investigation-and-compliance/expert-witness-for-cryptocurrency/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/expert-witness-for-cryptocurrency/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_605"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -870,7 +870,7 @@ const index = () => {
                                 <h3>Comprehensive Cryptocurrency Analysis and Investigation</h3>
                                 <p>
                                 Our team at T&amp;H Consulting conducts thorough{" "}
-                                <a href="/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-investigation/">
+                                <a href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                                     cryptocurrency analysis and investigations
                                 </a>{" "}
                                 to deliver customized reports and case responses for our clients. We comprehend
@@ -902,12 +902,12 @@ const index = () => {
                                 officers gain a clear understanding of the subject matter. Benefit from our
                                 extensive international experience and the utilization of advanced tools and
                                 methodologies.{" "}
-                                <a href="/contact-us">Contact T&amp;H Consulting</a>{" "}
+                                <a href="contact-us">Contact T&amp;H Consulting</a>{" "}
                                 today to secure successful outcomes in your cryptocurrency-related legal cases.
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="/solutions/cryptocurrency-investigation-and-compliance/expert-witness-for-cryptocurrency/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/expert-witness-for-cryptocurrency/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_605"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -1001,7 +1001,7 @@ const index = () => {
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-investigation/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_599"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -1137,7 +1137,7 @@ const index = () => {
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-intelligence-report/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-intelligence-report/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_597"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -1247,7 +1247,7 @@ const index = () => {
                                 <p>&nbsp;</p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-information-gathering-support/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-information-gathering-support/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_589"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -1407,7 +1407,7 @@ const index = () => {
                                 navigate your journey with confidence and ease. Our tailored reports and top-tier
                                 industry tools ensure that you receive a service that is truly suited to your
                                 requirements.{" "}
-                                <a href="/contact-us">Get in touch with our team</a> of experts
+                                <a href="contact-us">Get in touch with our team</a> of experts
                                 today and experience the difference of comprehensive, personalized due diligence
                                 services.
                             </p>
@@ -2092,7 +2092,7 @@ const index = () => {
                             <p>T&H Consulting presents our global Background Check service—a comprehensive, bespoke solution architected with precision for small and medium-sized enterprises across all sectors. Hailing from Budapest, we offer our expertise worldwide, aiding our clients to discern the intricate complexities of any company’s financial footprint, legal history, and operational authenticity.</p>
                             <p>Our service is a testament to the harmonious blend of sophisticated AI technology and the human touch of our highly skilled researchers and specialists, steeped in finance and legal acumen. Our potent asset is a meticulously curated, proprietary database, enriched by the insights gleaned from exhaustive fraud investigations spanning four years. This treasure trove of data, augmented by our access to a plethora of credible external databases, forms the backbone of our comprehensive, insightful, and precise background checks.</p>
                             <p>Each Background Check report—delivered as a detailed, reader-friendly PDF—is the culmination of our rigorous process. Every client is assigned a dedicated specialist who acts as a compass, navigating them through the process and offering unwavering support. We offer flexible payment structures, from a one-time fee for a single company check to a subscription model for clients needing frequent checks. To ensure the relevance and timeliness of the data, each report comes with a month of post-delivery support. At T&H Consulting, we have an unyielding commitment to the security and confidentiality of your data.</p>
-                            <p>Engage with T&H Consulting’s Background Check service for an unobstructed view into the corporate world. Equipped with our insights, our clients can make informed decisions, mitigate latent risks, and cultivate trust in their business engagements. <a href="/contact-us">We are here</a> to empower you to navigate the labyrinth of corporate intricacies with confidence.</p>
+                            <p>Engage with T&H Consulting’s Background Check service for an unobstructed view into the corporate world. Equipped with our insights, our clients can make informed decisions, mitigate latent risks, and cultivate trust in their business engagements. <a href="contact-us">We are here</a> to empower you to navigate the labyrinth of corporate intricacies with confidence.</p>
                             </div>
                         </div>
                     </section>
@@ -2149,7 +2149,7 @@ const index = () => {
                                 <li>Compliance: Our services help businesses stay compliant with regulatory requirements, avoiding potential legal issues and penalties.</li>
                                 <li>Proactive Prevention: Our fraud prevention strategies reduce the likelihood of future fraudulent activities, protecting the business in the long run.</li>
                             </ul>
-                            <p><a href="/contact-us">Contact our team for more information.</a></p>
+                            <p><a href="contact-us">Contact our team for more information.</a></p>
                             </div>
                         </div>
                     </section>

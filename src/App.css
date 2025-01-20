@@ -83,7 +83,7 @@ body{
   text-align: center;
   padding: .5rem 30px;
   color: #ffffff;
-  background: #f5c001;
+  background: linear-gradient(to right, #012555, #55719F, #012555);
   font-weight: bolder;
   font-size: 0.92rem;
   font-family: sans-serif;

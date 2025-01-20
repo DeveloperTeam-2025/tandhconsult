@@ -7,6 +7,7 @@ import Solutions from '../Solutions/index'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Carousell from '../../Components/Reusable/Swiper'
+import bg_banner from '../../assets/images/pexels-goumbik-577210.jpg'
 const index = () => {
 
 
@@ -18,7 +19,7 @@ const index = () => {
      <div className={styles.homepage}>
       <section className={styles.first_banner}>
         <picture className={styles.banner_bg}>
-          <img src="https://tandhconsult.com/wp-content/uploads/2021/08/shutterstock_606156863-scaled.jpg" alt="bg_banner" />
+          <img src={bg_banner} alt="bg_banner" />
         </picture>
         <div className={styles.container}>
           <div className={styles.inner_banner}>
