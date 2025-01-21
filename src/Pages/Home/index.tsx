@@ -65,28 +65,28 @@ const index = () => {
           <h2 className={classNames(`${styles.title_about} wow  animate__fadeInLeft animate__animated`)}><span>About us</span></h2>
           <div className={styles.about_wrapper}>
             <picture className={classNames(`${styles.about_pic} wow  animate__zoomIn animate__animated`)}>
-              <img src="https://tandhconsult.com/wp-content/uploads/2023/04/193_2020-10-31_lab5_batar_zs_ausztriahaz_08-scaled-e1681919644218.jpg" alt="about us" />
+              <img src="/img/about_us.jpg" alt="about us" />
             </picture>
             <div className={classNames(`${styles.about_content} wow  animate__fadeInRight animate__animated`)}>
-              <h3 className={styles.about_subtitle}> <span>In-Depth Blockchain Investigation</span> </h3>
+              <h3 className={styles.about_subtitle}> <span>Thorough Blockchain Investigations</span> </h3>
               <div className={styles.about_info}>
-                <p>Our team prepares detailed investigative reports on blockchain transactions, assisting clients in coordinating with law enforcement agencies, banks, and cryptocurrency exchanges for a seamless experience.</p>
+                <p>We provide comprehensive reports on blockchain transactions, aiding clients in collaborating effectively with law enforcement agencies, financial institutions, and cryptocurrency platforms for a smooth process.</p>
               </div>
-              <h3 className={styles.about_subtitle}> <span>Efficient Online Solutions</span></h3>
+              <h3 className={styles.about_subtitle}> <span>Streamlined Digital Solutions</span></h3>
               <div className={styles.about_info}>
-                <p>By leveraging digital tools, we save our clients time and money. Our focus is on delivering maximum value while minimizing unproductive activities. We’ve partnered with industry leaders to provide you with the highest quality services.</p>
+                <p>By utilizing advanced digital tools, we optimize time and cost savings for our clients. Our commitment is to deliver exceptional value while reducing inefficiencies, supported by partnerships with leading industry experts to ensure top-tier services.</p>
               </div>
-              <h3 className={styles.about_subtitle}> <span>Certified and Committed Professionals</span></h3>
+              <h3 className={styles.about_subtitle}> <span>Certified Experts You Can Trust</span></h3>
               <div className={styles.about_info}>
-                <p>Our team consists of talented, dedicated professionals who are eager to tackle new challenges. They deliver top-notch work to meet and exceed our clients’ expectations, constantly driving improvements in our offerings. Visit our certifications page to see our most recent achievements.</p>
+                <p>Our team is made up of skilled, dedicated professionals ready to embrace challenges. They consistently produce high-quality work, exceeding client expectations and driving innovation in our services. Check out our certifications page for our latest accomplishments.</p>
               </div>
-              <h3 className={styles.about_subtitle}> <span>Comprehensive Cost Breakdown</span></h3>
+              <h3 className={styles.about_subtitle}> <span>Transparent Pricing Structure</span></h3>
               <div className={styles.about_info}>
-                <p>We prioritize transparency in our services. When you work with us, you’ll know exactly what factors into the cost, what you’ll receive in return, and the expected results upon implementing our recommendations.</p>
+                <p>We emphasize clarity in our pricing. You'll always know the factors influencing costs, the services included, and the anticipated outcomes of implementing our recommendations.</p>
               </div>
-              <h3 className={styles.about_subtitle}> <span>Knowledge Sharing and Industry Updates</span></h3>
+              <h3 className={styles.about_subtitle}><span>Empowering Knowledge and Industry Insights</span></h3>
               <div className={styles.about_info}>
-                <p>Stay ahead in the industry with our curated media space, designed to keep our clients informed. We share important industry updates, maintain a blog, write articles, conduct interviews, and publish case studies. Join us in our mission to empower businesses with the latest insights and knowledge.</p>
+                <p>Stay informed with our curated content hub, offering valuable updates and insights. Explore our blog, articles, interviews, and case studies as we work to equip businesses with the latest industry knowledge.</p>
               </div>
               {/* <a href="" className={styles.btn_gradient}>
                 <span>About Us</span>
@@ -100,17 +100,17 @@ const index = () => {
       </section>
       <section className={styles.banner_digital}>
         <picture className={styles.digital_bg}>
-          <img src="https://tandhconsult.com/wp-content/uploads/2021/08/image.jpg" alt="digital_bg" />
+          <img src="/img/digital.jpg" alt="digital_bg" />
         </picture>
         <div className={styles.container}>
-          <h2 className={classNames(`${styles.digital_title} wow  animate__fadeInUp animate__animated`)}>It’s not possible to pack everything that T&H Consulting is about into one claim, but here are some facts</h2>
+          <h2 className={classNames(`${styles.digital_title} wow  animate__fadeInUp animate__animated`)}>It's challenging to capture everything Greyzone Consulting represents in just one statement, but here are a few key highlights.</h2>
           <div className={styles.digital_wrapper}>
             <div className={classNames(`${styles.digital_item} wow  animate__fadeInLeft animate__animated`)}>
               <div className={styles.digital_icon}>
                 <i className={styles.headphone_icon}/>
               </div>
               <span className={styles.digital_text}>
-                From our headquarters in Budapest, and with the aid of international partners and industry experts, we serve clients worldwide.
+                Operating from our headquarters in Budapest, Greyzone Consulting, in collaboration with international partners and industry experts, provides services to clients around the globe.
               </span>
             </div>
             <div className={classNames(`${styles.digital_item} wow  animate__fadeInLeft animate__animated`)}>
@@ -118,7 +118,7 @@ const index = () => {
                 <i className={styles.triplet_star_icon}/>
               </div>
               <span className={styles.digital_text}>
-                T&H Consulting is owned by its directors. All are dedicated to one mission: delivering efficiency and excellence in all areas of our work.
+                Greyzone Consulting is independently owned by its directors, each committed to a singular goal: ensuring excellence and efficiency in every aspect of our work.
               </span>
             </div>
             <div className={classNames(`${styles.digital_item} wow  animate__fadeInLeft animate__animated`)}>
@@ -126,7 +126,7 @@ const index = () => {
                 <i className={styles.board_icon}/>
               </div>
               <span className={styles.digital_text}>
-                When we start working with a business or a private client, we always carry out a transparent analysis and evaluation. After all, our aim is to provide a high level of service and achieve results.
+                When partnering with businesses or private clients, we conduct a thorough and transparent analysis and evaluation. Our priority is to deliver exceptional service and achieve tangible results.
               </span>
             </div>
             <div className={classNames(`${styles.digital_item} wow  animate__fadeInLeft animate__animated`)}>
@@ -134,7 +134,7 @@ const index = () => {
                 <i className={styles.PC_icon}/>
               </div>
               <span className={styles.digital_text}>
-                We use the world’s most comprehensive cryptocurrency investigation softwares that links real-world entities to cryptocurrency activity.
+                We utilize the most advanced cryptocurrency investigation tools available, capable of connecting real-world entities to blockchain activities.
               </span>
             </div>
           </div>
@@ -147,12 +147,12 @@ const index = () => {
             <span>Blog</span>            
           </h2>
           <div className={styles.solution_wrapper}>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/09/we-can-help-2023-11-27-05-10-56-utc-1-scaled.jpg" href="/category/blog/why-you-shouldnt-face-banks-alone-the-importance-of-professional-help-in-scam-cases/" name="Why You Shouldn’t Face Banks Alone: The Importance of Professional Help in Scams" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/09/shocked-businesswoman-with-credit-card-looking-at-2024-03-21-21-17-22-utc-scaled.jpg" href="/category/blog/common-ticket-scams/" name="Common Ticket Scams – What You Need to Know and How to Protect Yourself" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/09/internet-security-bank-cards-and-a-key-on-keyboar-2023-11-27-05-31-14-utc-scaled.jpg" href="/category/blog/business-identity-theft/" name="Business Identity Theft – How to Identify and Respond to it" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/04/mikita-karasiou-ho6abryi3ke-unsplash-scaled.jpg" href="/category/blog/how-to-report-a-scam-in-norway/" name="How to report a scam in Norway?" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/04/daniel-prado-2cox4tg0tc0-unsplash-scaled.jpg" href="/category/blog/how-to-report-a-scam-in-spain/" name="How to report a Scam in Spain?" size="calc(33.33333% - 20px)"></ImageBox>
-                <ImageBox image="https://tandhconsult.com/wp-content/uploads/2024/04/es.png" href="/category/blog/estafas-de-empleo-falso/" name="Cuidado con las Estafas de Completar Tareas y Empleo Falso: Protégete del Fraude en Línea" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="/img/we_can_help.jpg" href="/category/blog/why-you-shouldnt-face-banks-alone-the-importance-of-professional-help-in-scam-cases/" name="The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="/img/ticket_scam.jpg" href="/category/blog/common-ticket-scams/" name="Understanding Common Ticket Scams: Essential Tips for Protection" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="/img/business_identity_theft.jpg" href="/category/blog/business-identity-theft/" name="Identifying and Handling Business Identity Theft: What You Should Know" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="/img/report_scam_norway.jpg" href="/category/blog/how-to-report-a-scam-in-norway/" name="A Guide to Reporting Scams in Norway" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="/img/report_scam_spain.jpg" href="/category/blog/how-to-report-a-scam-in-spain/" name="A Guide to Reporting Scams in Spain" size="calc(33.33333% - 20px)"></ImageBox>
+                <ImageBox image="/img/fake_job_scam.jpg" href="/category/blog/estafas-de-empleo-falso/" name="Beware of Task Completion and Fake Job Scams: How to Protect Yourself from Online Fraud" size="calc(33.33333% - 20px)"></ImageBox>
             </div>
         </div>
         <div className={classNames(`${styles.more_details} wow  animate__fadeInUp animate__animated`)}>

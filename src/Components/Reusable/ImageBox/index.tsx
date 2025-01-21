@@ -21,11 +21,19 @@ const index = ({ image, size, name, more, style = {}, href } : Props) => {
         more &&
       
         <div className={styles.seeMore}>
-              <span className={styles.postLink}>See more</span>
-              <i className={styles.arrow_right}></i>
+              {/* <span className={styles.postLink}>See more</span> */}
+              {/* <svg width="32" height="14" viewBox="0 0 32 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 7H30M30 7L24.0625 1M30 7L24.0625 13" stroke="url(#paint0_linear)" stroke-width="2"/>
+              <defs>
+              <linearGradient id="paint0_linear" x1="-1.18601e-07" y1="7.85714" x2="30" y2="7.85714" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#fff"/>
+              <stop offset="1" stop-color="#fff"/>
+              </linearGradient>
+              </defs>
+              </svg> */}
+
         </div>
       }
-
     </a>
   )
 }

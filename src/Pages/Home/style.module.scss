@@ -162,7 +162,7 @@
                 line-height: 1.354;
                 margin-bottom: 40px;
                 span{
-                    // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
@@ -188,7 +188,7 @@
                 font-weight: 600;
                 line-height: normal;
                 display: inline-flex;
-                color: #000;
+                color: #012555;
                 align-items: center;
                 gap: .5rem;
                 .arrow_right{
@@ -220,7 +220,7 @@
                 line-height: 1.354;
                 margin-bottom: 40px;
                 span{
-                    background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
@@ -262,7 +262,7 @@
                         line-height: 1.354;
                         margin-bottom: 21px;
                         span{
-                            background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                            background: linear-gradient(to right, #012555, #55719F, #012555);
                             -webkit-background-clip: text;
                             -webkit-text-fill-color: transparent;
                         }
@@ -327,6 +327,29 @@
                 object-fit: cover;
             
             }
+            &::before{
+                top: 0;
+                top: 0;
+                background: linear-gradient(to left, rgba(43, 42, 42, 0.3), rgba(0, 0, 0, 0));
+                position: absolute;
+                z-index: 2;
+                left: 0;
+                width: 100%;
+                height: 42%;
+                content: "";
+                filter: blur(94px);
+            }
+            &::after{
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                content: '';
+                opacity: .56;
+                background-color: rgba(43, 42, 42, 0.5);
+            }
         }
         .container{
             box-sizing: border-box;
@@ -341,7 +364,7 @@
                 font-weight: bold;
                 line-height: 1.354;
                 width: 100%;
-                max-width: 1210px;
+                max-width: 1365px;
                 margin: 0 auto 75px;
                 text-align: center;
                 color: #fff;

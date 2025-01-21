@@ -159,7 +159,7 @@ function App() {
         <title>{Capitalize[0] === '' ? 'Home' : Add[Add.length - 1 ]}</title>
       </Helmet>
       <div className='warning'>
-        <span>BEWARE IMPERSONATION SCAMS! Ensure you're communicating with official T&amp;H Consulting via @tandhconsult.com emails. 
+        <span>BEWARE IMPERSONATION SCAMS! Ensure you're communicating with official Greyzone Consulting via @greyzone.com emails. 
         <a href="//tandhconsult.com/about-us/scam-awareness/”" style={{color: "red"}}>Learn more &gt;&gt;&gt;</a></span>
       </div>
       {/* <input
@@ -167,8 +167,7 @@ function App() {
         placeholder="Search components or text..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-      /> */}
-        {/* <p>{filteredRoutes.length} result{filteredRoutes.length !== 1 ? "s" : ""} found</p> */}
+      />  <p>{filteredRoutes.length} result{filteredRoutes.length !== 1 ? "s" : ""} found</p> */}
       <div className='main_homepage'>
         <Header pathname={path.replace('/', '')} click={()=> { Modalopen(), setquote(true)}} cart={()=>{Modalopen(), setcart(true)}}/>
         { Add.length !== 0  &&

@@ -42,7 +42,8 @@
                 line-height: normal;
                 display: block;
                 margin-bottom: 21px;
-                background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                // linear-gradient(to right, #32509d 0%, #70abdc 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
@@ -109,7 +110,8 @@
     .footer_bottom{
         margin-top: 20px;
         padding: 20px 0;
-        background: linear-gradient(90deg, #32509d 0%, #6faadb 100%);
+        background: linear-gradient(to right, #012555, #55719F, #012555);
+        // linear-gradient(90deg, #32509d 0%, #6faadb 100%);
         .footer_container{
             box-sizing: border-box;
             width: 100%;
