@@ -28,7 +28,7 @@ import Reset from './Pages/Reset_Link/index'
 import Digital from './Components/Reusable/Content/index'
 import DigitalProduct from './Pages/Digital/index'
 import Category from './Components/Reusable/Category/index'
-import ReactDOMServer from "react-dom/server";
+// import ReactDOMServer from "react-dom/server";
 
   // const content =   [
   //   {"name":"10 Signs to Spot a Love Scam Checklist", "id":"10-signs-to-spot-a-love-scam-checklist"},
@@ -83,33 +83,33 @@ import ReactDOMServer from "react-dom/server";
   //   {"id": "ai-blockchain-digital-surveillance", "name": "AI, Blockchain and Digital Surveillance: A Comprehensive Exploration"},                                       
   // ]
   // const category_loop =   { path:`/category/blog/` , name: ":id", component:<Category />},
-const routes = [
-  { path: "/", name: "Home", component: <Home /> },
-  { path: "/about-us", name: "About Us", component: <About /> },
-  { path: "/terms-and-conditions", name: "Terms and Conditions", component: <Terms /> },
-  { path: "/privacy-policy", name: "Privacy Policy", component: <Privacy /> },
-  { path: "/category/blog", name: "Blog", component: <Blog /> },
-  { path: "/contact-us", name: "Contact Us", component: <Contact /> },
-  { path:"/fraud-awareness" , name: "Fraud", component:<Fraud />},
-  { path:"/faq" , name: "Faq", component:<Faq />},
-  { path:"/our-certificates" , name: "Certificates", component:<Certificate />},
-  { path:"/our-team" , name: "Team", component:<Team />},
-  { path:"/solutions" , name: "Solutions", component:<Solutions />},
-  { path:"/partners" , name: "Partners", component:<Partner />},
-  { path:"/solutions/investigations-and-disputes" , name: "Investigations", component:<Investigation />},
-  { path:"/solutions/investigations-and-disputes/:id" , name: ":id", component:<Digital />},
-  { path:"/solutions/consulting-and-documental-support" , name: "Consulting", component:<Documental />},
-  { path:"/solutions/consulting-and-documental-support/:id" , name: ":id", component:<Digital />},
-  { path:"/solutions/cryptocurrency-investigation-and-compliance" , name: "Cryptocurrency", component:<Cryptocurrency />},
-  { path:"/solutions/cryptocurrency-investigation-and-compliance/:id" , name: ":id", component:<Digital />},
-  { path:"/solutions/digital-products" , name: "Digital", component:<DigitalProduct />},
-  { path:"/solutions/business-services" , name: "Business", component:<Business />},
-  { path:"/solutions/business-services/:id" , name: ":id", component:<Digital />},
-  { path:"/category/blog/:id" , name: ":id", component:<Category />},
-  { path:"/my-account" , name: "My Account", component:<Login />},
-  { path:"/my-account/lost-password" , name: "Lost Password", component:<Lost />},
-  { path:"/solutions/digital-products/:id" , name: ":id", component:<Digital />}
-];
+// const routes = [
+//   { path: "/", name: "Home", component: <Home /> },
+//   { path: "/about-us", name: "About Us", component: <About /> },
+//   { path: "/terms-and-conditions", name: "Terms and Conditions", component: <Terms /> },
+//   { path: "/privacy-policy", name: "Privacy Policy", component: <Privacy /> },
+//   { path: "/category/blog", name: "Blog", component: <Blog /> },
+//   { path: "/contact-us", name: "Contact Us", component: <Contact /> },
+//   { path:"/fraud-awareness" , name: "Fraud", component:<Fraud />},
+//   { path:"/faq" , name: "Faq", component:<Faq />},
+//   { path:"/our-certificates" , name: "Certificates", component:<Certificate />},
+//   { path:"/our-team" , name: "Team", component:<Team />},
+//   { path:"/solutions" , name: "Solutions", component:<Solutions />},
+//   { path:"/partners" , name: "Partners", component:<Partner />},
+//   { path:"/solutions/investigations-and-disputes" , name: "Investigations", component:<Investigation />},
+//   { path:"/solutions/investigations-and-disputes/:id" , name: ":id", component:<Digital />},
+//   { path:"/solutions/consulting-and-documental-support" , name: "Consulting", component:<Documental />},
+//   { path:"/solutions/consulting-and-documental-support/:id" , name: ":id", component:<Digital />},
+//   { path:"/solutions/cryptocurrency-investigation-and-compliance" , name: "Cryptocurrency", component:<Cryptocurrency />},
+//   { path:"/solutions/cryptocurrency-investigation-and-compliance/:id" , name: ":id", component:<Digital />},
+//   { path:"/solutions/digital-products" , name: "Digital", component:<DigitalProduct />},
+//   { path:"/solutions/business-services" , name: "Business", component:<Business />},
+//   { path:"/solutions/business-services/:id" , name: ":id", component:<Digital />},
+//   { path:"/category/blog/:id" , name: ":id", component:<Category />},
+//   { path:"/my-account" , name: "My Account", component:<Login />},
+//   { path:"/my-account/lost-password" , name: "Lost Password", component:<Lost />},
+//   { path:"/solutions/digital-products/:id" , name: ":id", component:<Digital />}
+// ];
 
 
 function App() {
@@ -135,24 +135,24 @@ function App() {
             body.style.overflowY = 'scroll'
         } 
     },[])
-    const [searchTerm, setSearchTerm] = useState("");
+  //   const [searchTerm, setSearchTerm] = useState("");
 
-    // Helper function to extract text content from a component
-    const extractTextContent = (component: any) => {
-      const htmlString = ReactDOMServer.renderToStaticMarkup(component);
-      return htmlString.replace(/<\/?[^>]+(>|$)/g, ""); // Strip HTML tags
-    };
+  //   // Helper function to extract text content from a component
+  //   const extractTextContent = (component: any) => {
+  //     const htmlString = ReactDOMServer.renderToStaticMarkup(component);
+  //     return htmlString.replace(/<\/?[^>]+(>|$)/g, ""); // Strip HTML tags
+  //   };
   
-    // Filter routes based on search term
-    const filteredRoutes = routes.filter((route) => {
-      const textContent = extractTextContent(route.component);
-      return (
-        route.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        route.path.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        textContent.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-    });
-  console.log(filteredRoutes)
+  //   // Filter routes based on search term
+  //   const filteredRoutes = routes.filter((route) => {
+  //     const textContent = extractTextContent(route.component);
+  //     return (
+  //       route.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+  //       route.path.toLowerCase().includes(searchTerm.toLowerCase()) ||
+  //       textContent.toLowerCase().includes(searchTerm.toLowerCase())
+  //     );
+  //   });
+  // console.log(filteredRoutes)
   return (
     <>   
       <Helmet>
