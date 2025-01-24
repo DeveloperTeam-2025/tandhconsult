@@ -54,7 +54,7 @@ const index = () => {
                     <ul>
                         <li className={styles.list_Footer}><a href="/">Home</a></li>
                         <li className={styles.list_Footer}><a href="/partners">Partners</a></li>
-                        <li className={styles.list_Footer}><a href="/category/blog">Blog</a></li>
+                        <li className={styles.list_Footer}><a href="/blog">Blog</a></li>
                         <li className={styles.list_Footer}><a href="/contact-us">Contact Us</a></li>
                     </ul>
                 </div>

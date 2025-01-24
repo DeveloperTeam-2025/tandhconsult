@@ -62,7 +62,7 @@ import { clearTimeout } from 'timers';
 
 
 
-//   const category_loop =  category.map(data => {return { path:`/category/blog/${data.id}` , name: `${data.name}`}});
+//   const category_loop =  category.map(data => {return { path:`/blog/${data.id}` , name: `${data.name}`}});
 //   const digital_loop = content.map(data => {
 //     return data.part === 'Digital' ?  { path:`/solutions/digital-products/${data.id}` , name: `${data.name}`} : 
 //     data.part === 'Business' ?   { path:`/solutions/business-services/${data.id}` , name: `${data.name}`} : 
@@ -75,7 +75,7 @@ import { clearTimeout } from 'timers';
 //     { path: "/about-us" ,name: "About Us"  },
 //     { path: "/terms-and-conditions" ,name: "Terms and Conditions"  },
 //     { path: "/privacy-policy" ,name: "Privacy Policy"  },
-//     { path: "/category/blog" ,name: "Blog" },
+//     { path: "/blog" ,name: "Blog" },
 //     { path: "/contact-us" ,name: "Contact Us"  },
 //     { path:"/fraud-awareness" , name: "Fraud" },
 //     { path:"/faq" , name: "Faq"},   
@@ -234,14 +234,16 @@ function App(props: any) {
                                     <li><a href="/solutions/business-services">Business Services</a></li>
                                 </ul>
                             </li>
-                            <li> <a href="/category/blog" style={{color: filter === 'category/blog' ? '#012555' : ''}}>Blog</a> </li>
+                            <li> <a href="/blog" style={{color: filter === 'category/blog' ? '#012555' : ''}}>Blog</a> </li>
                             <li> <a href="/contact-us" style={{color: filter === 'contact us' ? '#012555' : ''}} >Contact Us</a> </li>
                         </ul>
                     </article>
                 }
-                <a href="/" className={classNames(`${styles.header_logo} wow animate__animated animate__fadeInDown`)}>
-                    <img src={icon} alt="Logo"  />
-                </a>
+                <div className={styles.img_container}>
+                    <a href="/" className={classNames(`${styles.header_logo} wow animate__animated animate__fadeInDown`)}>
+                        <img src={icon} alt="Logo"  />
+                    </a>
+                </div>
                 <div className={classNames(styles.header_inner, `wow animate__animated animate__fadeInDown`)}>
                     {
                     
@@ -320,7 +322,7 @@ function App(props: any) {
                                 </ul>
                             </li>
                             <li  className={ classNames(`${styles.nav_header}`)}>
-                                <a className={styles.page} style={{color: `${filter === 'category/blog' ? '#012555' : color}`}} href="/category/blog">Blog</a>
+                                <a className={styles.page} style={{color: `${filter === 'category/blog' ? '#012555' : color}`}} href="/blog">Blog</a>
                             </li>
                             <li  className={styles.nav_header}>
                                 <a className={styles.page} style={{color: `${filter === 'contact us' ? '#012555' : color}`}} href="/contact-us">Contact Us</a>

@@ -28,7 +28,7 @@ import Reset from './Pages/Reset_Link/index'
 import Digital from './Components/Reusable/Content/index'
 import DigitalProduct from './Pages/Digital/index'
 import Category from './Components/Reusable/Category/index'
-
+import {edit} from './Components/Reusable/Addition/index'
 
 
 function App() {
@@ -71,13 +71,14 @@ function App() {
             <div className="wow animate__animated animate__fadeInUp bread ">
               <div className="separator_container">
                 <div className='flex items-center '>
-                  <div className='bread__link'>Home</div>
+                  <div className='bread__link' onClick={() => window.location.pathname = '/'}>Home</div>
                   {
                     Add.map((data: any,id: number )=> {
+                      console.log(edit(Add.slice(0, 1 + id).join('/')), id)
                       return (
                       <div key={id} className='flex items-center'>
                         <div className='breadcrumbs__separator' />
-                        <div className='bread__link'>{data}</div>
+                        <a className='bread__link' onClick={() => { Add.length - 1 !== id ? window.location.pathname =  edit(Add.slice(0, 1 + id).join('/')) : ''}}>{data}</a>
                       </ div>
                     )
                     })
@@ -109,8 +110,8 @@ function App() {
             <Route path="/solutions/business-services" element={<Business />} />
             <Route path="/solutions/business-services/:id" element={<Digital />} />
             <Route path="/contact-us" element={<Contact />} />
-            <Route path="/category/blog" element={<Blog />} />
-            <Route path="/category/blog/:id" element={<Category />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<Category />} />
             <Route path="/my-account" element={<Login />} />
             <Route path="/my-account/lost-password" element={<Lost />} />
             <Route path="/my-account/lost-password/reset_link_true" element={<Reset />} />
