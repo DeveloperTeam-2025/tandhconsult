@@ -354,7 +354,7 @@ const index = () => {
                     </ShadowDOM.div>
                 </>
              }{    
-                id === '' &&
+                id === 'fraud-awareness-masterclass-bundle' &&
                 <>
                     <section id="card" className={classNames(styles.card)}>
                         <div className={classNames(styles.container)}>
@@ -836,7 +836,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Expert Witness for Cryptocurrency</span>
+                            <span>Cryptocurrency Intelligence Report for Business</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >

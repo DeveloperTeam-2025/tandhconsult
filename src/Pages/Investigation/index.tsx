@@ -65,8 +65,8 @@ const index = () => {
                     "https://tandhconsult.com/wp-content/uploads/2021/06/beatriz-perez-moya-xn4t2pvuugk-unsplash-768x417.jpg",
                     name: "Dispute Settlement “Basic Package”",
                 },
-                ].map((item) => (
-                    <ImageBox image={item.imgSrc} name={item.name} size="" href={item.href}  style={{ maxWidth: "100%", height: "100%" }}  more={true} />
+                ].map((item, idx) => (
+                    <ImageBox image={item.imgSrc} name={item.name} key={idx} size="" href={item.href}  style={{ maxWidth: "100%", height: "100%" }}  more={true} />
                 ))}
             </div>
 

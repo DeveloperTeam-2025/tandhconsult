@@ -69,14 +69,16 @@ body{
   font-size: 14px;
   font-weight: normal;
   line-height: normal;
-  color: #868686;
+  color: #fff
+  /* #868686; */
 }
 
 .bread{
   overflow: hidden;
   max-width: 100%;
   padding: 8px 0 6px;
-  background-color: #f1f1f1;
+  background-color: rgba(0, 0, 255, 0.04);
+  /* #f1f1f1; */
 }
 
 .warning{

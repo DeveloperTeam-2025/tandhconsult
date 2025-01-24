@@ -150,7 +150,8 @@
     height: 14px;
     display: inline-block;
     // background-color: linear-gradient(to right, #32509d 0%, #70abdc 100%);
-    background: #fff!important;
+    // background: #fff!important;
+    filter: brightness(0) invert(1);
     background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
     mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
 }

@@ -132,9 +132,14 @@
                         line-height: 1.354;
                         margin-bottom: 40px;
                         span{
-                            background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
-                            -webkit-background-clip: text;
-                            -webkit-text-fill-color: transparent;
+                            // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                            // -webkit-background-clip: text;
+                            // -webkit-text-fill-color: transparent;
+                            background: linear-gradient(to right, #012555, #55719F, #012555); 
+                            -webkit-background-clip: text; 
+                            -webkit-text-fill-color: transparent; 
+                            letter-spacing: 0.1rem; 
+                            font-weight: bolder;
                         }
                     }
                     p{
@@ -263,9 +268,14 @@
                         line-height: 1.354;
                         margin-bottom: 40px;
                         span{
-                            background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
-                            -webkit-background-clip: text;
-                            -webkit-text-fill-color: transparent;
+                            // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                            // -webkit-background-clip: text;
+                            // -webkit-text-fill-color: transparent;
+                            background: linear-gradient(to right, #012555, #55719F, #012555); 
+                            -webkit-background-clip: text; 
+                            -webkit-text-fill-color: transparent; 
+                            letter-spacing: 0.1rem; 
+                            font-weight: bolder;
                         }
                     }
                     p{

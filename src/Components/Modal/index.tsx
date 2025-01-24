@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from './style.module.scss'
 import Form from '../Reusable/Form/Contact'
 import classNames from 'classnames';
+import logo from '../../assets/images/logo_v2.png'
 interface Modal{
     func?: () => void | undefined,
     func2?: () => void | undefined,
@@ -26,7 +27,7 @@ const index: React.FC<Modal>= ({func, func2}) => {
       <div className={styles.modal_wrapper}>
         <span className={styles.exit} onClick={() => {setTimeout(() => {func?.(), func2?.()},500), setAnimate(false)}}>X</span>
         <div className={styles.logo}>
-            <img src="https://tandhconsult.com/wp-content/uploads/2021/05/logo-black.png" alt="logo"  />
+            <img src={logo} alt="logo"  />
         </div>
         <div className={styles.form}>
             <Form/>            

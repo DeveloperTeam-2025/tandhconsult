@@ -8,11 +8,12 @@ interface Props {
   more?: boolean;
   style?: React.CSSProperties; // Ensure style is correctly typed
   href?: string;
+  key?: any
 }
 
-const index = ({ image, size, name, more, style = {}, href } : Props) => {
+const index = ({ image, size, name, more, style = {}, href, key } : Props) => {
   return (
-    <a className={classNames(`${styles.picBox} wow  animate__fadeInLeft animate__animated`)} style={{maxWidth: `${size} `, ...style}} href={href}>
+    <a className={classNames(`${styles.picBox} wow  animate__fadeInLeft animate__animated`)} style={{maxWidth: `${size} `, ...style}} href={href} key={key}>
       <picture className={styles.framePic}>
         <img src={image} alt="images" />
       </picture>
@@ -26,8 +27,8 @@ const index = ({ image, size, name, more, style = {}, href } : Props) => {
               <path d="M0 7H30M30 7L24.0625 1M30 7L24.0625 13" stroke="url(#paint0_linear)" stroke-width="2"/>
               <defs>
               <linearGradient id="paint0_linear" x1="-1.18601e-07" y1="7.85714" x2="30" y2="7.85714" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#fff"/>
-              <stop offset="1" stop-color="#fff"/>
+              <stop stopColor="#fff"/>
+              <stop offset="1" stopColor="#fff"/>
               </linearGradient>
               </defs>
               </svg> */}

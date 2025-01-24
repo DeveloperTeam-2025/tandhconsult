@@ -29,15 +29,11 @@ const Index = () => {
         <div className={classNames(styles.blogs__tags, 'wow', 'animate__animated','animate__fadeInUp')}>
           <div className={styles.post_tags}></div>
         </div>
-
-        <div className={classNames(styles.blogs__wrapper,'wow', 'animate__animated', 'wow-delay')}>
           {
-            static_value[page].map((data)=>{
+            static_value[page].map((data, index)=>{
               return(
-                <>
-                  <div className={classNames(styles.blogs__item, 'wow', 'animate__animated','animate__fadeInUp')}
-                  onClick={() => {window.location.href = data.href}}
-                  >
+                <div className={classNames(styles.blogs__wrapper,'wow', 'animate__animated', 'wow-delay')} key={index}>
+                  <div className={classNames(styles.blogs__item, 'wow', 'animate__animated','animate__fadeInUp')} onClick={() => {window.location.href = data.href}}>
                     <picture className={styles.blogs__pic}>
                       <a >
                         <img
@@ -57,12 +53,9 @@ const Index = () => {
                     </div>
                   </div>
                   {
-                   data && data.content.map((val, idx)=>{
-                    return(
-                      <>
-                        <div className={classNames(styles.blogs__item2, 'wow', 'animate__animated','animate__fadeInUp')}
-                          onClick={() => {window.location.href = val.href}}
-                        >
+                    data && data.content.map((val, idx)=>{
+                      return(
+                        <div className={classNames(styles.blogs__item2, 'wow', 'animate__animated','animate__fadeInUp')} onClick={() => {window.location.href = val.href}} key={idx}>
                           <picture className={styles.blogs__pic}>
                             <a>
                               <img
@@ -84,15 +77,13 @@ const Index = () => {
                             </p>
                           </div>
                         </div>
-                      </>
-                    )
-                   })
+                      )
+                    })
                   }
-                </>
+                </div>
               )
             })
           }
-        </div>
         <ReactPaginate
           previousLabel={'«'}
           nextLabel={'»'}

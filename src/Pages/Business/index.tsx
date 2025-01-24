@@ -9,14 +9,14 @@ const index = () => {
         <section className={classNames(styles.solutions)} id="/solutions">
             <div className={classNames(styles.container)}>
             <h2
-                className={classNames(styles.title, styles.solutionsTitle, 'wow', 'animate_animated', 'animate__fadeInLeft')}
+                className={classNames(styles.title, styles.solutionsTitle, 'wow', 'animate__animated', 'animate__fadeInLeft')}
                 data-wow-delay="0.4s"
             >
                 <span>Business Services</span>
             </h2>
 
             <div
-                className={classNames(styles.disputeInfo, 'wow', 'animate_animated', 'animate__fadeInLeft')}
+                className={classNames(styles.disputeInfo, 'wow', 'animate__animated', 'animate__fadeInLeft')}
                 data-wow-delay="0.6s"
             >
             <p>
@@ -68,19 +68,19 @@ const index = () => {
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2022/03/shopping-and-online-payment-2022-03-14-18-13-37-utc-768x512.jpg",
                     "name": "Chargeback Process for Merchants"
                 }
-            ].map((item) => (
-                    <ImageBox image={item.imgSrc} name={item.name} size=""  href={item.href}  style={{ maxWidth: "100%", height: "100%" }}  more={true} />
+            ].map((item, idx) => (
+                    <ImageBox image={item.imgSrc} name={item.name} key={idx} size=""  href={item.href}  style={{ maxWidth: "100%", height: "100%" }}  more={true} />
                 ))}
             </div>
 
             <h2
-                className={classNames(styles.title, styles.disputeSubtitle, 'wow', 'animate_animated', 'animate__fadeInUp')}
+                className={classNames(styles.title, styles.disputeSubtitle, 'wow', 'animate__animated', 'animate__fadeInUp')}
             >
                 <span>Benefits of working with us</span>
             </h2>
 
             <div
-                className={classNames(styles.disputeSubinfo, 'wow', 'animate_animated', 'animate__fadeInUp')}
+                className={classNames(styles.disputeSubinfo, 'wow', 'animate__animated', 'animate__fadeInUp')}
                 data-wow-delay="0.2s"
             >
                 {[
@@ -118,7 +118,7 @@ const index = () => {
                     pos: "We are here for you – because we are Built to Care.",
                 },
                 ].map((item, index) => (
-                <div key={index} className={classNames(styles.abt_explore_item, 'wow', 'animate_animated','animate__fadeInUp')} data-wow-delay="0.1s" >
+                <div key={index} className={classNames(styles.abt_explore_item, 'wow', 'animate__animated','animate__fadeInUp')} data-wow-delay="0.1s" >
                     <i
                     className={classNames(styles.disputeIcon)}
                     style={{

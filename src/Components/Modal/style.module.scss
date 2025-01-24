@@ -58,6 +58,15 @@
             font-family: cursive;
             cursor: pointer;
         }
+        .logo{
+            width: 44%;
+            display: inline-block;
+            img{
+                max-width: 100%;
+                width: 100%;
+                height: auto;
+            }
+        }
     }
     // padding: 156px 20px 0;
 }
