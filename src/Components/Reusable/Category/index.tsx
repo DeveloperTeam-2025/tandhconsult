@@ -1,12 +1,42 @@
 import ShadowDOM from 'react-shadow';
 import { useParams } from 'react-router-dom';
 import {edit} from '../Addition/index'
+import { useEffect } from 'react';
 const index = () => {
     const { id } = useParams();
-    console.log(edit('The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases') === id)
-  return (
+
+    const content_directory = [
+         edit('The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases') ,
+         edit('Understanding Common Ticket Scams Essential Tips for Protection') ,
+         edit('Identifying and Handling Business Identity Theft What You Should Know') ,
+         edit('Beware of Task Completion and Fake Job Scams How to Protect Yourself from Online Fraud'),
+         'how-to-report-a-scam-in-portugal' ,
+         edit('A Guide to Reporting Scams in Norway') ,
+         edit('A Guide to Reporting Scams in Spain') ,
+         'fake-employment-scams' ,
+         'facebook-marketplace-scams' ,
+         'report-scam-in-new-zealand' ,
+         'report-scam-in-qatar' ,
+         'report-scam-in-france' ,
+         'report-scam-in-canada' ,
+         'cryptocurrency-fraud' ,
+         'background-checks-checklist' ,
+         'report-fraud-in-south-africa' ,
+         'cryptocurrency-investigations' ,
+         'due-diligence-buying-a-small-business' ,
+         'due-diligence-when-buying-a-business' ,
+         'how-to-report-fraud-in-germany' ,
+         'due-diligence-services-importance' ,
+         'ai-blockchain-digital-surveillance' 
+    ]
+    useEffect(()=>{
+        const conditional_value = content_directory.some((element: string) => element  === id)
+        if(!conditional_value){
+            window.history.back()
+        }
+    },[content_directory])
+    return (
     <>
-    
         <ShadowDOM.div>
             <style>
                 {`
@@ -35,13 +65,13 @@ const index = () => {
                                             <ul className="wp-block-list">
                                             <li>Imposter scams</li>
                                             <li>Debt collection, settlement, and relief scams</li>
-                                            <li><a href="/blog/phishing-scams-and-tips-to-prevent-them">Phishing Scams</a></li>
+                                            <li><a href="/category/blog/phishing-scams-and-tips-to-prevent-them">Phishing Scams</a></li>
                                             <li>Social media scams</li>
-                                            <li><a href="/blog/how-to-avoid-investment-scams">Investment scams</a></li>
+                                            <li><a href="/category/blog/how-to-avoid-investment-scams">Investment scams</a></li>
                                             <li>Romance scams</li>
-                                            <li><a href="/blog/how-to-avoid-charity-scams">Charity scams</a></li>
+                                            <li><a href="/category/blog/how-to-avoid-charity-scams">Charity scams</a></li>
                                             <li>Blackmail scams</li>
-                                            <li><a href="/blog/common-ticket-scams">Ticket Scams</a></li>
+                                            <li><a href="/category/blog/understanding-common-ticket-scams-essential-tips-for-protection">Ticket Scams</a></li>
                                             <li>PayPal scams</li>
                                             <li>Selling nonexistent products or services</li>
                                             </ul>
@@ -69,7 +99,7 @@ const index = () => {
                                 <>
                                     <div className="article__short">
                                         <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                            <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2024/09/shocked-businesswoman-with-credit-card-looking-at-2024-03-21-21-17-22-utc-scaled.jpg" alt="image" />
+                                            <img style={{ border: "solid 1px #fff"}} src="/img/ticket_scam.jpg" alt="image" />
                                         </picture>
                                         <div className="article__content wow animate__animated animate__fadeInUp">
                                             <div className="blogs__tags article__tags"></div>
@@ -114,7 +144,7 @@ const index = () => {
                                 <>
                                     <div className="article__short">
                                         <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                            <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2024/09/internet-security-bank-cards-and-a-key-on-keyboar-2023-11-27-05-31-14-utc-scaled.jpg" alt="image" />
+                                            <img style={{ border: "solid 1px #fff"}} src="/img/business_identity_theft.jpg" alt="image" />
                                         </picture>
                                         <div className="article__content wow animate__animated animate__fadeInUp">
                                             <div className="blogs__tags article__tags"></div>
@@ -357,7 +387,7 @@ const index = () => {
                                 <>
                                     <div className="article__short">
                                         <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                            <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2024/04/mikita-karasiou-ho6abryi3ke-unsplash-scaled.jpg" alt="image" />
+                                            <img style={{ border: "solid 1px #fff"}} src="/img/report_scam_norway.jpg" alt="image" />
                                         </picture>
                                         <div className="article__content wow animate__animated animate__fadeInUp">
                                             <div className="blogs__tags article__tags"></div>
@@ -458,7 +488,7 @@ const index = () => {
                                 <>
                                     <div className="article__short">
                                         <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                            <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2024/04/daniel-prado-2cox4tg0tc0-unsplash-scaled.jpg" alt="image" />
+                                            <img style={{ border: "solid 1px #fff"}} src="/img/report_scam_spain.jpg" alt="image" />
                                         </picture>
                                         <div className="article__content wow animate__animated animate__fadeInUp">
                                             <div className="blogs__tags article__tags"></div>
@@ -549,7 +579,7 @@ const index = () => {
                                 <>
                                     <div className="article__short">
                                         <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                            <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2024/04/es.png" alt="image" />
+                                            <img style={{ border: "solid 1px #fff"}} src="/img/fake_job_scam.jpg" alt="image" />
                                         </picture>
                                         <div className="article__content wow animate__animated animate__fadeInUp">
                                             <div className="blogs__tags article__tags"></div>

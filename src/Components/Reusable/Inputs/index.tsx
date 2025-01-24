@@ -74,7 +74,7 @@ const index: React.FC<InputType> = ({type, name, placeholder, option, classess})
         if (e.key === "Backspace") {
           // setPhoneNumber(""); 
           const pop_value = phoneNumber.split('')
-          const text_value = pop_value.filter((data,indx) => indx !== pop_value.length -1 )
+          const text_value = pop_value.filter((data,indx) => data && indx !== pop_value.length -1 )
           console.log(text_value)
           setPhoneNumber(text_value.join())
         }

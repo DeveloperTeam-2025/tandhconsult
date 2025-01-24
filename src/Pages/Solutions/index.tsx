@@ -2,7 +2,7 @@ import styles from './style.module.scss'
 import ImageBox from '../../Components/Reusable/ImageBox/index'
 import classNames from 'classnames'
 const index = () => {
-  const pathname = window.location.pathname.replace('/', '')
+  // const pathname = window.location.pathname.replace('/', '')
   return (
     <>
     <section className={styles.banner_solution}>
