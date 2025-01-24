@@ -2,7 +2,7 @@
 import styles from './style.module.scss'
 import Input from '../../Inputs/index'
 import Button from '../../Buttons/index'
-import map from '../map.json'
+// import map from '../map.json'
 const index = () => {
   return (
     <div>
