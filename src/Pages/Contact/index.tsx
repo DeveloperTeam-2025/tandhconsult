@@ -21,7 +21,7 @@ const index = () => {
                   Or you can give us a call.
                 </p>
               </div>
-              <span className={styles.contacts__subinfo}>Here are all the ways you can contact T&H consulting:</span>
+              <span className={styles.contacts__subinfo}>Here are all the ways you can contact Greyzone consulting:</span>
               <div className={styles.contacts__line}>
                 <div className={styles.contacts__col}>
                   <div className={classNames(styles.contacts__item, styles.contact__item__tel)}>
@@ -73,7 +73,7 @@ const index = () => {
               </div>
 
               <div className={styles.contacts__last}>
-                <p>We will reply to your questions as soon as possible. T&H Consulting is open to answer calls and email messages from 9:00 a.m. to 6:00 p.m (CET) In Weekdays.</p>
+                <p>We will reply to your questions as soon as possible. Greyzone Consulting is open to answer calls and email messages from 9:00 a.m. to 6:00 p.m (CET) In Weekdays.</p>
               </div>
             </div>
             <div className={classNames(styles.contact__right ,`wow animate__animated animate__fadeInUp`)}>
@@ -86,7 +86,7 @@ const index = () => {
                 <span>Details</span>
               </h3>
               <div className={styles.contacts__info}>
-                <h3>T&H Consulting International KFT (T&H Consulting International LLC.)</h3>
+                <h3>Greyzone Consulting International KFT (Greyzone Consulting International LLC.)</h3>
                 <p>
                   Registration address: 1052, Vármegye u. 3-5, 2nd floor, Budapest<br />
                   Headquarters: 1052, Vármegye u. 3-5, 2nd floor, Budapest<br />

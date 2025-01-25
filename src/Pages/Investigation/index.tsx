@@ -9,18 +9,18 @@ const index = () => {
         <section className={classNames(styles.solutions)} id="solutions">
             <div className={classNames(styles.container)}>
             <h2
-                className={classNames(styles.title, styles.solutionsTitle, 'wow', 'animate_animated', 'animate__fadeInLeft')}
+                className={classNames(styles.title, styles.solutionsTitle, 'wow', 'animate__animated', 'animate__fadeInLeft')}
                 data-wow-delay="0.4s"
             >
                 <span>Investigations and Disputes</span>
             </h2>
 
             <div
-                className={classNames(styles.disputeInfo, 'wow', 'animate_animated', 'animate__fadeInLeft')}
+                className={classNames(styles.disputeInfo, 'wow', 'animate__animated', 'animate__fadeInLeft')}
                 data-wow-delay="0.6s"
             >
                 <p>
-                T&amp;H Consulting’s Investigations and Disputes solutions help
+                Greyzone Consulting’s Investigations and Disputes solutions help
                 clients manage complex demands with expert analysis, advice, and
                 intelligence in intricate investigations and litigation. Our team
                 combines in-depth investigative experience with cutting-edge
@@ -32,38 +32,38 @@ const index = () => {
                 {[
                 {
                     delay: "0.1s",
-                    href: "/solutions/investigations-and-disputes/due-diligence-services/",
+                    href: "/solutions/investigations-and-disputes/comprehensive-due-diligence-solutions/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2023/06/arlington-research-kz8nhvg_tgi-unsplash-768x513.jpg",
-                    name: "Due Diligence Services",
+                    name: "Comprehensive Due Diligence Solutions",
                 },
                 {
                     delay: "0.2s",
-                    href: "/solutions/investigations-and-disputes/dispute-settlement-premium-package/",
+                    href: "/solutions/investigations-and-disputes/premium-dispute-settlement-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/romain-dancre-doplsdelx7e-unsplash.jpg",
-                    name: "Dispute Settlement “Premium Package”",
+                    name: "Premium Dispute Settlement Package",
                 },
                 {
                     delay: "0.3s",
-                    href: "/solutions/investigations-and-disputes/dispute-settlement-optimal-package/",
+                    href: "/solutions/investigations-and-disputes/optimal-dispute-settlement-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/gabrielle-henderson-hjckknwcxxq-unsplash-768x512.jpg",
-                    name: "Dispute Settlement “Optimal Package”",
+                    name: "Optimal Dispute Settlement Package",
                 },
                 {
                     delay: "0.4s",
-                    href: "/solutions/investigations-and-disputes/dispute-settlement-special-package/",
+                    href: "/solutions/investigations-and-disputes/special-dispute-settlement-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/canva-boss-dictating-to-assistant-at-office-768x439.jpg",
-                    name: "Dispute Settlement “Special Package”",
+                    name: "Special Dispute Settlement Package",
                 },
                 {
                     delay: "0.5s",
-                    href: "/solutions/investigations-and-disputes/dispute-settlement-basic-package/",
+                    href: "/solutions/investigations-and-disputes/basic-dispute-settlement-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/beatriz-perez-moya-xn4t2pvuugk-unsplash-768x417.jpg",
-                    name: "Dispute Settlement “Basic Package”",
+                    name: "Basic Dispute Settlement Package",
                 },
                 ].map((item, idx) => (
                     <ImageBox image={item.imgSrc} name={item.name} key={idx} size="" href={item.href}  style={{ maxWidth: "100%", height: "100%" }}  more={true} />
@@ -71,13 +71,13 @@ const index = () => {
             </div>
 
             <h2
-                className={classNames(styles.title, styles.disputeSubtitle, 'wow', 'animate_animated', 'animate__fadeInUp')}
+                className={classNames(styles.title, styles.disputeSubtitle, 'wow', 'animate__animated', 'animate__fadeInUp')}
             >
                 <span>Benefits of working with us</span>
             </h2>
 
             <div
-                className={classNames(styles.disputeSubinfo, 'wow', 'animate_animated', 'animate__fadeInUp')}
+                className={classNames(styles.disputeSubinfo, 'wow', 'animate__animated', 'animate__fadeInUp')}
                 data-wow-delay="0.2s"
             >
                 {[
@@ -117,7 +117,7 @@ const index = () => {
                 ].map((item, index) => (
                 <div
                     key={index}
-                    className={classNames(styles.abt_explore_item, 'wow', 'animate_animated', 'animate__fadeInUp')}
+                    className={classNames(styles.abt_explore_item, 'wow', 'animate__animated', 'animate__fadeInUp')}
                     data-wow-delay="0.1s"
                 >
                     <i

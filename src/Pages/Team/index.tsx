@@ -38,7 +38,7 @@ const TeamSection = () => {
     <section className={styles.partner} id="partners">
       <div className={styles.container}>
         <h1 className={classNames(`${styles.title} wow animate__animated animate__fadeInUp`)} data-wow-delay="0.6s">
-          <span>Get to Know Our Team: T&amp;H Consulting’s Investigations Services</span>
+          <span>Get to Know Our Team: Greyzone Consulting’s Investigations Services</span>
         </h1>
       </div>
       <div className={classNames(`${styles.container} ${styles.team_container}`)}>

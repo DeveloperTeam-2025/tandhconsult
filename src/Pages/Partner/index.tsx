@@ -150,7 +150,7 @@ const index = () => {
                 drive, passion, and professional journey.
               </p>
               <p>
-                Together, T&H Consulting and Learnvent are pushing boundaries and creating enriching experiences for all our
+                Together, Greyzone Consulting and Learnvent are pushing boundaries and creating enriching experiences for all our
                 clients.
               </p>
             </div>
@@ -179,7 +179,7 @@ const index = () => {
                 ensuring every challenge is met with expertise. Born from a desire to revamp the traditional consulting
                 approach, AdnSol provides an all-in-one solution for businesses to seamlessly transition from startups to
                 scale-ups. With a deep understanding of the entrepreneurial spirit, AdnSol is dedicated to equipping
-                businesses with the tools they need to thrive and make a positive impact. Together, T&H and AdnSol are
+                businesses with the tools they need to thrive and make a positive impact. Together, Greyzone and AdnSol are
                 championing transformative business solutions.
               </p>
             </div>

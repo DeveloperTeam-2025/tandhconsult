@@ -20,7 +20,7 @@ const index = () => {
                 data-wow-delay="0.6s"
             >
             <p>
-                At T&H Consulting, we pride ourselves on delivering comprehensive consulting and documental support. Our experts assist in the preparation of crucial documentation, including evidence of incidents, correspondence with authorities, case reports, and applications to various institutions. We delve deep into research and analysis to provide intelligent, tailored solutions for our clients. Our adept team swiftly identifies key facts, assesses their relevance, and crafts sound, professionally-presented recommendations.
+                At Greyzone Consulting, we pride ourselves on delivering comprehensive consulting and documental support. Our experts assist in the preparation of crucial documentation, including evidence of incidents, correspondence with authorities, case reports, and applications to various institutions. We delve deep into research and analysis to provide intelligent, tailored solutions for our clients. Our adept team swiftly identifies key facts, assesses their relevance, and crafts sound, professionally-presented recommendations.
             </p>
             </div>
 
@@ -58,31 +58,31 @@ const index = () => {
                 },
                 {
                     delay: "0.2s",
-                    href: "/solutions/consulting-and-documental-support/technical-translation-non-certified/",
+                    href: "/solutions/consulting-and-documental-support/technical-document-translation-non-certified/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/07/stem-t4l-ulrke7zqjpy-unsplash-768x513.jpg",
-                    name: "Technical translation (non-certified)",
+                    name: "Technical Document Translation (Non-Certified)",
                 },
                 {
                     delay: "0.3s",
-                    href: "/solutions/consulting-and-documental-support/compilation-case-assessment/",
+                    href: "/solutions/consulting-and-documental-support/case-evaluation-and-documentation-services/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_2588631621-768x473.jpg",
-                    name: "Case Assessment & Compilation Services",
+                    name: "Case Evaluation and Documentation Services",
                 },
                 {
                     delay: "0.4s",
-                    href: "/solutions/consulting-and-documental-support/application-processing-drafting/",
+                    href: "/solutions/consulting-and-documental-support/application-drafting-and-processing-support/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_1883345692-768x512.jpg",
-                    name: "Application Processing / Drafting",
+                    name: "Application Drafting and Processing Support",
                 },
                 {
                     delay: "0.5s",
-                    href: "/solutions/consulting-and-documental-support/evaluation-and-initial-consultation-fraud/",
+                    href: "/solutions/consulting-and-documental-support/initial-consultation-and-assessment-services/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/07/canva-confident-coach-giving-handout-to-diverse-seminar-participants-768x512.jpg",
-                    name: "Evaluation and Initial Consultation”",
+                    name: "Initial Consultation and Assessment Services",
                 },
                 ].map((item, idx) => (
                     <ImageBox image={item.imgSrc} name={item.name} key={idx} size="" href={item.href}   style={{ maxWidth: "100%", height: "100%" }}  more={true} />

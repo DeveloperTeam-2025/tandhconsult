@@ -20,7 +20,7 @@ const index = () => {
                 data-wow-delay="0.6s"
             >
             <p>
-                T&H Consulting excels in cryptocurrency compliance and investigation services. We aid businesses, individuals, and law enforcement agencies navigate the complex digital asset landscape. Our expertise lies in probing digital asset cases, tracing cryptocurrencies, and analyzing blockchain transactions. We identify, locate, and trace funds involved in hacks, frauds, and scams across blockchain networks. Count on us to connect digital funds to real-world entities and obtain crucial evidence for your case.
+                Greyzone Consulting excels in cryptocurrency compliance and investigation services. We aid businesses, individuals, and law enforcement agencies navigate the complex digital asset landscape. Our expertise lies in probing digital asset cases, tracing cryptocurrencies, and analyzing blockchain transactions. We identify, locate, and trace funds involved in hacks, frauds, and scams across blockchain networks. Count on us to connect digital funds to real-world entities and obtain crucial evidence for your case.
             </p>
             </div>
             
@@ -28,45 +28,45 @@ const index = () => {
     {[
     {
         delay: "0.6s",
-        href: "/solutions/cryptocurrency-investigation-and-compliance/asset-search-and-tracing",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/asset-location-and-tracing-services",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2024/11/workflow-process-improve-productivity-write-chalkb-2024-10-12-01-52-37-utc-768x512.jpg",
-        name: "Asset Search and Tracing",
+        name: "Asset Location and Tracing Services",
     },
     {
         delay: "0.7s",
-        href: "/solutions/cryptocurrency-investigation-and-compliance/crypto-transaction-risk-audit",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-transaction-risk-analysis",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2024/09/multiracial-female-brokers-share-knowledge-about-f-2023-11-27-05-15-38-utc-768x512.jpg",
-        name: "Crypto Transaction Risk Audit",
+        name: "Cryptocurrency Transaction Risk Analysis",
     },
     {
         delay: "0.8s",
-        href: "/solutions/cryptocurrency-investigation-and-compliance/expert-witness-for-cryptocurrency",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/expert-cryptocurrency-witness-services",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/07/saul-bucio-p5yn73kruaa-unsplash-1-768x510.jpg",
-        name: "Expert Witness for Cryptocurrency",
+        name: "Expert Cryptocurrency Witness Services",
     },
     {
         delay: "0.9s",
-        href: "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-intelligence-report-for-business",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/business-focused-cryptocurrency-intelligence-report",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/07/thought-catalog-bj8u389a9n8-unsplash-768x512.jpg",
-        name: "Cryptocurrency Intelligence Report for Business",
+        name: "Business-Focused Cryptocurrency Intelligence Report",
     },
     {
         delay: "1.0s",
-        href: "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-investigation",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/in-depth-cryptocurrency-investigation-services",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/07/digital-crime-by-an-anonymous-hacker-2022-12-16-00-45-57-utc-768x567.jpg",
-        name: "Cryptocurrency Investigation",
+        name: "In-Depth Cryptocurrency Investigation Services",
     },
     {
         delay: "1.1s",
-        href: "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-intelligence-report",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/general-cryptocurrency-intelligence-reports",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/08/photo-1579226905180-636b76d96082-770x460-768x459.jpg",
-        name: "Cryptocurrency Intelligence Report",
+        name: "General Cryptocurrency Intelligence Reports",
     },
     {
         delay: "1.2s",
-        href: "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-information-gathering-support",
+        href: "/solutions/cryptocurrency-investigation-and-compliance/support-for-cryptocurrency-data-collection",
         imgSrc: "https://tandhconsult.com/wp-content/uploads/2021/07/online-study-768x513.jpeg",
-        name: "Cryptocurrency Information Gathering Support",
+        name: "Support for Cryptocurrency Data Collection",
     }
     ]
     .map((item, idx) => (

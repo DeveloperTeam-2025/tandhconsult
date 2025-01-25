@@ -36,7 +36,7 @@ const index = () => {
   return (
         <>
             {
-                id === '10-signs-to-spot-a-love-scam-checklist' &&
+                id === '10-indicators-of-a-love-scam-a-comprehensive-checklist' &&
 
                 <>
                     <ShadowDOM.div>
@@ -48,7 +48,7 @@ const index = () => {
                     <section className="card" id="card">
                     <div className="container">
                         <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                        <span>10 Signs to Spot a Love Scam Checklist</span>
+                        <span>10 Indicators of a Love Scam: A Comprehensive Checklist</span>
                         </h1>
                         <div className="card__row">
                         <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -120,8 +120,10 @@ const index = () => {
                     </section>
                     </ShadowDOM.div>
                 </>
-            }{
-                id === 'how-not-to-get-scammed-a-guide-to-protecting-yourself-online' &&
+            }
+            
+            {
+                id === 'online-fraud-protection-a-practical-guide' &&
                 <>
                     <ShadowDOM.div>
                     <style>
@@ -132,7 +134,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>How Not to Get Scammed: A Guide to Protecting Yourself Online</span>
+                            <span>Online Fraud Protection: A Practical Guide</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -225,8 +227,10 @@ const index = () => {
                     </section>
                     </ShadowDOM.div>
                 </>
-             }{    
-                id === 'fraud-awareness-printable-workbook-with-exercises' &&
+            }
+            
+            {    
+                id === 'printable-fraud-awareness-workbook-with-exercises' &&
                 <>
                     <ShadowDOM.div>
                     <style>
@@ -237,7 +241,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Printable Workbook with Exercises – Fraud Awareness</span>
+                            <span>Printable Fraud Awareness Workbook with Exercises</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -353,19 +357,21 @@ const index = () => {
                     </section>
                     </ShadowDOM.div>
                 </>
-             }{    
-                id === 'fraud-awareness-masterclass-bundle' &&
+            }
+            
+            {    
+                id === 'fraud-awareness-masterclass-with-detailed-presentation' &&
                 <>
                     <section id="card" className={classNames(styles.card)}>
                         <div className={classNames(styles.container)}>
-                            <h1 className={classNames(styles.title, styles.card__name, 'wow animate__animated', 'animate__animated', 'animate__fadeInLeft')} >
-                            <span>Fraud Awareness Masterclass + Presentation</span>
+                            <h1 className={classNames(styles.title, styles.card__name, 'wow animate__animated', 'animate__fadeInLeft')} >
+                            <span>Fraud Awareness Masterclass with Detailed Presentation</span>
                             </h1>
                             <div className={classNames(styles.card__row)}>
-                            <picture className={classNames(styles.card__pic, 'wow animate__animated', 'animate__animated', 'animate__fadeInUp')} >
+                            <picture className={classNames(styles.card__pic, 'wow animate__animated', 'animate__fadeInUp')} >
                                 <img src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-workshop_learnvent_edited-768x535.jpg" alt="" />
                             </picture>
-                            <div className={classNames(styles.card__right, 'wow animate__animated', 'animate__animated', 'animate__fadeInRight')} >
+                            <div className={classNames(styles.card__right, 'wow animate__animated', 'animate__fadeInRight')} >
                                 <p><strong>Unlock the Secrets to Protecting Your Finances with Our Fraud Awareness Bundle</strong></p>
                                 <p>In an era dominated by digital transactions, safeguarding against financial fraud is crucial. With cybercrime damages projected to cost the global economy $10.5 trillion annually by 2025, understanding fraud prevention is more vital than ever. Our comprehensive Fraud Awareness Bundle equips you with crucial tools and knowledge through a meticulously designed, recorded Masterclass and a comprehensive presentation PDF.</p>
                                 <div className={classNames(styles.card__ctrl)}>
@@ -380,7 +386,7 @@ const index = () => {
                             </div>
                             </div>
 
-                            <div className={classNames(styles.card__desc, 'wow animate__animated', 'animate__animated', 'animate__fadeInUp')}>
+                            <div className={classNames(styles.card__desc, 'wow animate__animated', 'animate__fadeInUp')}>
                             <h3>Key Features of Our Fraud Awareness Bundle</h3>
                             <p><strong>Expert-Led Workshop:</strong> Gain exclusive access to a 2-hour recorded workshop led by seasoned industry experts. Delve into essential fraud prevention strategies and learn practical methods to protect yourself and others from scams.</p>
                             <p><strong>Detailed Presentation PDF:</strong> Receive a presentation PDF that complements the workshop. This resource is perfect for following along, taking notes, and revisiting important topics at your convenience.</p>
@@ -406,8 +412,10 @@ const index = () => {
                     </section>
                 </>
 
-            }{
-                id === 'crypto-transaction-risk-audit' &&
+            }
+            
+            {
+                id === 'cryptocurrency-transaction-risk-analysis' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -418,7 +426,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Crypto Transaction Risk Audit</span>
+                            <span>Cryptocurrency Transaction Risk Analysis</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
@@ -441,7 +449,7 @@ const index = () => {
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/crypto-transaction-risk-audit/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-transaction-risk-analysis/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33046"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -567,8 +575,10 @@ const index = () => {
                     </ShadowDOM.div>
                 </>
 
-            }{
-                id === 'asset-search-and-tracing' &&
+            }
+            
+            {
+                id === 'asset-location-and-tracing-services' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -579,7 +589,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Asset Search and Tracing</span>
+                            <span>Asset Location and Tracing Services</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
@@ -590,11 +600,11 @@ const index = () => {
                             </picture>
                             <div className="card__right wow animate__animated animate__fadeInRight" >
                                 <p>
-                                At T&amp;H Consulting, we specialize in providing comprehensive{" "}
+                                At Greyzone Consulting, we specialize in providing comprehensive{" "}
                                 <strong>asset search and tracing services</strong>, with a strong focus on{" "}
                                 <strong>digital assets and cryptocurrencies</strong>. Our experienced team employs{" "}
                                 <a href="https://crystalintelligence.com">cutting-edge technology</a> and{" "}
-                                <a href="https://tandhconsult.com/blog/cryptocurrency-investigations/">
+                                <a href="https://tandhconsult.com/blog/understanding-cryptocurrency-investigations-key-insights/">
                                     advanced investigative techniques
                                 </a>{" "}
                                 to uncover and trace assets, ensuring a seamless and effective process for our
@@ -602,7 +612,7 @@ const index = () => {
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/asset-search-and-tracing/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/asset-location-and-tracing-services/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33273"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -659,7 +669,7 @@ const index = () => {
                                 </li>
                             </ol>
                             <h4>
-                                <strong>Why Choose T&amp;H Consulting?</strong>
+                                <strong>Why Choose Greyzone Consulting?</strong>
                             </h4>
                             <ul>
                                 <li>
@@ -678,7 +688,7 @@ const index = () => {
                             </ul>
                             <p>
                                 If you’re looking to <strong>trace assets</strong> and navigate the ever-evolving
-                                digital landscape, T&amp;H Consulting is here to assist you every step of the way.
+                                digital landscape, Greyzone Consulting is here to assist you every step of the way.
                                 Contact us to learn more about how we can help secure your financial interests.
                             </p>
                             </div>
@@ -686,8 +696,10 @@ const index = () => {
                     </section>
                     </ShadowDOM.div>
                 </>
-            }{
-                id === 'expert-witness-for-cryptocurrency' &&
+            }
+            
+            {
+                id === 'expert-cryptocurrency-witness-services' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -698,7 +710,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Expert Witness for Cryptocurrency</span>
+                            <span>Expert Cryptocurrency Witness Services</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
@@ -713,14 +725,14 @@ const index = () => {
                                 In cases involving cryptocurrencies that escalate to court proceedings, the
                                 expertise of an expert witness becomes crucial. Judges and juries often lack
                                 understanding of how these digital currencies function and the relevant
-                                regulations. At T&amp;H Consulting, our cryptocurrency expert witnesses play a
+                                regulations. At Greyzone Consulting, our cryptocurrency expert witnesses play a
                                 vital role in helping legal professionals and authorities comprehend the
                                 intricacies of cryptocurrencies, their functionality as currencies,
                                 traceability, and the nuances of their usage.
                                 </p>
                                 <h3>Unraveling the Complexity with Certified Experts</h3>
                                 <p>
-                                T&amp;H Consulting boasts a team of certified experts in cryptocurrency and
+                                Greyzone Consulting boasts a team of certified experts in cryptocurrency and
                                 blockchain technology. Our expert witnesses provide valuable testimony in
                                 cryptocurrency cases revolving around blockchain technology. Moreover, they
                                 skillfully employ transition words to enhance the clarity and coherence of
@@ -731,7 +743,7 @@ const index = () => {
                                 </p>
                                 <h3>Comprehensive Cryptocurrency Analysis and Investigation</h3>
                                 <p>
-                                Our team at T&amp;H Consulting conducts thorough{" "}
+                                Our team at Greyzone Consulting conducts thorough{" "}
                                 <a href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                                     cryptocurrency analysis and investigations
                                 </a>{" "}
@@ -754,9 +766,9 @@ const index = () => {
                                 effectively. Additionally, we are proud to be Certified, allowing us to leverage
                                 advanced tools and methodologies to achieve successful outcomes.
                                 </p>
-                                <h3>Secure Successful Outcomes with T&amp;H Consulting</h3>
+                                <h3>Secure Successful Outcomes with Greyzone Consulting</h3>
                                 <p>
-                                Trust T&amp;H Consulting’s expert witnesses to bridge the knowledge gap in
+                                Trust Greyzone Consulting’s expert witnesses to bridge the knowledge gap in
                                 cryptocurrency-related legal proceedings. Our team of certified experts is
                                 dedicated to offering comprehensive explanations. Moreover, they skillfully
                                 incorporate transition words to guide the readers’ understanding and facilitate
@@ -764,12 +776,12 @@ const index = () => {
                                 officers gain a clear understanding of the subject matter. Benefit from our
                                 extensive international experience and the utilization of advanced tools and
                                 methodologies.{" "}
-                                <a href="contact-us">Contact T&amp;H Consulting</a>{" "}
+                                <a href="contact-us">Contact Greyzone Consulting</a>{" "}
                                 today to secure successful outcomes in your cryptocurrency-related legal cases.
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/expert-witness-for-cryptocurrency/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_605"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -808,7 +820,7 @@ const index = () => {
                                 staff understand how cryptocurrencies work.
                             </p>
                             <p>
-                                At T&amp;H Consulting, we are a team that counts with certified experts for matters
+                                At Greyzone Consulting, we are a team that counts with certified experts for matters
                                 involving cryptocurrency and blockchain technology. We’re available to offer expert
                                 witness testimony in cases connected to blockchain technology.
                             </p>
@@ -824,8 +836,10 @@ const index = () => {
                     </section>
                     </ShadowDOM.div>
                 </>
-            }{
-                id === 'cryptocurrency-intelligence-report-for-business' &&
+            }
+            
+            {
+                id === 'business-focused-cryptocurrency-intelligence-report' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -836,7 +850,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Cryptocurrency Intelligence Report for Business</span>
+                            <span>Business-Focused Cryptocurrency Intelligence Report</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
@@ -851,14 +865,14 @@ const index = () => {
                                 In cases involving cryptocurrencies that escalate to court proceedings, the
                                 expertise of an expert witness becomes crucial. Judges and juries often lack
                                 understanding of how these digital currencies function and the relevant
-                                regulations. At T&amp;H Consulting, our cryptocurrency expert witnesses play a
+                                regulations. At Greyzone Consulting, our cryptocurrency expert witnesses play a
                                 vital role in helping legal professionals and authorities comprehend the
                                 intricacies of cryptocurrencies, their functionality as currencies,
                                 traceability, and the nuances of their usage.
                                 </p>
                                 <h3>Unraveling the Complexity with Certified Experts</h3>
                                 <p>
-                                T&amp;H Consulting boasts a team of certified experts in cryptocurrency and
+                                Greyzone Consulting boasts a team of certified experts in cryptocurrency and
                                 blockchain technology. Our expert witnesses provide valuable testimony in
                                 cryptocurrency cases revolving around blockchain technology. Moreover, they
                                 skillfully employ transition words to enhance the clarity and coherence of
@@ -869,7 +883,7 @@ const index = () => {
                                 </p>
                                 <h3>Comprehensive Cryptocurrency Analysis and Investigation</h3>
                                 <p>
-                                Our team at T&amp;H Consulting conducts thorough{" "}
+                                Our team at Greyzone Consulting conducts thorough{" "}
                                 <a href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                                     cryptocurrency analysis and investigations
                                 </a>{" "}
@@ -892,9 +906,9 @@ const index = () => {
                                 effectively. Additionally, we are proud to be Certified, allowing us to leverage
                                 advanced tools and methodologies to achieve successful outcomes.
                                 </p>
-                                <h3>Secure Successful Outcomes with T&amp;H Consulting</h3>
+                                <h3>Secure Successful Outcomes with Greyzone Consulting</h3>
                                 <p>
-                                Trust T&amp;H Consulting’s expert witnesses to bridge the knowledge gap in
+                                Trust Greyzone Consulting’s expert witnesses to bridge the knowledge gap in
                                 cryptocurrency-related legal proceedings. Our team of certified experts is
                                 dedicated to offering comprehensive explanations. Moreover, they skillfully
                                 incorporate transition words to guide the readers’ understanding and facilitate
@@ -902,12 +916,12 @@ const index = () => {
                                 officers gain a clear understanding of the subject matter. Benefit from our
                                 extensive international experience and the utilization of advanced tools and
                                 methodologies.{" "}
-                                <a href="contact-us">Contact T&amp;H Consulting</a>{" "}
+                                <a href="contact-us">Contact Greyzone Consulting</a>{" "}
                                 today to secure successful outcomes in your cryptocurrency-related legal cases.
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/expert-witness-for-cryptocurrency/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_605"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -946,7 +960,7 @@ const index = () => {
                                 staff understand how cryptocurrencies work.
                             </p>
                             <p>
-                                At T&amp;H Consulting, we are a team that counts with certified experts for matters
+                                At Greyzone Consulting, we are a team that counts with certified experts for matters
                                 involving cryptocurrency and blockchain technology. We’re available to offer expert
                                 witness testimony in cases connected to blockchain technology.
                             </p>
@@ -962,8 +976,10 @@ const index = () => {
                     </section>
                     </ShadowDOM.div>
                 </>
-            }{
-                id === 'cryptocurrency-investigation' &&
+            }
+            
+            {
+                id === 'in-depth-cryptocurrency-investigation-services' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -974,7 +990,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Cryptocurrency Investigation</span>
+                            <span>In-Depth Cryptocurrency Investigation Services</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
@@ -984,17 +1000,17 @@ const index = () => {
                                 />
                             </picture>
                             <div className="card__right wow animate__animated animate__fadeInRight" >
-                                <h2>Cryptocurrency Fraud Investigation – Safeguard Your Investments with T&H Consulting</h2>
+                                <h2>Cryptocurrency Fraud Investigation – Safeguard Your Investments with Greyzone Consulting</h2>
                                 <p>
                                 Are you concerned about the rising risks associated with cryptocurrency
                                 speculation? As virtual currency markets gain popularity, instances of investment
-                                fraud, theft, and price manipulation are on the rise. At T&H Consulting, we
+                                fraud, theft, and price manipulation are on the rise. At Greyzone Consulting, we
                                 specialize in comprehensive fraud and theft cryptocurrency investigations,
                                 providing peace of mind for investors, businesses, public agencies, financial
                                 advisors, and law firms.
                                 </p>
                                 <p>
-                                T&H Consulting specializes in cryptocurrency investigation, offering unparalleled
+                                Greyzone Consulting specializes in cryptocurrency investigation, offering unparalleled
                                 expertise with a proven track record. Trusted by law enforcement and backed by over
                                 1200 successful investigations, we ensure the security and transparency of your
                                 crypto ventures.
@@ -1025,11 +1041,11 @@ const index = () => {
                             <p>
                                 The dynamic world of cryptocurrency presents both opportunities and challenges. As
                                 digital currencies gain traction, they also attract a myriad of sophisticated
-                                threats. At T&H Consulting, we’ve dedicated ourselves to mastering the art and
+                                threats. At Greyzone Consulting, we’ve dedicated ourselves to mastering the art and
                                 science of cryptocurrency investigation, standing as pillars of trust and authority
                                 in this intricate landscape.
                             </p>
-                            <strong>Why Choose T&H Consulting for Cryptocurrency Investigation:</strong>
+                            <strong>Why Choose Greyzone Consulting for Cryptocurrency Investigation:</strong>
                             <ul>
                                 <li>
                                 <strong>A Legacy of Excellence:</strong> With more than 1200 successful cryptocurrency
@@ -1079,7 +1095,7 @@ const index = () => {
                             </p>
                             <strong>Beyond Cryptocurrency Investigation:</strong>
                             <p>
-                                While cryptocurrency investigation is our forte, our expertise doesn’t end there. T&H
+                                While cryptocurrency investigation is our forte, our expertise doesn’t end there. Greyzone
                                 Consulting also extends its services to:
                             </p>
                             <ul>
@@ -1097,7 +1113,7 @@ const index = () => {
                                 </li>
                             </ul>
                             <p>
-                                In the perplexing world of cryptocurrency, clarity and security are paramount. T&H
+                                In the perplexing world of cryptocurrency, clarity and security are paramount. Greyzone
                                 Consulting is here to be your guiding light. By scheduling a consultation, you’re taking
                                 the first step towards safeguarding your interests in the digital currency domain.
                             </p>
@@ -1106,8 +1122,10 @@ const index = () => {
                     </section>
                     </ShadowDOM.div>
                 </>
-            }{
-                id === 'cryptocurrency-intelligence-report' &&
+            }
+            
+            {
+                id === 'general-cryptocurrency-intelligence-reports' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -1118,7 +1136,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Cryptocurrency Intelligence Report</span>
+                            <span>General Cryptocurrency Intelligence Reports</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
@@ -1137,7 +1155,7 @@ const index = () => {
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-intelligence-report/"
+                                    href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/general-cryptocurrency-intelligence-reports/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_597"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -1167,10 +1185,10 @@ const index = () => {
                                 operate on the transparent foundation of blockchain, decoding the web of transactions
                                 necessitates expertise and advanced tools.
                             </p>
-                            <strong>Why T&H Consulting’s Cryptocurrency Intelligence Report is Unparalleled:</strong>
+                            <strong>Why Greyzone Consulting’s Cryptocurrency Intelligence Report is Unparalleled:</strong>
                             <ol>
                                 <li>
-                                <strong>Premium Tools for Precision:</strong> At T&H Consulting, our collaboration with
+                                <strong>Premium Tools for Precision:</strong> At Greyzone Consulting, our collaboration with
                                 industry leaders, Crystal and Blockchain Intelligence Group (BIG), empowers us to
                                 traverse the multifaceted maze of cryptocurrency transactions. These platforms are
                                 instrumental in unearthing transaction pathways, tackling high-stake cybercrimes, and
@@ -1203,7 +1221,7 @@ const index = () => {
                                 structured to provide clarity, actionable insights, and strategic recommendations.
                                 </li>
                                 <li>
-                                <strong>Client-Centric Approach:</strong> Central to T&H Consulting is an unwavering
+                                <strong>Client-Centric Approach:</strong> Central to Greyzone Consulting is an unwavering
                                 commitment to our clients. From the complimentary initial consultation to in-depth
                                 discussions, our team stands ready to address your concerns, offer guidance, and ensure
                                 peace of mind.
@@ -1211,7 +1229,7 @@ const index = () => {
                             </ol>
                             <p>
                                 <strong>
-                                Entrust your cryptocurrency concerns with T&H Consulting’s Cryptocurrency Intelligence
+                                Entrust your cryptocurrency concerns with Greyzone Consulting’s Cryptocurrency Intelligence
                                 Report — a synthesis of expertise, technology, and dedication.
                                 </strong>
                             </p>
@@ -1221,8 +1239,9 @@ const index = () => {
                     </ShadowDOM.div>
                 </>
             }
+
             {
-                id === 'cryptocurrency-information-gathering-support' &&
+                id === 'support-for-cryptocurrency-data-collection' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -1233,7 +1252,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Cryptocurrency Information Gathering Support</span>
+                            <span>Support for Cryptocurrency Data Collection</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
@@ -1299,7 +1318,7 @@ const index = () => {
                                 any missing wallet addresses pertaining to our cases.
                             </p>
                             <p>
-                                At T&H our fundamental purpose is to provide you with the highest quality attention and
+                                At Greyzone our fundamental purpose is to provide you with the highest quality attention and
                                 services. You can always contact our agents, who will be more than happy to assist you
                                 in your needs and reassure you should you have any doubts.
                             </p>
@@ -1309,10 +1328,12 @@ const index = () => {
                     </ShadowDOM.div>
                 </>
             }
+
+
             {
-                id === 'due-diligence-services' &&
+                id === 'comprehensive-due-diligence-solutions' &&
                 <>
-                                <ShadowDOM.div>
+                    <ShadowDOM.div>
                     <style>
                         {`
                             @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
@@ -1321,7 +1342,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Due Diligence Services</span>
+                            <span>Comprehensive Due Diligence Solutions</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
@@ -1335,7 +1356,7 @@ const index = () => {
                                 <em>Unlocking Actionable Insights for Informed Decision-Making</em>
                                 </h3>
                                 <p>
-                                At T&H Consulting, we offer comprehensive due diligence services that transform
+                                At Greyzone Consulting, we offer comprehensive due diligence services that transform
                                 high-risk situations into high-growth opportunities. Our unique blend of AI technology,
                                 OSINT research, and access to PEP, sanctions and fraud lists, and government company
                                 registers allows us to deliver precise and timely results. We leverage the best tools
@@ -1350,7 +1371,7 @@ const index = () => {
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="/solutions/investigations-and-disputes/due-diligence-services/"
+                                    href="/solutions/investigations-and-disputes/comprehensive-due-diligence-solutions/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_28523"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -1403,7 +1424,7 @@ const index = () => {
                                 supports your overall goals.
                             </p>
                             <p>
-                                At T&H Consulting, we provide more than just data. We offer insights that empower you to
+                                At Greyzone Consulting, we provide more than just data. We offer insights that empower you to
                                 navigate your journey with confidence and ease. Our tailored reports and top-tier
                                 industry tools ensure that you receive a service that is truly suited to your
                                 requirements.{" "}
@@ -1417,8 +1438,9 @@ const index = () => {
                     </ShadowDOM.div>
                 </>
             }
+
             {
-                id === 'dispute-settlement-premium-package' &&
+                id === 'premium-dispute-settlement-package' &&
                 <>
                                 <ShadowDOM.div>
                     <style>
@@ -1429,7 +1451,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft" >
-                            <span>Dispute Settlement “Premium Package”</span>
+                            <span>Premium Dispute Settlement Package</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
@@ -1482,7 +1504,7 @@ const index = () => {
                             <div className="card__desc wow animate__animated animate__fadeInUp" >
                             <h3 className="title card__subtit">Description</h3>
                             <p>
-                                At T&H Consulting, we pride ourselves on our proven track record of securing favorable
+                                At Greyzone Consulting, we pride ourselves on our proven track record of securing favorable
                                 outcomes for our clients over the years. Our seasoned team of professionals handle a wide
                                 array of cases, including those involving a single or multiple opposing parties/suspects. Our
                                 unwavering commitment to high service quality, coupled with a results-driven approach, assures
@@ -1556,8 +1578,9 @@ const index = () => {
                     </ShadowDOM.div>
                 </>
             }
+
             {
-                id === 'dispute-settlement-optimal-package' &&
+                id === 'optimal-dispute-settlement-package' &&
                 <>
                                 <ShadowDOM.div>
                     <style>
@@ -1568,7 +1591,7 @@ const index = () => {
                 <section className="card" id="card">
                     <div className="container">
                         <h1 className="title card__name wow animate__animated animate__fadeInLeft"  >
-                            <span>Dispute Settlement “Optimal Package”</span>
+                            <span>Optimal Dispute Settlement Package</span>
                         </h1>
                         <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp"  >
@@ -1603,7 +1626,7 @@ const index = () => {
 
                         <div className="card__desc wow animate__animated animate__fadeInUp"  >
                             <h3 className="title card__subtit">Description</h3>
-                            <p>At T&H Consulting we take pride in the favourable results we have presented to our clients over the past years. We have an experienced and professional team that has been dealing with various categories of cases that involve single or multiple scams. Due to this, we maintain high standards of service quality and a strong vision on how to best assist our clients.</p>
+                            <p>At Greyzone Consulting we take pride in the favourable results we have presented to our clients over the past years. We have an experienced and professional team that has been dealing with various categories of cases that involve single or multiple scams. Due to this, we maintain high standards of service quality and a strong vision on how to best assist our clients.</p>
                             <p>With our “Optimal Package” we provide clients with the attention they deserve. This includes extended consultation time with our agents, a more thorough investigation into the case, and the drafting of more applications and letters. Every case is unique and we tailor our packages in accordance with the needs of our clients.</p>
                             <p>Initially, it is essential to understand all the different aspects of a client’s case, and part of this understanding involves collecting all possible information on the case that the client can provide. Our investigation begins with a preliminary assessment of the case’s background once all the required information is assembled.</p>
                             <p>After processing the payment and signing the agreement, the required documentation from the client needs to be sent in a period no longer than 30 calendar days. It should also be noted that in case the evidence sent by the client proves insufficient pending a review by the compliance team, further evidence may be required.</p>
@@ -1618,8 +1641,9 @@ const index = () => {
                     </ShadowDOM.div>
                 </>
             }
+
             {
-                id === 'dispute-settlement-special-package' &&
+                id === 'special-dispute-settlement-package' &&
                 <>
                                 <ShadowDOM.div>
                     <style>
@@ -1630,7 +1654,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Dispute Settlement “Special Package”</span>
+                            <span>Special Dispute Settlement Package</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -1648,14 +1672,14 @@ const index = () => {
                                 <li>The cost depends on the above factors, as well as on the complexity of the case and is approved bilaterally.</li>
                                 </ul>
                                 <div className="card__ctrl">
-                                <a href="/solutions/investigations-and-disputes/dispute-settlement-special-package/" className="button product_type_simple" aria-label="Read more about “Dispute Settlement 'Special Package'”" rel="nofollow">Read more</a>
+                                <a href="/solutions/investigations-and-disputes/special-dispute-settlement-package/" className="button product_type_simple" aria-label="Read more about “Dispute Settlement 'Special Package'”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
                             </div>
                             <div className="card__desc wow animate__animated animate__fadeInUp">
                             <h3 className="title card__subtit">Description</h3>
-                            <p>Even though our packages are designed to cover all the bases, it is sometimes necessary to specialize and adjust our cases according to the needs and requirements of our clients. Since every case is unique, not all of our clients need to make use of every facet of T&H’s default packages.</p>
+                            <p>Even though our packages are designed to cover all the bases, it is sometimes necessary to specialize and adjust our cases according to the needs and requirements of our clients. Since every case is unique, not all of our clients need to make use of every facet of Greyzone’s default packages.</p>
                             <p>This might be due to several reasons, such as when clients take the initiative on their own, before deciding to contact us. In such cases, it is unnecessary to create a case report or conduct a full investigation. Instead, reports and letters would suffice to resolve the issues presented by the case. For these reasons, we have created this “Special Package” in which the client, after discussing the circumstances of his/her case, decides on how to best benefit from our assistance.</p>
                             <p>Additionally, many clients turn to us after problems with several unscrupulous organizations that may have some kind of connection with one another. In such cases, it is important to consider and analyze the various aspects of the case before commencing the investigation, so as to not waste precious time. Special cases such as these require an innovative and unique approach, as well as collaboration with the relevant authorities, jurisdictions, and legal organizations. This is best achieved through specialists and experts, such as the ones at our disposal.</p>
                             <p>You can discuss the relevant factors of your case with your assigned account manager so that we can create the package that best suits your needs and that allows us to achieve your goals. Our team will be more than happy to listen to your concerns and clarify any doubts that you may have.</p>
@@ -1665,8 +1689,9 @@ const index = () => {
                     </ShadowDOM.div>
                 </>
             }
+
             {
-                id === 'dispute-settlement-basic-package' &&
+                id === 'basic-dispute-settlement-package' &&
                 <>
                     <ShadowDOM.div>
                     <style>
@@ -1677,7 +1702,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Dispute Settlement “Basic Package”</span>
+                            <span>Basic Dispute Settlement Package</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -1707,7 +1732,7 @@ const index = () => {
 
                             <div className="card__desc wow animate__animated animate__fadeInUp">
                             <h3 className="title card__subtit">Description</h3>
-                            <p>At T&H Consulting we take pride in the favorable results we have presented to our clients over the past years. We have an experienced and professional team that has been dealing with various categories of cases that involve single or multiple scams. Due to this, we maintain high standards of service quality and a strong vision on how to best assist our clients.</p>
+                            <p>At Greyzone Consulting we take pride in the favorable results we have presented to our clients over the past years. We have an experienced and professional team that has been dealing with various categories of cases that involve single or multiple scams. Due to this, we maintain high standards of service quality and a strong vision on how to best assist our clients.</p>
                             <p>The initial step in the processing of a priority case is the proper assembly and gathering of all necessary evidence pertaining to the case, in addition to all that the client can provide on his end. Based on the collected evidence, an assessment is made that determines where and how we can make the first move.</p>
                             <p>Once the agreement is signed, the list of the documentation required by the agent must be sent in a period no longer than 30 calendar days. Additionally, should the compliance team find that some aspects of the information provided by the client are insufficient, further documents/evidence may be required.</p>
                             <p>After the information and the strategic plan contained in the “Basic Package” case report is approved by the client, we begin with drafting the agreed-upon applications and documents to be sent to the financial and governmental institutions involved, as well as other organizations. Only two institutions correspondence is included in this package. Upon request, we assist the client in corresponding with the company/organization that defrauded the client, with the aim of reaching a settlement. This step is especially important when it comes to dealing with regulated brokers or established companies. Be aware that with this package, the waiting time to receive documents and letters drafted by our team is the standard timeframe of up to 7 business days. Delays may also occur due to the workload. However, your account manager is always available should you have any inquires or require any clarification.</p>
@@ -1718,6 +1743,7 @@ const index = () => {
                     </ShadowDOM.div>
                 </>
             }
+
             {
                 id === 'chargeback-consultation' &&
                 <>
@@ -1730,7 +1756,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Dispute Settlement “Basic Package”</span>
+                            <span>Basic Dispute Settlement Package</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -1760,7 +1786,7 @@ const index = () => {
 
                             <div className="card__desc wow animate__animated animate__fadeInUp">
                             <h3 className="title card__subtit">Description</h3>
-                            <p>At T&H Consulting we take pride in the favorable results we have presented to our clients over the past years. We have an experienced and professional team that has been dealing with various categories of cases that involve single or multiple scams. Due to this, we maintain high standards of service quality and a strong vision on how to best assist our clients.</p>
+                            <p>At Greyzone Consulting we take pride in the favorable results we have presented to our clients over the past years. We have an experienced and professional team that has been dealing with various categories of cases that involve single or multiple scams. Due to this, we maintain high standards of service quality and a strong vision on how to best assist our clients.</p>
                             <p>The initial step in the processing of a priority case is the proper assembly and gathering of all necessary evidence pertaining to the case, in addition to all that the client can provide on his end. Based on the collected evidence, an assessment is made that determines where and how we can make the first move.</p>
                             <p>Once the agreement is signed, the list of the documentation required by the agent must be sent in a period no longer than 30 calendar days. Additionally, should the compliance team find that some aspects of the information provided by the client are insufficient, further documents/evidence may be required.</p>
                             <p>After the information and the strategic plan contained in the “Basic Package” case report is approved by the client, we begin with drafting the agreed-upon applications and documents to be sent to the financial and governmental institutions involved, as well as other organizations. Only two institutions correspondence is included in this package. Upon request, we assist the client in corresponding with the company/organization that defrauded the client, with the aim of reaching a settlement. This step is especially important when it comes to dealing with regulated brokers or established companies. Be aware that with this package, the waiting time to receive documents and letters drafted by our team is the standard timeframe of up to 7 business days. Delays may also occur due to the workload. However, your account manager is always available should you have any inquires or require any clarification.</p>
@@ -1772,8 +1798,9 @@ const index = () => {
                 </ShadowDOM.div>
                 </>
             }
+
             {
-                id === 'technical-translation-non-certified' &&
+                id === 'technical-document-translation-non-certified' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -1784,7 +1811,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Technical translation (non-certified)</span>
+                            <span>Technical Document Translation (Non-Certified)</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -1815,7 +1842,7 @@ const index = () => {
                             <h3 className="title card__subtit">Description</h3>
                             <h4>Translations that do not require a Court Interpreter’s certification</h4>
                             <p><strong>Non-certified translations</strong> are <em>translations</em> that do not bear the Court Interpreter’s certification. Such translations are usually made electronically (Microsoft Word, Microsoft Excel, Microsoft PowerPoint, and, in some cases, in PDF).</p>
-                            <p>At T&H Consulting, we have a diverse multi-lingual team that comes from a wide variety of backgrounds. Because of this, we are able to offer non-certified technical translations in Spanish, Arabic, Russian, Urdu, Hungarian, French, and German. You can request this service when you need carefully formulated translation of, for example, correspondence, applications, CVs, technical documents, or complex and sophisticated documents requiring specialized knowledge. The technical translation service is available for those who need letters or documentation written in their languages (from the previously mentioned list) to accommodate special requests and exceptional circumstances.</p>
+                            <p>At Greyzone Consulting, we have a diverse multi-lingual team that comes from a wide variety of backgrounds. Because of this, we are able to offer non-certified technical translations in Spanish, Arabic, Russian, Urdu, Hungarian, French, and German. You can request this service when you need carefully formulated translation of, for example, correspondence, applications, CVs, technical documents, or complex and sophisticated documents requiring specialized knowledge. The technical translation service is available for those who need letters or documentation written in their languages (from the previously mentioned list) to accommodate special requests and exceptional circumstances.</p>
                             <p><strong>Non-certified translations</strong> can be printed or delivered electronically. If we receive the text electronically, we can overwrite the text. The goal is to follow the original document format as much as possible. In cases where texts contain pictures, schematic representations, graphics, drawings, photographs, the instructions given regarding the text must be followed. Special indications in the text (for example, bold, italic, underline, etc.) can be made in the translated text. Standard formats are font – Arial or Times New Roman 12 pt; spacing 1.5; page numbers – bottom of page, aligned center; margins 2.5 cm. Different formats may be used if required by the original text.</p>
                             <p>We are here to clarify and answer all your inquiries. If you have any doubts regarding this service and what is included, please ask our agents. We will be happy to help you.</p>
                             </div>
@@ -1826,7 +1853,7 @@ const index = () => {
                 </>
             }
             {
-                id === 'compilation-case-assessment' &&
+                id === 'case-evaluation-and-documentation-services' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -1837,7 +1864,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Case Assessment & Compilation Services</span>
+                            <span>Case Evaluation and Documentation Services</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -1876,7 +1903,7 @@ const index = () => {
 
                             <div className="card__desc wow animate__animated animate__fadeInUp">
                             <h3 className="title card__subtit">Description</h3>
-                            <p>At T&H Consulting, we offer a variety of services that our clients can select according to their needs. With our “Compilation & Case Preparation” service, we can prepare <strong>one type</strong> of the following document packages at the client’s choice:</p>
+                            <p>At Greyzone Consulting, we offer a variety of services that our clients can select according to their needs. With our “Compilation & Case Preparation” service, we can prepare <strong>one type</strong> of the following document packages at the client’s choice:</p>
                             <ul>
                                 <li>Preparation of a case report for a client</li>
                                 <li>Preparation and explanation of the evidence for law enforcement</li>
@@ -1885,7 +1912,7 @@ const index = () => {
                             <p>For the drafting of the Case report, the first step is to understand the case. For this, we request that the client sends us all the relevant documentation and evidence they possess. After we carefully analyze the provided documentation and conclude that it is a strong enough foundation with which we can move forward, we begin the investigation. Only one company is the subject of our investigation with this package. We make a company’s background analysis in which we determine how the scam took place, as well as the modus operandi of the suspect. We then make an evidence analysis where we compare the provided information with our findings and point out any discrepancies.</p>
                             <p>Once the analyses are complete, we proceed with designing a strategic plan to adhere to and compile both sections in a Basic case report that is delivered within 10 working days. This timeframe is initiated once the client has been notified that the evidence provided is sufficient enough to proceed with the report, and not before. The Case report contains all the information necessary for the client to fully comprehend their case. It encompasses a description of the Suspect, their modus operandi, a compilation of the payments and transactions the client has initiated in favor of the suspect, information on the company/suspect, and a tailored strategic plan which entails the steps that may be taken in order to achieve the client’s goals.</p>
                             <p>As for the file for law enforcement, this is a package of documents that the client presents to their local police (or any other department if applied to the situation) in order to report/clarify the incident faced. Depending on the complexity of a case or other personal reasons, victims of scams might get confused in how to assertively describe their predicament to law enforcement. Reporting is also involving plenty of documentation, and that complicates things even further. This is where we come in, with our years of experience dealing with law enforcement and preparing the necessary package of documents for the case consideration. We make certain that the evidence provided to law enforcement by the client will reach them in a clear, descriptive, and proper form. The evidence and relevant facts will be properly organized for the client to present. However, it should be noted that the preparation of the documentation by us does not guarantee the successful acceptance of your case or a positive outcome of the police investigation. Although many officers found the documentation prepared by our specialists valuable and helpful for investigating and progressing the case.</p>
-                            <p>At T&H, our fundamental purpose is to give you the best attention and quality of service. As such, you can always discuss your needs and concerns with our agents, who will be more than happy to listen to and assist you.</p>
+                            <p>At Greyzone, our fundamental purpose is to give you the best attention and quality of service. As such, you can always discuss your needs and concerns with our agents, who will be more than happy to listen to and assist you.</p>
                             </div>
                         </div>
                     </section>
@@ -1893,8 +1920,9 @@ const index = () => {
                 </ShadowDOM.div>
                 </>
             }
+            
             {
-                id === 'application-processing-drafting' &&
+                id === 'application-drafting-and-processing-support' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -1905,7 +1933,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Application Processing / Drafting</span>
+                            <span>Application Drafting and Processing Support</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -1928,9 +1956,9 @@ const index = () => {
 
                             <div className="card__desc wow animate__animated animate__fadeInUp">
                             <h3 className="title card__subtit">Description</h3>
-                            <p>Due to the complexity and diversity of the cases we have at T&H Consulting, on some occasions, it is necessary to design custom-made packages adjusted to the needs and expectations of our clients. This means that it is possible to purchase separate elements of our packages instead of acquiring a full package. This can help when, for example, the client has already taken certain steps for their case, or when due to the nature of the case, the client just needs specific letters or assistance with certain institutions. Also, this service will be useful for you if you know exactly what procedure you need to follow, but you still have difficulty with writing a letter professionally, preparing an application, or filling out forms. Our experts will prepare a complete application that will correctly and fully reflect your situation and increase the chances of acceptance.</p>
+                            <p>Due to the complexity and diversity of the cases we have at Greyzone Consulting, on some occasions, it is necessary to design custom-made packages adjusted to the needs and expectations of our clients. This means that it is possible to purchase separate elements of our packages instead of acquiring a full package. This can help when, for example, the client has already taken certain steps for their case, or when due to the nature of the case, the client just needs specific letters or assistance with certain institutions. Also, this service will be useful for you if you know exactly what procedure you need to follow, but you still have difficulty with writing a letter professionally, preparing an application, or filling out forms. Our experts will prepare a complete application that will correctly and fully reflect your situation and increase the chances of acceptance.</p>
                             <p>This option is also available for our current clients who have already exhausted the content of their packages and wish to continue using our services by purchasing extra add-ons.</p>
-                            <p>At T&H, our fundamental purpose is to give you the best attention and quality of service. As such, you can always discuss your needs and concerns with our agents, who will be more than happy to listen to and assist you.</p>
+                            <p>At Greyzone, our fundamental purpose is to give you the best attention and quality of service. As such, you can always discuss your needs and concerns with our agents, who will be more than happy to listen to and assist you.</p>
                             </div>
                         </div>
                     </section>
@@ -1939,7 +1967,7 @@ const index = () => {
                 </>
             }
             {
-                id === 'evaluation-and-initial-consultation-fraud' &&
+                id === 'initial-consultation-and-assessment-services' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -1950,7 +1978,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Evaluation and Initial Consultation</span>
+                            <span>Initial Consultation and Assessment Services</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -1958,7 +1986,7 @@ const index = () => {
                             </picture>
                             <div className="card__right wow animate__animated animate__fadeInRight">
                                 <h2>Evaluate your fraud case</h2>
-                                <p>We understand how stressful it can be when you are confronted with a situation where fraud is involved, so here at T&H Consulting, we do our utmost to simplify the process. When you come to us, you will understand everything that happens before, during, and after your consultation with us.</p>
+                                <p>We understand how stressful it can be when you are confronted with a situation where fraud is involved, so here at Greyzone Consulting, we do our utmost to simplify the process. When you come to us, you will understand everything that happens before, during, and after your consultation with us.</p>
                                 <h2>Under Evaluation and Initial Consultation we provide our customers with:</h2>
                                 <ul>
                                 <li>Specially tailored assignment to one of our consultants</li>
@@ -1990,7 +2018,7 @@ const index = () => {
                                 <li>Evaluation and Initial Consultation Report within 15 working days.</li>
                             </ul>
                             <p>One-time payment – 649 GBP.</p>
-                            <p>At T&H, our fundamental purpose is to give you the best attention and quality of service. As such, you can always discuss your needs and concerns with our agents, who will be more than happy to listen to and assist you.</p>
+                            <p>At Greyzone, our fundamental purpose is to give you the best attention and quality of service. As such, you can always discuss your needs and concerns with our agents, who will be more than happy to listen to and assist you.</p>
                             </div>
                         </div>
                     </section>
@@ -1998,8 +2026,9 @@ const index = () => {
                 </ShadowDOM.div>
                 </>
             }
+
             {
-                id === 'employee-background-check' &&
+                id === 'background-check-services-for-employees' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -2010,23 +2039,23 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Employee Background Check Services</span>
+                            <span>Background Check Services for Employees</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2023/09/the-employer-is-checking-the-resumes-of-the-employ-2022-12-16-03-44-55-utc-768x512.jpg" alt="" />
                             </picture>
                             <div className="card__right wow animate__animated animate__fadeInRight">
-                                <p>Discover T&H Consulting’s premier Employee Background Check services. Tailored solutions that prioritize trust, accuracy, and compliance in your hiring process.</p>
+                                <p>Discover Greyzone Consulting’s premier Employee Background Check services. Tailored solutions that prioritize trust, accuracy, and compliance in your hiring process.</p>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/employee-background-check/" className="button product_type_simple" aria-label="Read more about “Employee Background Check Services”" rel="nofollow">Read more</a>
+                                <a href="/solutions/business-services/background-check-services-for-employees/" className="button product_type_simple" aria-label="Read more about “Employee Background Check Services”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
                         </div>
 
                         <div className="card__desc wow animate__animated animate__fadeInUp">
-                            <p>In an era where information is abundant but authenticity is scarce, implementing a reliable Employee Background Check is pivotal for businesses aiming to secure their most valuable asset: human resources. T&H Consulting stands at the forefront of this essential service, offering unparalleled insights into potential hires, ensuring businesses protect their reputation and foster a safe work environment.</p>
+                            <p>In an era where information is abundant but authenticity is scarce, implementing a reliable Employee Background Check is pivotal for businesses aiming to secure their most valuable asset: human resources. Greyzone Consulting stands at the forefront of this essential service, offering unparalleled insights into potential hires, ensuring businesses protect their reputation and foster a safe work environment.</p>
                             <h3><strong>The Essence of Comprehensive Checks</strong></h3>
                             <p>Mistakes in hiring decisions can ripple through businesses. As a result, they might stain reputations, dent morale, and be financially draining. That’s where our service comes in. Through rigorous checks, we not only bring clarity but also instill confidence and security in your hiring process.</p>
                             <h3><strong>Global Employee Background Check Services Offered</strong></h3>
@@ -2045,7 +2074,7 @@ const index = () => {
                             <p>Every business is unique, and so are its requirements. We design our bespoke Employee Background Check services with this principle at the forefront. Whether you’re a startup in Silicon Valley or a conglomerate in Dubai, we tailor our services to meet your specific needs, guaranteeing relevance and accuracy.</p>
                             <h3><strong>Solutions for Every Business Size</strong></h3>
                             <p>Our flexibility is our strength. Whether you require a single check once a year or need to process thousands every month, our scalable solutions ensure that every check is conducted with the same rigor and attention to detail.</p>
-                            <h3><strong>Why Choose T&H Consulting?</strong></h3>
+                            <h3><strong>Why Choose Greyzone Consulting?</strong></h3>
                             <ul>
                                 <li><strong>Dedicated Managers:</strong> Each client, without exception, is a priority. Therefore, a personal manager ensures every step is seamlessly coordinated.</li>
                                 <li><strong>Regulatory Mastery:</strong> Navigating the complex maze of global laws is our specialty. As a result, compliance isn’t just an aim; it’s our unwavering standard.</li>
@@ -2053,7 +2082,7 @@ const index = () => {
                                 <li><strong>Swift Yet Meticulous:</strong> While we respect timelines, we don’t compromise on quality. Thus, our results strike a balance between promptness and precision.</li>
                             </ul>
                             <h3><strong>Beyond Individual Checks – Extending to Companies</strong></h3>
-                            <p>At T&H Consulting, we recognize that understanding the landscape of business partnerships is just as critical as individual hiring. For this reason, we extend our expertise to <a href="/solutions/investigations-and-disputes/due-diligence-services/">Due Diligence services</a> and <a href="/solutions/business-services/corporate-background-check/">Company Background checks</a>. Whether you’re entering a new business partnership, considering a merger, or merely seeking insights into a competitor, our meticulous evaluations provide a holistic view. By doing so, we ensure your business decisions are rooted in clarity and foresight.</p>
+                            <p>At Greyzone Consulting, we recognize that understanding the landscape of business partnerships is just as critical as individual hiring. For this reason, we extend our expertise to <a href="/solutions/investigations-and-disputes/comprehensive-due-diligence-solutions/">Due Diligence services</a> and <a href="/solutions/business-services/corporate-background-verification-services/">Company Background checks</a>. Whether you’re entering a new business partnership, considering a merger, or merely seeking insights into a competitor, our meticulous evaluations provide a holistic view. By doing so, we ensure your business decisions are rooted in clarity and foresight.</p>
                             </div>
                         </div>
                     </section>
@@ -2062,7 +2091,7 @@ const index = () => {
                 </> 
             }
             {
-                id === 'corporate-background-check' &&
+                id === 'corporate-background-verification-services' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -2073,26 +2102,26 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Corporate Background Check</span>
+                            <span>Corporate Background Verification Services</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2023/08/check-mark-and-rubber-stamp-over-white-background-2022-03-16-06-42-09-utc-768x475.jpg" alt="" />
                             </picture>
                             <div className="card__right wow animate__animated animate__fadeInRight">
-                                <p>Background Check by T&H Consulting is a comprehensive service designed to provide small and medium-sized businesses with detailed insights into a company’s financial health, legal status, and operational transparency. Utilizing advanced AI technology and a wealth of data from our proprietary database, we deliver precise and reliable background checks to empower informed decision-making.</p>
+                                <p>Background Check by Greyzone Consulting is a comprehensive service designed to provide small and medium-sized businesses with detailed insights into a company’s financial health, legal status, and operational transparency. Utilizing advanced AI technology and a wealth of data from our proprietary database, we deliver precise and reliable background checks to empower informed decision-making.</p>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/corporate-background-check/" className="button product_type_simple" aria-label="Read more about “Corporate Background Check”" rel="nofollow">Read more</a>
+                                <a href="/solutions/business-services/corporate-background-verification-services/" className="button product_type_simple" aria-label="Read more about “Corporate Background Check”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
                             </div>
 
                             <div className="card__desc wow animate__animated animate__fadeInUp">
-                            <p>T&H Consulting presents our global Background Check service—a comprehensive, bespoke solution architected with precision for small and medium-sized enterprises across all sectors. Hailing from Budapest, we offer our expertise worldwide, aiding our clients to discern the intricate complexities of any company’s financial footprint, legal history, and operational authenticity.</p>
+                            <p>Greyzone Consulting presents our global Background Check service—a comprehensive, bespoke solution architected with precision for small and medium-sized enterprises across all sectors. Hailing from Budapest, we offer our expertise worldwide, aiding our clients to discern the intricate complexities of any company’s financial footprint, legal history, and operational authenticity.</p>
                             <p>Our service is a testament to the harmonious blend of sophisticated AI technology and the human touch of our highly skilled researchers and specialists, steeped in finance and legal acumen. Our potent asset is a meticulously curated, proprietary database, enriched by the insights gleaned from exhaustive fraud investigations spanning four years. This treasure trove of data, augmented by our access to a plethora of credible external databases, forms the backbone of our comprehensive, insightful, and precise background checks.</p>
-                            <p>Each Background Check report—delivered as a detailed, reader-friendly PDF—is the culmination of our rigorous process. Every client is assigned a dedicated specialist who acts as a compass, navigating them through the process and offering unwavering support. We offer flexible payment structures, from a one-time fee for a single company check to a subscription model for clients needing frequent checks. To ensure the relevance and timeliness of the data, each report comes with a month of post-delivery support. At T&H Consulting, we have an unyielding commitment to the security and confidentiality of your data.</p>
-                            <p>Engage with T&H Consulting’s Background Check service for an unobstructed view into the corporate world. Equipped with our insights, our clients can make informed decisions, mitigate latent risks, and cultivate trust in their business engagements. <a href="contact-us">We are here</a> to empower you to navigate the labyrinth of corporate intricacies with confidence.</p>
+                            <p>Each Background Check report—delivered as a detailed, reader-friendly PDF—is the culmination of our rigorous process. Every client is assigned a dedicated specialist who acts as a compass, navigating them through the process and offering unwavering support. We offer flexible payment structures, from a one-time fee for a single company check to a subscription model for clients needing frequent checks. To ensure the relevance and timeliness of the data, each report comes with a month of post-delivery support. At Greyzone Consulting, we have an unyielding commitment to the security and confidentiality of your data.</p>
+                            <p>Engage with Greyzone Consulting’s Background Check service for an unobstructed view into the corporate world. Equipped with our insights, our clients can make informed decisions, mitigate latent risks, and cultivate trust in their business engagements. <a href="contact-us">We are here</a> to empower you to navigate the labyrinth of corporate intricacies with confidence.</p>
                             </div>
                         </div>
                     </section>
@@ -2100,8 +2129,9 @@ const index = () => {
                 </ShadowDOM.div>
                 </> 
             }
+
             {
-                id === 'corporate-fraud-investigation' &&
+                id === 'corporate-fraud-investigation-solutions' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -2112,18 +2142,18 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Corporate Fraud Investigation</span>
+                            <span>Corporate Fraud Investigation Solutions</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2023/07/businesswoman-or-auditor-looking-charts-and-graphs-2022-09-20-23-20-39-utc-768x432.jpg" alt="" />
                             </picture>
                             <div className="card__right wow animate__animated animate__fadeInRight">
-                                <p>T&H Consulting takes pride in offering an all-encompassing suite of corporate fraud investigation services. Our mission is to uphold the safety and integrity of all businesses, from emerging startups to established multinational corporations.</p>
-                                <p><strong>The T&H Approach: Uncovering the Hidden, Securing the Future</strong></p>
+                                <p>Greyzone Consulting takes pride in offering an all-encompassing suite of corporate fraud investigation services. Our mission is to uphold the safety and integrity of all businesses, from emerging startups to established multinational corporations.</p>
+                                <p><strong>The Greyzone Approach: Uncovering the Hidden, Securing the Future</strong></p>
                                 <p>Our approach to fraud management is exhaustive and integrated. We dig deep, unveiling hidden fraudulent activities and delivering actionable insights to secure your business future. Our team consists of seasoned fraud investigators, forensic accountants, data analysts, and legal professionals who work together to provide a comprehensive solution.</p>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/corporate-fraud-investigation/" className="button product_type_simple" aria-label="Read more about “Corporate Fraud Investigation”" rel="nofollow">Read more</a>
+                                <a href="/solutions/business-services/corporate-fraud-investigation-solutions/" className="button product_type_simple" aria-label="Read more about “Corporate Fraud Investigation”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
@@ -2140,8 +2170,8 @@ const index = () => {
                             <p>Upon validating the facts, we undertake an in-depth analysis of our findings. We decode patterns, decipher the modus operandi of the fraud, and measure the potential impact on your business. Based on this rigorous analysis, we provide clear, strategic recommendations to rectify the situation and prevent future fraudulent activities.</p>
                             <h2><strong>Step 5: Proactive Strategy Development for Future Prevention</strong></h2>
                             <p>We don’t stop at recommendations; we help you strategize for the future. Our team collaborates with you to develop a proactive plan, fortified against potential fraudulent activities. This involves creating robust fraud prevention policies, strengthening internal controls, and providing fraud awareness training.</p>
-                            <p><strong>T&H Consulting: Your Trusted Ally in the Fight Against Fraud</strong></p>
-                            <p>When you choose T&H Consulting, you’re opting for a future free from the shadow of fraud. Our commitment is to fortify your business, transforming it into a fortress of trust and security where fraudulent activities find no place. Allow us to be your partner in building a secure, fraud-resistant future.</p>
+                            <p><strong>Greyzone Consulting: Your Trusted Ally in the Fight Against Fraud</strong></p>
+                            <p>When you choose Greyzone Consulting, you’re opting for a future free from the shadow of fraud. Our commitment is to fortify your business, transforming it into a fortress of trust and security where fraudulent activities find no place. Allow us to be your partner in building a secure, fraud-resistant future.</p>
                             <p><strong>Key Benefits:</strong></p>
                             <ul>
                                 <li>Minimize Financial Loss: By uncovering and addressing fraud promptly, businesses can limit their financial losses and recover misappropriated funds.</li>
@@ -2158,7 +2188,7 @@ const index = () => {
                 </> 
             }
             {
-                id === 'company-valuation' &&
+                id === 'business-valuation-and-assessment-services' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -2169,16 +2199,16 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Company Valuation</span>
+                            <span>Business Valuation and Assessment Services</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2023/06/two-business-teamwork-calculating-a-valuation-in-w-2022-08-24-09-40-41-utc-768x417.jpg" alt="" />
                             </picture>
                             <div className="card__right wow animate__animated animate__fadeInRight">
-                                <p>At T&H Consulting, we offer comprehensive company valuation services designed to provide accurate, insightful, and objective analyses of your business’s value. Leveraging years of industry experience and utilizing advanced financial methodologies, our team of valuation professionals delivers a robust, detailed evaluation of your enterprise, accounting for all relevant economic factors and industry trends.</p>
+                                <p>At Greyzone Consulting, we offer comprehensive company valuation services designed to provide accurate, insightful, and objective analyses of your business’s value. Leveraging years of industry experience and utilizing advanced financial methodologies, our team of valuation professionals delivers a robust, detailed evaluation of your enterprise, accounting for all relevant economic factors and industry trends.</p>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/company-valuation/" className="button product_type_simple" aria-label="Read more about “Company Valuation”" rel="nofollow">Read more</a>
+                                <a href="/solutions/business-services/business-valuation-and-assessment-services/" className="button product_type_simple" aria-label="Read more about “Company Valuation”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
@@ -2194,14 +2224,14 @@ const index = () => {
                                 <li><strong>Independent Valuation Report:</strong> At the conclusion of our service, you receive a detailed, independent valuation report that provides a clear and precise appraisal of your company’s worth. This report can be used for a variety of purposes, including business transactions, fundraising, internal planning, or legal requirements.</li>
                             </ol>
                             <p><strong>Service Benefits:</strong></p>
-                            <p>Choosing T&H Consulting’s company valuation services offers you:</p>
+                            <p>Choosing Greyzone Consulting’s company valuation services offers you:</p>
                             <ul>
                                 <li>Expert analysis from experienced valuation professionals</li>
                                 <li>A comprehensive and customized approach to valuation</li>
                                 <li>Clear, actionable insights to guide strategic decisions</li>
                                 <li>Confidential and reliable service</li>
                             </ul>
-                            <p>Let T&H Consulting illuminate your business’s true value and provide the insights necessary to propel your company towards future success.</p>
+                            <p>Let Greyzone Consulting illuminate your business’s true value and provide the insights necessary to propel your company towards future success.</p>
                             </div>
                         </div>
                     </section>
@@ -2209,7 +2239,7 @@ const index = () => {
                 </> 
             }
             {
-                id === 'chargeback-process-merchants' &&
+                id === 'merchant-chargeback-assistance-process' &&
                 <>
                 <ShadowDOM.div>
                     <style>
@@ -2220,7 +2250,7 @@ const index = () => {
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Chargeback Process for Merchants</span>
+                            <span>Merchant Chargeback Assistance Process</span>
                             </h1>
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp">
@@ -2236,7 +2266,7 @@ const index = () => {
                                 <li>Work with dispute</li>
                                 </ul>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/chargeback-process-merchants/" className="button product_type_simple" aria-label="Read more about “Chargeback Process for Merchants”" rel="nofollow">Read more</a>
+                                <a href="/solutions/business-services/merchant-chargeback-assistance-process/" className="button product_type_simple" aria-label="Read more about “Chargeback Process for Merchants”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
@@ -2244,15 +2274,15 @@ const index = () => {
 
                             <div className="card__desc wow animate__animated animate__fadeInUp">
                             <h3 className="title card__subtit">Description</h3>
-                            <p>T&H Consulting: Your Ultimate Chargeback Processing Consultant!</p>
+                            <p>Greyzone Consulting: Your Ultimate Chargeback Processing Consultant!</p>
                             <p>Chargebacks can be costly, let alone time-consuming, and harder to win. For those still in the dark, a chargeback is essentially the process by which a customer’s card issuer is obliged to return payment on a disputed transaction. The chargeback amount is usually deducted from a merchant account, inclusive of all applicable fees.</p>
                             <p>Chargebacks are some of the biggest risks that merchants have to contend with, as they always cause a win to become a loss in a transaction. While such processes play an essential role in handling inevitable disputes, they are not so popular among merchants.</p>
-                            <p>To stand a chance to win a chargeback no matter how difficult or impossible they may seem, then T&H Consulting should be your trusted partner. Not all chargebacks are legitimate, which raises the risk of merchants being scammed by unscrupulous clients.</p>
-                            <p>While merchants have limited protection when it comes to fighting chargebacks, at T&H Consulting, we strive to ensure that our clients end up with the best deal as part of any dispute process. We also ensure that the rights and responsibilities of both merchants and customers are well articulated to ensure fairness to everyone.</p>
+                            <p>To stand a chance to win a chargeback no matter how difficult or impossible they may seem, then Greyzone Consulting should be your trusted partner. Not all chargebacks are legitimate, which raises the risk of merchants being scammed by unscrupulous clients.</p>
+                            <p>While merchants have limited protection when it comes to fighting chargebacks, at Greyzone Consulting, we strive to ensure that our clients end up with the best deal as part of any dispute process. We also ensure that the rights and responsibilities of both merchants and customers are well articulated to ensure fairness to everyone.</p>
                             <p>We will take you through the representment process whereby, as a merchant, you stand a chance to rebut a chargeback sent back to the issuer. As your representative, we will ensure you respond and present evidence in fighting back any illegitimate chargeback.</p>
-                            <p>While representing our clients in fighting off chargebacks at T&H Consulting, we also advise on the best practices for minimizing chargebacks. Identifying business billing statements as well as making an effort to educate customers about the cancellation and return policies are some of the options that merchants can use to reduce chargeback claims.</p>
+                            <p>While representing our clients in fighting off chargebacks at Greyzone Consulting, we also advise on the best practices for minimizing chargebacks. Identifying business billing statements as well as making an effort to educate customers about the cancellation and return policies are some of the options that merchants can use to reduce chargeback claims.</p>
                             <p>Merchants are also advised to maintain detailed transaction logs as well as obtain proper authentication such as customer signature and CVV codes. It is also their responsibility to ensure they collect as much information as possible for validating each transaction.</p>
-                            <p>If faced with any problem pertaining to fighting off chargebacks or minimizing their occurrence, be sure to contact T&H Consulting.</p>
+                            <p>If faced with any problem pertaining to fighting off chargebacks or minimizing their occurrence, be sure to contact Greyzone Consulting.</p>
                             </div>
                         </div>
                     </section>
@@ -2275,49 +2305,49 @@ const index = () => {
                     <div className="container">
                         <h2 className="title related__title"><span>Related products</span></h2>
                         <Slider {...settings} className="related__slider">
-                            <a className="dispute__link related__link slick-slide" href="/solutions/consulting-and-documental-support/application-processing-drafting/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/consulting-and-documental-support/application-drafting-and-processing-support/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_1883345692-768x512.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Application Processing / Drafting</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/consulting-and-documental-support/compilation-case-assessment/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/consulting-and-documental-support/case-evaluation-and-documentation-services/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_2588631621-768x473.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Case Assessment &amp; Compilation Services</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/consulting-and-documental-support/technical-translation-non-certified/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/consulting-and-documental-support/technical-document-translation-non-certified/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/07/stem-t4l-ulrke7zqjpy-unsplash-768x513.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Technical translation (non-certified)</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/investigations-and-disputes/dispute-settlement-basic-package/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/investigations-and-disputes/basic-dispute-settlement-package/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/06/beatriz-perez-moya-xn4t2pvuugk-unsplash-768x417.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Dispute Settlement “Basic Package”</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/investigations-and-disputes/dispute-settlement-special-package/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/investigations-and-disputes/special-dispute-settlement-package/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/06/canva-boss-dictating-to-assistant-at-office-768x439.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Dispute Settlement “Special Package”</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/investigations-and-disputes/dispute-settlement-optimal-package/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/investigations-and-disputes/optimal-dispute-settlement-package/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/06/gabrielle-henderson-hjckknwcxxq-unsplash-768x512.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Dispute Settlement “Optimal Package”</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide " href="/solutions/investigations-and-disputes/dispute-settlement-premium-package/">
+                            <a className="dispute__link related__link slick-slide " href="/solutions/investigations-and-disputes/premium-dispute-settlement-package/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/06/romain-dancre-doplsdelx7e-unsplash.jpg" alt="" />
                                 </picture>

@@ -20,7 +20,7 @@ const index = () => {
                 data-wow-delay="0.6s"
             >
             <p>
-                {/* T&H Consulting excels in cryptocurrency compliance and investigation services. We aid businesses, individuals, and law enforcement agencies navigate the complex digital asset landscape. Our expertise lies in probing digital asset cases, tracing cryptocurrencies, and analyzing blockchain transactions. We identify, locate, and trace funds involved in hacks, frauds, and scams across blockchain networks. Count on us to connect digital funds to real-world entities and obtain crucial evidence for your case. */}
+                {/* Greyzone Consulting excels in cryptocurrency compliance and investigation services. We aid businesses, individuals, and law enforcement agencies navigate the complex digital asset landscape. Our expertise lies in probing digital asset cases, tracing cryptocurrencies, and analyzing blockchain transactions. We identify, locate, and trace funds involved in hacks, frauds, and scams across blockchain networks. Count on us to connect digital funds to real-world entities and obtain crucial evidence for your case. */}
             </p>
             </div>
             
@@ -28,45 +28,45 @@ const index = () => {
             {[
                 {
                     "delay": "0.1s",
-                    "href": "/solutions/cryptocurrency-investigation-and-compliance/crypto-transaction-risk-audit",
+                    "href": "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-transaction-risk-analysis",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2024/09/multiracial-female-brokers-share-knowledge-about-f-2023-11-27-05-15-38-utc-768x512.jpg",
-                    "name": "Crypto Transaction Risk Audit"
+                    "name": "Cryptocurrency Transaction Risk Analysis"
                 },
                 {
                     "delay": "0.2s",
-                    "href": "/solutions/business-services/employee-background-check",
+                    "href": "/solutions/business-services/background-check-services-for-employees",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/09/the-employer-is-checking-the-resumes-of-the-employ-2022-12-16-03-44-55-utc-768x512.jpg",
-                    "name": "Employee Background Check Services"
+                    "name": "Background Check Services for Employees"
                 },
                 {
                     "delay": "0.3s",
-                    "href": "/solutions/business-services/corporate-background-check",
+                    "href": "/solutions/business-services/corporate-background-verification-services",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/08/check-mark-and-rubber-stamp-over-white-background-2022-03-16-06-42-09-utc-768x475.jpg",
-                    "name": "Corporate Background Check"
+                    "name": "Corporate Background Verification Services"
                 },
                 {
                     "delay": "0.4s",
-                    "href": "/solutions/business-services/corporate-fraud-investigation",
+                    "href": "/solutions/business-services/corporate-fraud-investigation-solutions",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/07/businesswoman-or-auditor-looking-charts-and-graphs-2022-09-20-23-20-39-utc-768x432.jpg",
-                    "name": "Corporate Fraud Investigation"
+                    "name": "Corporate Fraud Investigation Solutions"
                 },
                 {
                     "delay": "0.5s",
-                    "href": "/solutions/business-services/company-valuation",
+                    "href": "/solutions/business-services/business-valuation-and-assessment-services",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/06/two-business-teamwork-calculating-a-valuation-in-w-2022-08-24-09-40-41-utc-768x417.jpg",
-                    "name": "Company Valuation"
+                    "name": "Business Valuation and Assessment Services"
                 },
                 {
                     "delay": "0.6s",
-                    "href": "/solutions/investigations-and-disputes/due-diligence-services",
+                    "href": "/solutions/investigations-and-disputes/comprehensive-due-diligence-solutions",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/06/arlington-research-kz8nhvg_tgi-unsplash-768x513.jpg",
-                    "name": "Due Diligence Services"
+                    "name": "Comprehensive Due Diligence Solutions"
                 },
                 {
                     "delay": "0.7s",
-                    "href": "/solutions/business-services/chargeback-process-merchants",
+                    "href": "/solutions/business-services/merchant-chargeback-assistance-process",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2022/03/shopping-and-online-payment-2022-03-14-18-13-37-utc-768x512.jpg",
-                    "name": "Chargeback Process for Merchants"
+                    "name": "Merchant Chargeback Assistance Process"
                 }
             ].map((item, idx) => (
                     <ImageBox image={item.imgSrc} name={item.name} key={idx} size=""  href={item.href}  style={{ maxWidth: "100%", height: "100%" }}  more={true} />

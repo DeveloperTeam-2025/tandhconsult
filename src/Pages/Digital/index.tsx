@@ -26,48 +26,48 @@ const index = () => {
                 <a
                     className="dispute__link wow animate__animated animate__fadeInUp"
                     
-                    href="/solutions/digital-products/10-signs-to-spot-a-love-scam-checklist"
+                    href="/solutions/digital-products/10-indicators-of-a-love-scam-a-comprehensive-checklist"
                 >
                     <picture className="dispute__pic">
                     <img src="https://tandhconsult.com/wp-content/uploads/2024/06/th-each-product-768x432.png" alt="" />
                     </picture>
-                    <span className="dispute__name">10 Signs to Spot a Love Scam Checklist</span>
+                    <span className="dispute__name">10-indicators-of-a-love-scam-a-comprehensive-checklist</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                 </a>
 
                 <a
                     className="dispute__link wow animate__animated animate__fadeInUp"
                     
-                    href="/solutions/digital-products/how-not-to-get-scammed-a-guide-to-protecting-yourself-online"
+                    href="/solutions/digital-products/online-fraud-protection-a-practical-guide"
                 >
                     <picture className="dispute__pic">
                     <img src="https://tandhconsult.com/wp-content/uploads/2024/05/th-each-product-768x432.png" alt="" />
                     </picture>
-                    <span className="dispute__name">How Not to Get Scammed: A Guide to Protecting Yourself Online</span>
+                    <span className="dispute__name">Online Fraud Protection: A Practical Guide</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                 </a>
 
                 <a
                     className="dispute__link wow animate__animated animate__fadeInUp"
                     
-                    href="/solutions/digital-products/fraud-awareness-printable-workbook-with-exercises"
+                    href="/solutions/digital-products/printable-fraud-awareness-workbook-with-exercises"
                 >
                     <picture className="dispute__pic">
                     <img src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-printable-workbook-768x432.png" alt="" />
                     </picture>
-                    <span className="dispute__name">Printable Workbook with Exercises – Fraud Awareness</span>
+                    <span className="dispute__name">Printable Fraud Awareness Workbook with Exercises</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                 </a>
 
                 <a
                     className="dispute__link wow animate__animated animate__fadeInUp"
                     
-                    href="/solutions/digital-products/fraud-awareness-masterclass-bundle"
+                    href="/solutions/digital-products/fraud-awareness-masterclass-with-detailed-presentation"
                 >
                     <picture className="dispute__pic">
                     <img src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-workshop_learnvent_edited-768x535.jpg" alt="" />
                     </picture>
-                    <span className="dispute__name">Fraud Awareness Masterclass + Presentation</span>
+                    <span className="dispute__name">Fraud Awareness Masterclass with Detailed Presentation</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                 </a>
                 </div>

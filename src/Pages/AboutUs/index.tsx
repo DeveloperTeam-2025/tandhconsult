@@ -50,7 +50,7 @@ const index = () => {
                         <article className={styles.abt_block}>
                             <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}> <span> Our Values</span> </h2>
                             <p>
-                                <strong>At T&amp;H we believe in operating with honesty and integrity. </strong><br/>
+                                <strong>At Greyzone we believe in operating with honesty and integrity. </strong><br/>
                                 Our goal is to grow by the mutual success of our clients and our employees. We build trust with clients through constructive and transparent communication that serves the common good. We believe in a set of core values that will not just help us further grow and excel but also allow us to better serve our clients. In addition, we believe that every employee should consider honesty and integrity as the standard for their everyday behavior and decisions. As these will help us do the right thing, especially in difficult situations.
                             </p>
                             <p>
@@ -62,8 +62,8 @@ const index = () => {
                         </article>
                         <article className={styles.abt_block}>
                             <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>Our Mission</span></h2>
-                            <p>T&amp;H Consulting team strives to provide our clients with the highest quality services. By constantly meeting and exceeding their expectations without fail we have solidified our reputation. For instance, as one of the most well-established companies in providing them with professional services in the aforementioned industries.</p>
-                            <p>We create a media space for our clients to keep abreast of events. We raise awareness of the industry’s significant changes, maintain a blog, write articles, take interviews, and sharing case studies.&nbsp;T&amp;H Consulting strives to continuously follow this Mission and sustain its supporting Values &ZeroWidthSpace;&ZeroWidthSpace;by:</p>
+                            <p>Greyzone Consulting team strives to provide our clients with the highest quality services. By constantly meeting and exceeding their expectations without fail we have solidified our reputation. For instance, as one of the most well-established companies in providing them with professional services in the aforementioned industries.</p>
+                            <p>We create a media space for our clients to keep abreast of events. We raise awareness of the industry’s significant changes, maintain a blog, write articles, take interviews, and sharing case studies.&nbsp;Greyzone Consulting strives to continuously follow this Mission and sustain its supporting Values &ZeroWidthSpace;&ZeroWidthSpace;by:</p>
                             <ol>
                             <li>Providing our clients with the best possible service using a unique combination of our tested and proven methods as well as our team of highly skilled specialists</li>
                             <li>Ensuring that we are as accurate and efficient as possible by using the most advanced software and methods in our projects</li>
@@ -79,7 +79,7 @@ const index = () => {
                             Our work provides our clients with the necessary tools that will help people to become more informed, confident, and sure about their future. We don’t just change the present; we help build the future as well.</p>
                         </article>
                         <article className={styles.abt_block}>
-                            <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>T&amp;H Consulting by numbers</span></h2>
+                            <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>Greyzone Consulting by numbers</span></h2>
                             <div className={styles.abt_platform}>
                                 <div className={classNames(`${styles.abt_platform_item} wow animate_animated animate__fadeInUp`)}>
                                     <i className={styles.client_icon}></i>

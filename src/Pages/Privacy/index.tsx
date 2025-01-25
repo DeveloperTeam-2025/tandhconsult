@@ -14,7 +14,7 @@ const index = () => {
             <p>Last Updated: July 7, 2023</p>
             <h3 className={styles.wp_block_heading}>Introduction</h3>
             <p>
-              At T&H Consulting, we value your privacy and are committed to protecting the confidentiality and privacy of your personal information. This Privacy Policy outlines how we handle and safeguard your personal information in connection with our website and the provision of our services. It applies to personal information collected and/or used by T&H Consulting as a data controller under the EU General Data Protection Regulation (GDPR) and similar laws.
+              At Greyzone Consulting, we value your privacy and are committed to protecting the confidentiality and privacy of your personal information. This Privacy Policy outlines how we handle and safeguard your personal information in connection with our website and the provision of our services. It applies to personal information collected and/or used by Greyzone Consulting as a data controller under the EU General Data Protection Regulation (GDPR) and similar laws.
             </p>
             <p>
               Please note that if we process your personal information as a data processor on behalf of our clients, their privacy policies and terms will apply. If our use of your personal information is not covered by this policy, please refer to the relevant client (data controller) for further information.
@@ -81,7 +81,7 @@ const index = () => {
               We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. The updated policy will be effective upon posting on our website with the revised “Last Updated” date. We encourage you to review this policy periodically to stay informed about how we protect your privacy.
             </p>
             <p>
-              We appreciate your trust in T&H Consulting and your understanding of our commitment to safeguarding your personal information. If you have any further questions or need clarification about our Privacy Policy, please do not hesitate to reach out to us.
+              We appreciate your trust in Greyzone Consulting and your understanding of our commitment to safeguarding your personal information. If you have any further questions or need clarification about our Privacy Policy, please do not hesitate to reach out to us.
             </p>
             <h3 className={styles.wp_block_heading}><strong>Changes To This Privacy Policy</strong></h3>
             <p>
