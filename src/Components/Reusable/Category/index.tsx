@@ -10,7 +10,7 @@ const index = () => {
          edit('Understanding Common Ticket Scams Essential Tips for Protection') ,
          edit('Identifying and Handling Business Identity Theft What You Should Know') ,
          edit('Beware of Task Completion and Fake Job Scams How to Protect Yourself from Online Fraud'),
-         'how-to-report-a-scam-in-portugal' ,
+         'A Guide to Reporting Scams in Portugal' ,
          edit('A Guide to Reporting Scams in Norway') ,
          edit('A Guide to Reporting Scams in Spain') ,
          'navigating-scams-on-facebook-marketplace',
@@ -192,7 +192,7 @@ const index = () => {
                         </>
                     }
                     {
-                        id === 'how-to-report-a-scam-in-portugal' &&
+                        id === 'a-guide-to-reporting-scams-in-portugal' &&
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
@@ -202,7 +202,7 @@ const index = () => {
                                     <div className="blogs__tags article__tags">
                                     </div>
                                     <span className="article__date">January 17, 2025</span>
-                                    <h1 className="article__name">Report a Scam in Portugal</h1>
+                                    <h1 className="article__name">A Guide to Reporting Scams in Portugal</h1>
                                     <p>Scams can be both emotionally and financially devastating, leaving victims feeling helpless and unsure of where to turn. Whether you are a citizen or a resident in Portugal, knowing how to identify and report a scam in Portugal is essential for safeguarding yourself and others. This guide provides a comprehensive approach to reporting scams in Portugal and includes actionable steps to help you seek justice.</p>
                                     <h2 className="wp-block-heading"><strong><strong>I. Why Reporting Scams is Important</strong></strong></h2>
                                     <p>Reporting scams does not just protect you; it also helps authorities identify patterns and prevent others from becoming victims. In Portugal, where tourism, online transactions, and digital platforms are prevalent, scams pose significant risks to individuals and the economy. Reporting fraudulent activities contributes to the community’s overall safety and strengthens trust in digital and financial systems. Furthermore, the act of reporting sends a strong message to scammers, making it clear that their activities will not be tolerated.</p>

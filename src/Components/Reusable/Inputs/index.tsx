@@ -94,6 +94,7 @@ const index: React.FC<InputType> = ({type, name, placeholder, option, classess})
             <input
             type="text"
             value={selectedOption}
+            name={name}
             placeholder={placeholder}
             className={classess}
             onClick={toggleDropdown}

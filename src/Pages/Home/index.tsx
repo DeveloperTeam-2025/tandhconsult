@@ -30,7 +30,7 @@ const index = () => {
                   With expertise in blockchain, we provide comprehensive investigation solutions, dispute resolution, compliance guidance, and strategic consulting for both individuals and businesses operating in the cryptocurrency sector.
                 </h2>
               </div>
-              <Button direct='/about-us'>
+              <Button direct='/about-us' element="">
                 <span>About Us</span>
               </Button>
               <div className={classNames(`${styles.banner_star} wow  animate__fadeInUp animate__animated`)}>
@@ -87,7 +87,7 @@ const index = () => {
                 <div className={styles.about_info}>
                   <p>Stay informed with our curated content hub, offering valuable updates and insights. Explore our blog, articles, interviews, and case studies as we work to equip businesses with the latest industry knowledge.</p>
                 </div>
-                <Button direct="/about-us">
+                <Button direct="/about-us" element="">
                   <span>About Us</span>
                 </Button>
               </div>

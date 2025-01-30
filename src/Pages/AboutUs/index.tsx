@@ -122,7 +122,9 @@ const index = () => {
                                     display:" inline-flex",
                                     outlineWidth:"0",
                                     alignItems:"center",
-                                    }}>
+                                    }}
+                                    element=""
+                                    >
                                         <span>Download our Company Presentation</span>
                                     </Button>
                                     <Button direct='/our-certificates'
@@ -145,6 +147,7 @@ const index = () => {
                                         textTransform: "uppercase",
                                         alignItems:"center",
                                         }}
+                                        element=""
                                     >
                                         <span>Check out our certificates</span>
                                     </Button>

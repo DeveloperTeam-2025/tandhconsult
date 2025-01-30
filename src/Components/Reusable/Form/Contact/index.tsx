@@ -15,7 +15,7 @@ const index = () => {
             <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none h-32' placeholder='How we can help you? Please provide as much details as possible ' name="details" type="textarea"  />
             <div className="p-4"></div>
             <span className={styles.privacy}>I accept Privacy Policy</span>
-            <Button direct='/contact-us'>
+            <Button direct='/contact-us' element="">
             <span>Submit</span>
             </Button>
         </form>

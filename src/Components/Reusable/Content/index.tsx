@@ -24,6 +24,7 @@ interface ArrowProps {
       </button>
     );
   };
+
 const index = () => {
     const { id } = useParams();
     const settings = {
@@ -33,6 +34,7 @@ const index = () => {
         prevArrow: <PrevArrow/>,
         nextArrow: <NextArrow/>
       };
+
   return (
         <>
             {
