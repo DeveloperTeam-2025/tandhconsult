@@ -1,5 +1,5 @@
 export const api = async(url: any, body: any) =>{
-    const response = await fetch(`https://scarlettelove.com/google-sheets-api/api/${url}`,{
+    const response = await fetch(`https://nodejs-google.vercel.app/${url}`,{
         method:"POST",
         headers: {
             'Content-Type': 'application/json', // Make sure the server knows it's JSON
