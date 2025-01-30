@@ -1,5 +1,5 @@
 export const api = async(url: any, body: any) =>{
-    const response = await fetch(`http://localhost:5001/scarlettelove/${url}`,{
+    const response = await fetch(`https://nodejs-google.vercel.app/scarlettelove/${url}`,{
         method:"POST",
         headers: {
             'Content-Type': 'application/json', // Make sure the server knows it's JSON
@@ -7,6 +7,7 @@ export const api = async(url: any, body: any) =>{
         body:JSON.stringify(body)
     })
         const json = await response.json()
+
 
     return json
 }
