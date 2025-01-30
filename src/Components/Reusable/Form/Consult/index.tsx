@@ -19,7 +19,7 @@ const index = () => {
         if(target){
             const object = Object.fromEntries(target.entries())
             const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
-            formApi('google-api-create-row', form_value).then(res => console.log(res.response))
+            formApi('google-api-create-row', form_value).then(res => alert(res.response))
         }
     }
     
