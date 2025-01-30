@@ -14,7 +14,7 @@ const index = () => {
         <section className="solutions" id="solutions">
             <div className="container">
                 <h2 className="title solutions__title wow animate__animated animate__fadeInLeft" >
-                    <span>Digital Products</span>
+                    <span>Digital Goods</span>
                 </h2>
                 <div className="dispute__info wow animate__animated animate__fadeInLeft" >
                     <p>

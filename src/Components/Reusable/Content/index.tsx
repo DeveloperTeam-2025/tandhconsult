@@ -1373,7 +1373,7 @@ const index = () => {
                                 </p>
                                 <div className="card__ctrl">
                                 <a
-                                    href="/solutions/investigations-and-disputes/comprehensive-due-diligence-solutions/"
+                                    href="/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/"
                                     aria-describedby="woocommerce_loop_add_to_cart_link_describedby_28523"
                                     data-quantity="1"
                                     className="button product_type_simple"
@@ -1674,7 +1674,7 @@ const index = () => {
                                 <li>The cost depends on the above factors, as well as on the complexity of the case and is approved bilaterally.</li>
                                 </ul>
                                 <div className="card__ctrl">
-                                <a href="/solutions/investigations-and-disputes/special-dispute-settlement-package/" className="button product_type_simple" aria-label="Read more about “Dispute Settlement 'Special Package'”" rel="nofollow">Read more</a>
+                                <a href="/solutions/research-and-dispute-resolution/special-dispute-settlement-package/" className="button product_type_simple" aria-label="Read more about “Dispute Settlement 'Special Package'”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
@@ -2050,7 +2050,7 @@ const index = () => {
                             <div className="card__right wow animate__animated animate__fadeInRight">
                                 <p>Discover Greyzone Consulting’s premier Employee Background Check services. Tailored solutions that prioritize trust, accuracy, and compliance in your hiring process.</p>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/background-check-services-for-employees/" className="button product_type_simple" aria-label="Read more about “Employee Background Check Services”" rel="nofollow">Read more</a>
+                                <a href="/solutions/corporate-services/background-check-services-for-employees/" className="button product_type_simple" aria-label="Read more about “Employee Background Check Services”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
@@ -2084,7 +2084,7 @@ const index = () => {
                                 <li><strong>Swift Yet Meticulous:</strong> While we respect timelines, we don’t compromise on quality. Thus, our results strike a balance between promptness and precision.</li>
                             </ul>
                             <h3><strong>Beyond Individual Checks – Extending to Companies</strong></h3>
-                            <p>At Greyzone Consulting, we recognize that understanding the landscape of business partnerships is just as critical as individual hiring. For this reason, we extend our expertise to <a href="/solutions/investigations-and-disputes/comprehensive-due-diligence-solutions/">Due Diligence services</a> and <a href="/solutions/business-services/corporate-background-verification-services/">Company Background checks</a>. Whether you’re entering a new business partnership, considering a merger, or merely seeking insights into a competitor, our meticulous evaluations provide a holistic view. By doing so, we ensure your business decisions are rooted in clarity and foresight.</p>
+                            <p>At Greyzone Consulting, we recognize that understanding the landscape of business partnerships is just as critical as individual hiring. For this reason, we extend our expertise to <a href="/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/">Due Diligence services</a> and <a href="/solutions/corporate-services/corporate-background-verification-services/">Company Background checks</a>. Whether you’re entering a new business partnership, considering a merger, or merely seeking insights into a competitor, our meticulous evaluations provide a holistic view. By doing so, we ensure your business decisions are rooted in clarity and foresight.</p>
                             </div>
                         </div>
                     </section>
@@ -2113,7 +2113,7 @@ const index = () => {
                             <div className="card__right wow animate__animated animate__fadeInRight">
                                 <p>Background Check by Greyzone Consulting is a comprehensive service designed to provide small and medium-sized businesses with detailed insights into a company’s financial health, legal status, and operational transparency. Utilizing advanced AI technology and a wealth of data from our proprietary database, we deliver precise and reliable background checks to empower informed decision-making.</p>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/corporate-background-verification-services/" className="button product_type_simple" aria-label="Read more about “Corporate Background Check”" rel="nofollow">Read more</a>
+                                <a href="/solutions/corporate-services/corporate-background-verification-services/" className="button product_type_simple" aria-label="Read more about “Corporate Background Check”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
@@ -2155,7 +2155,7 @@ const index = () => {
                                 <p><strong>The Greyzone Approach: Uncovering the Hidden, Securing the Future</strong></p>
                                 <p>Our approach to fraud management is exhaustive and integrated. We dig deep, unveiling hidden fraudulent activities and delivering actionable insights to secure your business future. Our team consists of seasoned fraud investigators, forensic accountants, data analysts, and legal professionals who work together to provide a comprehensive solution.</p>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/corporate-fraud-investigation-solutions/" className="button product_type_simple" aria-label="Read more about “Corporate Fraud Investigation”" rel="nofollow">Read more</a>
+                                <a href="/solutions/corporate-services/corporate-fraud-investigation-solutions/" className="button product_type_simple" aria-label="Read more about “Corporate Fraud Investigation”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
@@ -2210,7 +2210,7 @@ const index = () => {
                             <div className="card__right wow animate__animated animate__fadeInRight">
                                 <p>At Greyzone Consulting, we offer comprehensive company valuation services designed to provide accurate, insightful, and objective analyses of your business’s value. Leveraging years of industry experience and utilizing advanced financial methodologies, our team of valuation professionals delivers a robust, detailed evaluation of your enterprise, accounting for all relevant economic factors and industry trends.</p>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/business-valuation-and-assessment-services/" className="button product_type_simple" aria-label="Read more about “Company Valuation”" rel="nofollow">Read more</a>
+                                <a href="/solutions/corporate-services/business-valuation-and-assessment-services/" className="button product_type_simple" aria-label="Read more about “Company Valuation”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
@@ -2268,7 +2268,7 @@ const index = () => {
                                 <li>Work with dispute</li>
                                 </ul>
                                 <div className="card__ctrl">
-                                <a href="/solutions/business-services/merchant-chargeback-assistance-process/" className="button product_type_simple" aria-label="Read more about “Chargeback Process for Merchants”" rel="nofollow">Read more</a>
+                                <a href="/solutions/corporate-services/merchant-chargeback-assistance-process/" className="button product_type_simple" aria-label="Read more about “Chargeback Process for Merchants”" rel="nofollow">Read more</a>
                                 <span className="card__price"></span>
                                 </div>
                             </div>
@@ -2307,49 +2307,49 @@ const index = () => {
                     <div className="container">
                         <h2 className="title related__title"><span>Related products</span></h2>
                         <Slider {...settings} className="related__slider">
-                            <a className="dispute__link related__link slick-slide" href="/solutions/consulting-and-documental-support/application-drafting-and-processing-support/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/advisory-and-documentation-assistance/application-drafting-and-processing-support/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_1883345692-768x512.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Application Processing / Drafting</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/consulting-and-documental-support/case-evaluation-and-documentation-services/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/advisory-and-documentation-assistance/case-evaluation-and-documentation-services/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_2588631621-768x473.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Case Assessment &amp; Compilation Services</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/consulting-and-documental-support/technical-document-translation-non-certified/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/advisory-and-documentation-assistance/technical-document-translation-non-certified/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/07/stem-t4l-ulrke7zqjpy-unsplash-768x513.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Technical translation (non-certified)</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/investigations-and-disputes/basic-dispute-settlement-package/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/research-and-dispute-resolution/basic-dispute-settlement-package/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/06/beatriz-perez-moya-xn4t2pvuugk-unsplash-768x417.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Dispute Settlement “Basic Package”</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/investigations-and-disputes/special-dispute-settlement-package/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/research-and-dispute-resolution/special-dispute-settlement-package/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/06/canva-boss-dictating-to-assistant-at-office-768x439.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Dispute Settlement “Special Package”</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide" href="/solutions/investigations-and-disputes/optimal-dispute-settlement-package/">
+                            <a className="dispute__link related__link slick-slide" href="/solutions/research-and-dispute-resolution/optimal-dispute-settlement-package/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/06/gabrielle-henderson-hjckknwcxxq-unsplash-768x512.jpg" alt="" />
                                 </picture>
                                 <span className="dispute__name">Dispute Settlement “Optimal Package”</span>
                                 <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                             </a>
-                            <a className="dispute__link related__link slick-slide " href="/solutions/investigations-and-disputes/premium-dispute-settlement-package/">
+                            <a className="dispute__link related__link slick-slide " href="/solutions/research-and-dispute-resolution/premium-dispute-settlement-package/">
                                 <picture className="dispute__pic">
                                 <img src="https://tandhconsult.com/wp-content/uploads/2021/06/romain-dancre-doplsdelx7e-unsplash.jpg" alt="" />
                                 </picture>

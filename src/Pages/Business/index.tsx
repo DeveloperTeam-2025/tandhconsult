@@ -12,7 +12,7 @@ const index = () => {
                 className={classNames(styles.title, styles.solutionsTitle, 'wow', 'animate__animated', 'animate__fadeInLeft')}
                 data-wow-delay="0.4s"
             >
-                <span>Business Services</span>
+                <span>Corporate Services</span>
             </h2>
 
             <div
@@ -28,7 +28,7 @@ const index = () => {
             {[
                 {
                     "delay": "0.1s",
-                    "href": "/solutions/cryptocurrency-investigation-and-compliance/cryptocurrency-transaction-risk-analysis",
+                    "href": "/solutions/cryptocurrency-investigations-and-regulatory-compliance/cryptocurrency-transaction-risk-analysis",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2024/09/multiracial-female-brokers-share-knowledge-about-f-2023-11-27-05-15-38-utc-768x512.jpg",
                     "name": "Cryptocurrency Transaction Risk Analysis"
                 },
@@ -58,7 +58,7 @@ const index = () => {
                 },
                 {
                     "delay": "0.6s",
-                    "href": "/solutions/investigations-and-disputes/comprehensive-due-diligence-solutions",
+                    "href": "/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/06/arlington-research-kz8nhvg_tgi-unsplash-768x513.jpg",
                     "name": "Comprehensive Due Diligence Solutions"
                 },

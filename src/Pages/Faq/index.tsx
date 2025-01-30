@@ -17,7 +17,7 @@ const index = () => {
 
             <h2 className={classNames(`${styles.wp_block_heading} ${styles.has_medium_font_size}`)}>What Do Cryptocurrency Investigations Involve?</h2>
             <p className={styles.has_medium_font_size}>
-              <a href="/solutions/cryptocurrency-investigation-and-compliance">Cryptocurrency investigations</a> revolve around in-depth analysis of digital assets like blockchains and smart contracts to facilitate dispute resolution, litigation, or prosecution. These investigations encompass diverse areas, such as cybercrime, NFT marketplace issues, and investment due diligence.
+              <a href="/solutions/cryptocurrency-investigations-and-regulatory-compliance">Cryptocurrency investigations</a> revolve around in-depth analysis of digital assets like blockchains and smart contracts to facilitate dispute resolution, litigation, or prosecution. These investigations encompass diverse areas, such as cybercrime, NFT marketplace issues, and investment due diligence.
             </p>
             
             <h2 className={classNames(`${styles.wp_block_heading} ${styles.has_medium_font_size}`)}>Which Cryptocurrencies Are Subject to Investigation?</h2>

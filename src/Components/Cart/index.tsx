@@ -38,7 +38,7 @@ const index: React.FC<Modal>= ({func, func2}) => {
               <h1 className={styles.title}>
                 Dispute Settlement “Special Package”
               </h1>
-              <a href='/solutions/investigations-and-disputes'>Read More</a>
+              <a href='/solutions/research-and-dispute-resolution'>Read More</a>
             </div>
           </div>
           <a className={styles.btn_shop} onClick={() => {setTimeout(() => {func?.(), func2?.()},500), setAnimate(false) }}>

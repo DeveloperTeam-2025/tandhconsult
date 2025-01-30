@@ -64,11 +64,11 @@ import { clearTimeout } from 'timers';
 
 //   const category_loop =  category.map(data => {return { path:`/blog/${data.id}` , name: `${data.name}`}});
 //   const digital_loop = content.map(data => {
-//     return data.part === 'Digital' ?  { path:`/solutions/digital-products/${data.id}` , name: `${data.name}`} : 
-//     data.part === 'Business' ?   { path:`/solutions/business-services/${data.id}` , name: `${data.name}`} : 
-//     data.part === 'Documental' ?   { path:`/solutions/consulting-and-documental-support/${data.id}` , name: `${data.name}`} : 
-//     data.part === 'Disputes' ? { path:`/solutions/investigations-and-disputes/${data.id}` , name: `${data.name}`} :   
-//     { path:`/solutions/cryptocurrency-investigation-and-compliance/${data.id}` , name: `${data.name}`} 
+//     return data.part === 'Digital' ?  { path:`/solutions/digital-goods/${data.id}` , name: `${data.name}`} : 
+//     data.part === 'Business' ?   { path:`/solutions/corporate-services/${data.id}` , name: `${data.name}`} : 
+//     data.part === 'Documental' ?   { path:`/solutions/advisory-and-documentation-assistance/${data.id}` , name: `${data.name}`} : 
+//     data.part === 'Disputes' ? { path:`/solutions/research-and-dispute-resolution/${data.id}` , name: `${data.name}`} :   
+//     { path:`/solutions/cryptocurrency-investigations-and-regulatory-compliance/${data.id}` , name: `${data.name}`} 
 //   })
 //     const routes = [
 //     { path: "/", name: "Home" },
@@ -83,11 +83,11 @@ import { clearTimeout } from 'timers';
 //     { path:"/our-team" , name: "Team"}, 
 //     { path:"/solutions" , name: "Solutions"  },
 //     { path:"/partners" , name: "Partners" },
-//     { path:"/solutions/investigations-and-disputes" , name: "Investigations"  },
-//     { path:"/solutions/consulting-and-documental-support" , name: "Consulting"  },
-//     { path:"/solutions/cryptocurrency-investigation-and-compliance" , name: "Cryptocurrency"  },
-//     { path:"/solutions/digital-products" , name: "Digital"  },
-//     { path:"/solutions/business-services" , name: "Business" },
+//     { path:"/solutions/research-and-dispute-resolution" , name: "Investigations"  },
+//     { path:"/solutions/advisory-and-documentation-assistance" , name: "Consulting"  },
+//     { path:"/solutions/cryptocurrency-investigations-and-regulatory-compliance" , name: "Cryptocurrency"  },
+//     { path:"/solutions/digital-goods" , name: "Digital"  },
+//     { path:"/solutions/corporate-services" , name: "Business" },
 //     { path:"/my-account" , name: "My Account" },
 //     { path:"/my-account/lost-password" , name: "Lost Password"}, 
 //     ...digital_loop,
@@ -120,10 +120,10 @@ function App(props: any) {
     // pathname ? 'https://tandhconsult.com/wp-content/uploads/2021/05/logo-black.png' : 'https://tandhconsult.com/wp-content/uploads/2021/05/logo.png'
     const option = ["Terms and Conditions", "Privacy Policy", "Fraud Awareness", "Partners", "FAQ"]
     const options = !option ? [""] : option;
-    const solution = [    "Investigations and Disputes",
-        "Consulting and Documental Support",
-        "Cryptocurrency Investigation and Compliance",
-        "Business Services"]
+    const solution = [    "Research and Dispute Resolution",
+        "Advisory and Documentation Assistance",
+        "Cryptocurrency Investigations and Regulatory Compliance",
+        "Corporate Services"]
     const solutions = !solution ? [""] : solution;
     const Modalopen = useCallback(() => {
         const body = document.querySelector('body')
@@ -228,10 +228,10 @@ function App(props: any) {
                             <li className={styles.arrow_down} onClick={()=> setSolution(!Solution)}>
                                 <a href="/solutions" style={{color: filter === 'solutions' ? '#012555' : ''}}>Solutions</a> 
                                 <ul style={{display: Solution ? 'block' : 'none'}}>
-                                    <li><a href="/solutions/investigations-and-disputes">Investigation and Disputes</a></li>
-                                    <li><a href="/solutions/consulting-and-documental-support">Consulting and Documental Support</a></li>
-                                    <li><a href="/solutions/cryptocurrency-investigation-and-compliance">Cryptocurrency Investigation and Compliance</a></li>
-                                    <li><a href="/solutions/business-services">Business Services</a></li>
+                                    <li><a href="/solutions/research-and-dispute-resolution">Research and Dispute Resolution</a></li>
+                                    <li><a href="/solutions/advisory-and-documentation-assistance">Advisory and Documentation Assistance</a></li>
+                                    <li><a href="/solutions/cryptocurrency-investigations-and-regulatory-compliance">Cryptocurrency Investigations and Regulatory Compliance</a></li>
+                                    <li><a href="/solutions/corporate-services">Corporate Services</a></li>
                                 </ul>
                             </li>
                             <li> <a href="/blog" style={{color: filter === 'category/blog' ? '#012555' : ''}}>Blog</a> </li>

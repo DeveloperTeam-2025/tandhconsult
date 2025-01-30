@@ -70,10 +70,10 @@ const index = () => {
                 <div className={classNames(styles.add_foot,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>Solutions</span>
                     <ul>
-                        <li className={styles.list_Footer}><a href="/solutions/investigations-and-disputes">Investigations and Disputes</a></li>
-                        <li className={styles.list_Footer}><a href="/solutions/consulting-and-documental-support">Consulting and Documental Support</a></li>
-                        <li className={styles.list_Footer}><a href="/solutions/business-services">Business Services</a></li>
-                        <li className={styles.list_Footer}><a href="/solutions/cryptocurrency-investigation-and-compliance">Cryptocurrency Investigation and Compliance</a></li>
+                        <li className={styles.list_Footer}><a href="/solutions/research-and-dispute-resolution">Research and Dispute Resolution</a></li>
+                        <li className={styles.list_Footer}><a href="/solutions/advisory-and-documentation-assistance">Advisory and Documentation Assistance</a></li>
+                        <li className={styles.list_Footer}><a href="/solutions/corporate-services">Corporate Services</a></li>
+                        <li className={styles.list_Footer}><a href="/solutions/cryptocurrency-investigations-and-regulatory-compliance">Cryptocurrency Investigations and Regulatory Compliance</a></li>
                     </ul>
                 </div>
                 <div className={classNames(styles.footer__col__contacts,'wow animate__animated animate__fadeInUp')}>

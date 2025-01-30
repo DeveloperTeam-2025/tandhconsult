@@ -100,22 +100,22 @@ function App() {
             <Route path="/our-team" element={<Team />} />
             <Route path="/solutions" element={<Solutions />} />
             <Route path="/partners" element={<Partner />} />
-            <Route path="/solutions/investigations-and-disputes" element={<Investigation />} />
-            <Route path="/solutions/investigations-and-disputes/:id" element={<Digital />} />
-            <Route path="/solutions/consulting-and-documental-support" element={<Documental />} />
-            <Route path="/solutions/consulting-and-documental-support/:id" element={<Digital />} />
-            <Route path="/solutions/cryptocurrency-investigation-and-compliance" element={<Cryptocurrency />} />
-            <Route path="/solutions/cryptocurrency-investigation-and-compliance/:id" element={<Digital />} />
-            <Route path="/solutions/digital-products" element={<DigitalProduct />} />
-            <Route path="/solutions/business-services" element={<Business />} />
-            <Route path="/solutions/business-services/:id" element={<Digital />} />
+            <Route path="/solutions/research-and-dispute-resolution" element={<Investigation />} />
+            <Route path="/solutions/research-and-dispute-resolution/:id" element={<Digital />} />
+            <Route path="/solutions/advisory-and-documentation-assistance" element={<Documental />} />
+            <Route path="/solutions/advisory-and-documentation-assistance/:id" element={<Digital />} />
+            <Route path="/solutions/cryptocurrency-investigations-and-regulatory-compliance" element={<Cryptocurrency />} />
+            <Route path="/solutions/cryptocurrency-investigations-and-regulatory-compliance/:id" element={<Digital />} />
+            <Route path="/solutions/digital-goods" element={<DigitalProduct />} />
+            <Route path="/solutions/corporate-services" element={<Business />} />
+            <Route path="/solutions/corporate-services/:id" element={<Digital />} />
             <Route path="/contact-us" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:id" element={<Category />} />
             <Route path="/my-account" element={<Login />} />
             <Route path="/my-account/lost-password" element={<Lost />} />
             <Route path="/my-account/lost-password/reset_link_true" element={<Reset />} />
-            <Route path="/solutions/digital-products/:id" element={<Digital />} />
+            <Route path="/solutions/digital-goods/:id" element={<Digital />} />
           </Routes>
         </Router>
         <Footer/>

@@ -12,7 +12,7 @@ const index = () => {
                 className={classNames(styles.title, styles.solutionsTitle, 'wow', 'animate__animated', 'animate__fadeInLeft')}
                 data-wow-delay="0.4s"
             >
-                <span>Investigations and Disputes</span>
+                <span>Research and Dispute Resolution</span>
             </h2>
 
             <div
@@ -20,7 +20,7 @@ const index = () => {
                 data-wow-delay="0.6s"
             >
                 <p>
-                Greyzone Consulting’s Investigations and Disputes solutions help
+                Greyzone Consulting’s Research and Dispute Resolution solutions help
                 clients manage complex demands with expert analysis, advice, and
                 intelligence in intricate investigations and litigation. Our team
                 combines in-depth investigative experience with cutting-edge
@@ -32,35 +32,35 @@ const index = () => {
                 {[
                 {
                     delay: "0.1s",
-                    href: "/solutions/investigations-and-disputes/comprehensive-due-diligence-solutions/",
+                    href: "/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2023/06/arlington-research-kz8nhvg_tgi-unsplash-768x513.jpg",
                     name: "Comprehensive Due Diligence Solutions",
                 },
                 {
                     delay: "0.2s",
-                    href: "/solutions/investigations-and-disputes/premium-dispute-settlement-package/",
+                    href: "/solutions/research-and-dispute-resolution/premium-dispute-settlement-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/romain-dancre-doplsdelx7e-unsplash.jpg",
                     name: "Premium Dispute Settlement Package",
                 },
                 {
                     delay: "0.3s",
-                    href: "/solutions/investigations-and-disputes/optimal-dispute-settlement-package/",
+                    href: "/solutions/research-and-dispute-resolution/optimal-dispute-settlement-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/gabrielle-henderson-hjckknwcxxq-unsplash-768x512.jpg",
                     name: "Optimal Dispute Settlement Package",
                 },
                 {
                     delay: "0.4s",
-                    href: "/solutions/investigations-and-disputes/special-dispute-settlement-package/",
+                    href: "/solutions/research-and-dispute-resolution/special-dispute-settlement-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/canva-boss-dictating-to-assistant-at-office-768x439.jpg",
                     name: "Special Dispute Settlement Package",
                 },
                 {
                     delay: "0.5s",
-                    href: "/solutions/investigations-and-disputes/basic-dispute-settlement-package/",
+                    href: "/solutions/research-and-dispute-resolution/basic-dispute-settlement-package/",
                     imgSrc:
                     "https://tandhconsult.com/wp-content/uploads/2021/06/beatriz-perez-moya-xn4t2pvuugk-unsplash-768x417.jpg",
                     name: "Basic Dispute Settlement Package",

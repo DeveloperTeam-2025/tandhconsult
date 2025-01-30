@@ -12,7 +12,7 @@ const index = () => {
                 className={classNames(styles.title, styles.solutionsTitle, 'wow', 'animate__animated', 'animate__fadeInLeft')}
                 data-wow-delay="0.4s"
             >
-                <span>Cryptocurrency Investigation and Compliance</span>
+                <span>Cryptocurrency Investigations and Regulatory Compliance</span>
             </h2>
 
             <div
