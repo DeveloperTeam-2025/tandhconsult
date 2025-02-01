@@ -3,26 +3,29 @@ import classNames from 'classnames'
 import styles from './style.module.scss'
 import Input from '../../Inputs/index'
 import Button from '../../Buttons/index'
-import React from 'react'
+import React, { useState } from 'react'
 import {formApi} from '../../../api/getValue'
 const index = () => {
     const today = new Date()
     // console.log(` ${today.toLocaleString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })}`)
     //https://scarlettelove.com/google-sheets-api/api/google-api-create-row
 
-
+    const [load, setload] = useState(true)
 
     const form = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
         const target = new FormData(event.currentTarget)
-
-        if(target){
-            const object = Object.fromEntries(target.entries())
-            const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
-            formApi('google-api-create-row', form_value).then(res => alert(res.response))
+        if(load){
+            if(target){
+                setload(false)
+                const object = Object.fromEntries(target.entries())
+                const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
+                formApi('google-api-create-row', form_value).then(res => {alert(res.response),setload(true)})
+            }
         }
+
     }
-    
+    console.log(load)
   return (
         <section className={styles.banner_consult}>
             <div className={styles.container}>
@@ -41,7 +44,7 @@ const index = () => {
                                 
                                 <div className="p-4"></div>
                                 <span className={styles.privacy}>I accept Privacy Policy</span>
-                                <Button element='input' text="Submitsss"/>
+                                <Button element='input' text={load ? 'Submit': '...Loading'}/>
                             </form>
                         </div>
                     </div>

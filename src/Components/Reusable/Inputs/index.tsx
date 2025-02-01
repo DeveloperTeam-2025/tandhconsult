@@ -85,35 +85,36 @@ const index: React.FC<InputType> = ({type, name, placeholder, option, classess})
     <>
     {
         type === 'text' || type === 'textarea' ? 
-        <input type={type} className={`${classess}`} name={name} placeholder={placeholder} />
+        <input type={type} className={`${classess}`} name={name} placeholder={placeholder} style={{color:"#000"}} />
         :
         type === 'number' ? 
-        <input type='text' className={`${classess}`} name={name} value={phoneNumber} onChange={handleChange} onKeyDown={handleKeyDown} placeholder={placeholder} /> 
+        <input type='text' className={`${classess}`} name={name} value={phoneNumber} onChange={handleChange} onKeyDown={handleKeyDown} placeholder={placeholder} style={{color:"#000"}}/> 
         :
         <div className="relative w-full">
-            <input
-            type="text"
-            value={selectedOption}
-            name={name}
-            placeholder={placeholder}
-            className={classess}
-            onClick={toggleDropdown}
-            readOnly
-            />
-            {isOpen && (
-            <ul className="absolute left-0 w-full mt-2 bg-white border border-gray-300 rounded-md shadow-lg z-10 h-80 overflow-y-auto">
-                {options.map((option, index) => (
-                <li
-                    key={index}
-                    className="px-4 py-2 hover:bg-blue-100 cursor-pointer"
-                    onClick={() => selectOption(option)}
-                >
-                    {option}
-                </li>
-                ))}
-            </ul>
-            )}
-        </div>
+          <input
+          type="text"
+          value={selectedOption}
+          name={name}
+          placeholder={placeholder}
+          className={classess}
+          onClick={toggleDropdown}
+          readOnly
+          style={{color:"#000"}}
+          />
+          {isOpen && (
+          <ul className="absolute left-0 w-full mt-2 bg-white border border-gray-300 rounded-md shadow-lg z-10 h-80 overflow-y-auto">
+              {options.map((option, index) => (
+              <li
+                  key={index}
+                  className="px-4 py-2 hover:bg-blue-100 cursor-pointer"
+                  onClick={() => selectOption(option)}
+              >
+                  {option}
+              </li>
+              ))}
+          </ul>
+          )}
+      </div>
 
     }
     </>

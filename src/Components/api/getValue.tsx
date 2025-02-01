@@ -7,9 +7,8 @@ export const api = async(url: any, body: any) =>{
         body:JSON.stringify(body)
     })
         const json = await response.json()
-
-
-    return json
+        const status = !json.status ? {"response": "Fill the form"} : json
+    return status
 }
 
 export const formApi = (url: any, body: any) =>{
