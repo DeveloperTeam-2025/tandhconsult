@@ -15,12 +15,11 @@ const index = () => {
                     setload(false)
                     const object = Object.fromEntries(target.entries())
                     const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
-                    formApi('google-api-create-row', form_value).then(res => {alert(res.response),            setload(false)})
+                    formApi('google-api-create-row', form_value).then(res => {alert(res.response),setload(true)})
                 }
             }
 
       }
-      console.log(load)
   return (
     <div>
         <form onSubmit={form} className={styles.consult_form}>
@@ -32,7 +31,7 @@ const index = () => {
             <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none h-32' placeholder='How we can help you? Please provide as much details as possible ' name="description" type="textarea"  />
             <div className="p-4"></div>
             <span className={styles.privacy}>I accept Privacy Policy</span>
-            <Button element='input' text={load ? 'Submisssst': '...loading'}/>
+            <Button element='input' text={load ? 'Submit': '...loading'}/>
         </form>
     </div>
   )
