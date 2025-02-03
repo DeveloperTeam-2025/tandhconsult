@@ -102,7 +102,7 @@ const index: React.FC<InputType> = ({type, name, placeholder, option, classess})
           style={{color:"#000"}}
           />
           {isOpen && (
-          <ul className="absolute left-0 w-full mt-2 bg-white border border-gray-300 rounded-md shadow-lg z-10 h-80 overflow-y-auto">
+          <ul className="absolute left-0 w-full mt-2 bg-white text-[#000] border border-gray-300 rounded-md shadow-lg z-10 h-80 overflow-y-auto">
               {options.map((option, index) => (
               <li
                   key={index}

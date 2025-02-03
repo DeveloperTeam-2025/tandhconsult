@@ -5,21 +5,22 @@ import Button from '../../Buttons/index'
 // import map from '../map.json'
 import {formApi} from '../../../api/getValue'
 import { useState } from 'react'
+import toast from 'react-hot-toast';
 const index = () => {
         const [load, setload] = useState(true)    
         const form = (event: React.FormEvent<HTMLFormElement>) => {
           event.preventDefault()
           const target = new FormData(event.currentTarget)
-            if(load){
-                if(target){
-                    setload(false)
-                    const object = Object.fromEntries(target.entries())
-                    const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
-                    formApi('google-api-create-row', form_value).then(res => {alert(res.response),setload(true)})
-                }
+          if(load){
+            if(target){
+              setload(false)
+              const object = Object.fromEntries(target.entries())
+              const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
+              formApi('google-api-create-row', form_value).then(res => { res.response ? toast.success(res.response) : toast.error(res.error) ,setload(true)})
             }
+          }
 
-      }
+        }
   return (
     <div>
         <form onSubmit={form} className={styles.consult_form}>
