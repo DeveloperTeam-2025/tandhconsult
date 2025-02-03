@@ -1,4 +1,4 @@
-var local = 'http://localhost:5001'
+// var local = 'http://localhost:5001'
 var production = 'https://nodejs-google.vercel.app'
 
 export const api = async(url: any, body: any) =>{
