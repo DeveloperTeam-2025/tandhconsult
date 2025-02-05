@@ -34,35 +34,35 @@ const index = () => {
                     delay: "0.1s",
                     href: "/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/",
                     imgSrc:
-                    "https://tandhconsult.com/wp-content/uploads/2023/06/arlington-research-kz8nhvg_tgi-unsplash-768x513.jpg",
+                    "/img/due_diligence.jpg",
                     name: "Comprehensive Due Diligence Solutions",
                 },
                 {
                     delay: "0.2s",
                     href: "/solutions/research-and-dispute-resolution/premium-dispute-settlement-package/",
                     imgSrc:
-                    "https://tandhconsult.com/wp-content/uploads/2021/06/romain-dancre-doplsdelx7e-unsplash.jpg",
+                    "/img/premium_dispute.jpg",
                     name: "Premium Dispute Settlement Package",
                 },
                 {
                     delay: "0.3s",
                     href: "/solutions/research-and-dispute-resolution/optimal-dispute-settlement-package/",
                     imgSrc:
-                    "https://tandhconsult.com/wp-content/uploads/2021/06/gabrielle-henderson-hjckknwcxxq-unsplash-768x512.jpg",
+                    "/img/optimal_dispute.jpg",
                     name: "Optimal Dispute Settlement Package",
                 },
                 {
                     delay: "0.4s",
                     href: "/solutions/research-and-dispute-resolution/special-dispute-settlement-package/",
                     imgSrc:
-                    "https://tandhconsult.com/wp-content/uploads/2021/06/canva-boss-dictating-to-assistant-at-office-768x439.jpg",
+                    "/img/special_dispute.jpg",
                     name: "Special Dispute Settlement Package",
                 },
                 {
                     delay: "0.5s",
                     href: "/solutions/research-and-dispute-resolution/basic-dispute-settlement-package/",
                     imgSrc:
-                    "https://tandhconsult.com/wp-content/uploads/2021/06/beatriz-perez-moya-xn4t2pvuugk-unsplash-768x417.jpg",
+                    "/img/basic_dispute.jpg",
                     name: "Basic Dispute Settlement Package",
                 },
                 ].map((item, idx) => (

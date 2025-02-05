@@ -29,43 +29,43 @@ const index = () => {
                 {
                     "delay": "0.1s",
                     "href": "/solutions/cryptocurrency-investigations-and-regulatory-compliance/cryptocurrency-transaction-risk-analysis",
-                    "imgSrc": "https://tandhconsult.com/wp-content/uploads/2024/09/multiracial-female-brokers-share-knowledge-about-f-2023-11-27-05-15-38-utc-768x512.jpg",
+                    "imgSrc": "/img/Analysis_crypto.jpg",
                     "name": "Cryptocurrency Transaction Risk Analysis"
                 },
                 {
                     "delay": "0.2s",
                     "href": "/solutions/corporate-services/background-check-services-for-employees",
-                    "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/09/the-employer-is-checking-the-resumes-of-the-employ-2022-12-16-03-44-55-utc-768x512.jpg",
+                    "imgSrc": "/img/background_check.jpg",
                     "name": "Background Check Services for Employees"
                 },
                 {
                     "delay": "0.3s",
                     "href": "/solutions/corporate-services/corporate-background-verification-services",
-                    "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/08/check-mark-and-rubber-stamp-over-white-background-2022-03-16-06-42-09-utc-768x475.jpg",
+                    "imgSrc": "/img/background_verification.jpg",
                     "name": "Corporate Background Verification Services"
                 },
                 {
                     "delay": "0.4s",
                     "href": "/solutions/corporate-services/corporate-fraud-investigation-solutions",
-                    "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/07/businesswoman-or-auditor-looking-charts-and-graphs-2022-09-20-23-20-39-utc-768x432.jpg",
+                    "imgSrc": "/img/fraud_investigate.jpg",
                     "name": "Corporate Fraud Investigation Solutions"
                 },
                 {
                     "delay": "0.5s",
                     "href": "/solutions/corporate-services/business-valuation-and-assessment-services",
-                    "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/06/two-business-teamwork-calculating-a-valuation-in-w-2022-08-24-09-40-41-utc-768x417.jpg",
+                    "imgSrc": "/img/business_valuation.jpg",
                     "name": "Business Valuation and Assessment Services"
                 },
                 {
                     "delay": "0.6s",
                     "href": "/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions",
-                    "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/06/arlington-research-kz8nhvg_tgi-unsplash-768x513.jpg",
+                    "imgSrc": "/img/due_diligence.jpg",
                     "name": "Comprehensive Due Diligence Solutions"
                 },
                 {
                     "delay": "0.7s",
                     "href": "/solutions/corporate-services/merchant-chargeback-assistance-process",
-                    "imgSrc": "https://tandhconsult.com/wp-content/uploads/2022/03/shopping-and-online-payment-2022-03-14-18-13-37-utc-768x512.jpg",
+                    "imgSrc": "/img/merchant_chargeback.jpg",
                     "name": "Merchant Chargeback Assistance Process"
                 }
             ].map((item, idx) => (

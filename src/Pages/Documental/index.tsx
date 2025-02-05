@@ -53,35 +53,35 @@ const index = () => {
                     delay: "0.1s",
                     href: "/solutions/advisory-and-documentation-assistance/chargeback-consultation/",
                     imgSrc:
-                    " https://tandhconsult.com/wp-content/uploads/2021/07/canva-credit-card-data-decryption-risk-768x511.jpg",
+                    "/img/chargeback.jpg",
                     name: "Chargeback Consultations",
                 },
                 {
                     delay: "0.2s",
                     href: "/solutions/advisory-and-documentation-assistance/technical-document-translation-non-certified/",
                     imgSrc:
-                    "https://tandhconsult.com/wp-content/uploads/2021/07/stem-t4l-ulrke7zqjpy-unsplash-768x513.jpg",
+                   "/img/technical_document.jpg",
                     name: "Technical Document Translation (Non-Certified)",
                 },
                 {
                     delay: "0.3s",
                     href: "/solutions/advisory-and-documentation-assistance/case-evaluation-and-documentation-services/",
                     imgSrc:
-                    "https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_2588631621-768x473.jpg",
+                   "/img/case_evaluation.jpg",
                     name: "Case Evaluation and Documentation Services",
                 },
                 {
                     delay: "0.4s",
                     href: "/solutions/advisory-and-documentation-assistance/application-drafting-and-processing-support/",
                     imgSrc:
-                    "https://tandhconsult.com/wp-content/uploads/2021/07/shutterstock_1883345692-768x512.jpg",
+                   "/img/Application_Drafting.jpg",
                     name: "Application Drafting and Processing Support",
                 },
                 {
                     delay: "0.5s",
                     href: "/solutions/advisory-and-documentation-assistance/initial-consultation-and-assessment-services/",
                     imgSrc:
-                    "https://tandhconsult.com/wp-content/uploads/2021/07/canva-confident-coach-giving-handout-to-diverse-seminar-participants-768x512.jpg",
+                   "/img/initial_consult_assess.jpg",
                     name: "Initial Consultation and Assessment Services",
                 },
                 ].map((item, idx) => (
