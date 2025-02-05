@@ -6,6 +6,7 @@ import Button from '../../Buttons/index'
 import React, { useCallback, useEffect, useState } from 'react'
 import {formApi} from '../../../api/getValue'
 import toast from 'react-hot-toast';
+import {debounce} from '../../Addition/index'
 const index = () => {
     const today = new Date()
     const [phone,setphone] = useState('')
@@ -14,15 +15,6 @@ const index = () => {
     useEffect(() => {
         console.log("Parent re-rendered! selectOption:", selectOption);
     }, [selectOption]);
-    const debounce = (func: (...args: any[]) => void, timeout: number) => {
-        let timer: NodeJS.Timeout;
-        
-        return (...args: any[]) => {
-            clearTimeout(timer);
-            timer = setTimeout(() => func(...args), timeout);
-        };
-    };
-
     const UseCallback = useCallback(debounce((form_value:any) =>{
         formApi('google-api-create-row', form_value).then(res => {res.response ? toast.success(res.response) : toast.error(res.errors),setload(true)})
         

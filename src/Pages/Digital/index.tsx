@@ -31,7 +31,7 @@ const index = () => {
                     <picture className="dispute__pic">
                     <img src="https://tandhconsult.com/wp-content/uploads/2024/06/th-each-product-768x432.png" alt="" />
                     </picture>
-                    <span className="dispute__name">10-indicators-of-a-love-scam-a-comprehensive-checklist</span>
+                    <span className="dispute__name">10 Indicators Of A Love Scam: A Comprehensive Checklist</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
                 </a>
 

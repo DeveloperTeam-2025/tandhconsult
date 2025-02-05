@@ -64,15 +64,17 @@ const index: React.FC<InputType> = ({type, name, placeholder, option, classess, 
       const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const rawValue = e.target.value;
         // Only format if it's not just the plus sign "+"
-        if (rawValue !== "+") {
-          const formattedValue = formatPhoneNumber(rawValue);
-          setPhone && setPhone(formattedValue.toString());
-        } else {
-          setPhone && setPhone(rawValue.toString());
+        if(rawValue.length <= 22){
+          if (rawValue !== "+") {
+            const formattedValue = formatPhoneNumber(rawValue);
+            setPhone && setPhone(formattedValue.toString());
+          } else {
+            setPhone && setPhone(rawValue.toString());
+          }
+          // const regex = /[0-9]/g;
+          // const match = rawValue.toString().match(regex)?.join('')
+          // return match
         }
-        // const regex = /[0-9]/g;
-        // const match = rawValue.toString().match(regex)?.join('')
-        // return match
       };
     
       const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {

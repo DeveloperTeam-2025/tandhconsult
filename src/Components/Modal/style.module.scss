@@ -1,3 +1,14 @@
+@use 'sass:math';
+
+@function Clamp-all($half, $viewH, $full, $viewport: 1920) {
+    $scaled-value-px: math.div($half, 2);
+    $scaled-value-vw: math.div($viewH, $viewport) * 100;
+    @return clamp(
+        calc(#{$scaled-value-px}px), // Half value in px
+        calc(#{$scaled-value-vw}vw), // Viewport-based value in vw
+        #{$full} 
+    );
+}
 
 .openModal{
     display: block;
@@ -32,7 +43,8 @@
     align-items: center;
     &_wrapper{
         position: relative;
-        width: 26%;
+        width: 35rem;
+        // width: Clamp-all(560, 560, 560px);
         display: flex;
         justify-content: center;
         align-items: center;
