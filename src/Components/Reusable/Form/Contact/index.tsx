@@ -4,37 +4,46 @@ import Input from '../../Inputs/index'
 import Button from '../../Buttons/index'
 // import map from '../map.json'
 import {formApi} from '../../../api/getValue'
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import toast from 'react-hot-toast';
 import {debounce} from '../../Addition/index'
 const index = () => {
+  const reF = useRef<HTMLInputElement | null>(null)
   const [load, setload] = useState(true)    
   const [phone,setphone] = useState('')
-  const [selectOption, setSelectOption] = useState('');     
-  useEffect(() => {
-      console.log("Parent re-rendered! selectOption:", selectOption);
-  }, [selectOption]);
-  const UseCallback = useCallback(debounce((form_value:any) =>{
-    formApi('google-api-create-row', form_value).then(res => {res.response ? toast.success(res.response) : toast.error(res.errors),setload(true)})
-      
-  }, 300),[])
+  const [selectOption, setSelectOption] = useState('');  
+ 
+    const UseCallback = useCallback(debounce((form_value:any, keys: any, event: any) =>{
+      formApi('google-api-create-row', form_value).then(res => {
+        setload(true)
+        if(res.response){
+          toast.success(res.response)
+          keys.map((data: any) => event[`${data}`].value = '');
+          setphone('');  
+          setSelectOption('')
+        }else{
+          toast.error(res.errors)
+        }
+      }
+
+    )}, 300),[])
   
   const form = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
     const target = new FormData(event.currentTarget)
-
-    if(load){
-        if(target){
-            setload(false)
-            const object = Object.fromEntries(target.entries())
-            const keys = Object.keys(object)
-            // console.log(keys.map(data => event.currentTarget[`${data}`].value = ''))
-            load && keys.map(data => event.currentTarget[`${data}`].value = '') && setphone(''), setSelectOption('')
-            const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
-            UseCallback(form_value)
-        }
-    }
+      if(target){
+          const object = Object.fromEntries(target.entries())
+          const keys = Object.keys(object)
+          // console.log(keys.map(data => event.currentTarget[`${data}`].value = ''))
+          setload(false)
+          console.log(event.currentTarget, 'event')
+          const form_value: any = {...object,   "country": "USA",  "accept_privacy": reF.current?.checked ? 1 : 0}
+          UseCallback(form_value, keys, event.currentTarget)
+      }
   }
+  useEffect(() => {
+    console.log("Parent re-rendered! selectOption:", selectOption);
+}, [selectOption, load]);
   const optional = [
     "Fraud & Dispute Support",
     "Other inquiries",
@@ -53,7 +62,11 @@ const index = () => {
             {/* <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none' placeholder='Country' name="country" type="" option={map} /> */}
             <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none h-32' placeholder='How we can help you? Please provide as much details as possible ' name="description" type="textarea"  />
             <div className="p-4"></div>
-            <span className={styles.privacy}>I accept Privacy Policy</span>
+            <div className='flex gap-[.5rem] items-center'>
+              <input type="checkbox" id='checkbox' name='checkbox' ref={reF}/>
+              <span className={styles.privacy}>I accept Privacy Policy</span>
+            </div>
+
             <Button element='input' text={load ? 'Submit': '...loading'}/>
         </form>
     </div>

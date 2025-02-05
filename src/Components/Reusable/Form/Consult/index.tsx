@@ -16,7 +16,7 @@ const index = () => {
         console.log("Parent re-rendered! selectOption:", selectOption);
     }, [selectOption]);
     const UseCallback = useCallback(debounce((form_value:any) =>{
-        formApi('google-api-create-row', form_value).then(res => {res.response ? toast.success(res.response) : toast.error(res.errors),setload(true)})
+        formApi('google-api-create-row', form_value).then(res => {res.response ? toast.success(res.response) : toast.error(res.errors),setTimeout(() =>{res.response && setload(false)},300)})
         
     }, 300),[])
     
