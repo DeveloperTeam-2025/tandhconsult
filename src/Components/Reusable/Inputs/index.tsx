@@ -81,7 +81,7 @@ const index: React.FC<InputType> = ({type, name, placeholder, option, classess, 
         if (e.key === "Backspace") {
           const pop_value = phoneData.split('')
           const text_value = pop_value.filter((data: any,indx: number) => data && indx !== pop_value.length -1 )
-          setPhone && setPhone(text_value.join())
+          setPhone && setPhone(text_value.join(''))
         }
       };
     
@@ -92,7 +92,7 @@ const index: React.FC<InputType> = ({type, name, placeholder, option, classess, 
       <input type={type} className={`${classess}`} name={name} placeholder={placeholder} style={{color:"#000"}} />
       :
       type === 'number' ? 
-      <input className={`${classess}`} value={phoneData} name={name}  onChange={handleChange} onKeyDown={handleKeyDown} placeholder={placeholder} style={{color:"#000"}}/> 
+      <input  className={`${classess}`} value={phoneData} name={name}  onChange={handleChange} onKeyDown={handleKeyDown} placeholder={placeholder} style={{color:"#000"}}/> 
       :
       <div className="relative w-full">
         <input
