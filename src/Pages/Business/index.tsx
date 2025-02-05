@@ -34,25 +34,25 @@ const index = () => {
                 },
                 {
                     "delay": "0.2s",
-                    "href": "/solutions/business-services/background-check-services-for-employees",
+                    "href": "/solutions/corporate-services/background-check-services-for-employees",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/09/the-employer-is-checking-the-resumes-of-the-employ-2022-12-16-03-44-55-utc-768x512.jpg",
                     "name": "Background Check Services for Employees"
                 },
                 {
                     "delay": "0.3s",
-                    "href": "/solutions/business-services/corporate-background-verification-services",
+                    "href": "/solutions/corporate-services/corporate-background-verification-services",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/08/check-mark-and-rubber-stamp-over-white-background-2022-03-16-06-42-09-utc-768x475.jpg",
                     "name": "Corporate Background Verification Services"
                 },
                 {
                     "delay": "0.4s",
-                    "href": "/solutions/business-services/corporate-fraud-investigation-solutions",
+                    "href": "/solutions/corporate-services/corporate-fraud-investigation-solutions",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/07/businesswoman-or-auditor-looking-charts-and-graphs-2022-09-20-23-20-39-utc-768x432.jpg",
                     "name": "Corporate Fraud Investigation Solutions"
                 },
                 {
                     "delay": "0.5s",
-                    "href": "/solutions/business-services/business-valuation-and-assessment-services",
+                    "href": "/solutions/corporate-services/business-valuation-and-assessment-services",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2023/06/two-business-teamwork-calculating-a-valuation-in-w-2022-08-24-09-40-41-utc-768x417.jpg",
                     "name": "Business Valuation and Assessment Services"
                 },
@@ -64,7 +64,7 @@ const index = () => {
                 },
                 {
                     "delay": "0.7s",
-                    "href": "/solutions/business-services/merchant-chargeback-assistance-process",
+                    "href": "/solutions/corporate-services/merchant-chargeback-assistance-process",
                     "imgSrc": "https://tandhconsult.com/wp-content/uploads/2022/03/shopping-and-online-payment-2022-03-14-18-13-37-utc-768x512.jpg",
                     "name": "Merchant Chargeback Assistance Process"
                 }

@@ -3,49 +3,56 @@ import classNames from 'classnames'
 import styles from './style.module.scss'
 import Input from '../../Inputs/index'
 import Button from '../../Buttons/index'
-import React, { useCallback, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import {formApi} from '../../../api/getValue'
 import toast from 'react-hot-toast';
 const index = () => {
     const today = new Date()
-    // console.log(` ${today.toLocaleString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })}`)
-    //https://scarlettelove.com/google-sheets-api/api/google-api-create-row
-
+    const [phone,setphone] = useState('')
     const [load, setload] = useState(true)
-
-    const Debounce2 = (func: (...args: any[])=> void, timeout: number) =>{
-
-        console.log('times')
-        let time: any;
-        return(...args:any[]) =>{
-            clearTimeout(time)
-            console.log('times2')
-            time = setTimeout(()=>{func.apply(args)}, 100)
-        }
-    }
-    const Debounce = (func: (...args: any[]) => void, timeout: number) => {
+    const [selectOption, setSelectOption] = useState('');     
+    useEffect(() => {
+        console.log("Parent re-rendered! selectOption:", selectOption);
+    }, [selectOption]);
+    const debounce = (func: (...args: any[]) => void, timeout: number) => {
         let timer: NodeJS.Timeout;
-    
+        
         return (...args: any[]) => {
             clearTimeout(timer);
             timer = setTimeout(() => func(...args), timeout);
         };
     };
+
+    const UseCallback = useCallback(debounce((form_value:any) =>{
+        formApi('google-api-create-row', form_value).then(res => {res.response ? toast.success(res.response) : toast.error(res.errors),setload(true)})
+        
+    }, 300),[])
     
     const form = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
         const target = new FormData(event.currentTarget)
+
         if(load){
             if(target){
                 setload(false)
                 const object = Object.fromEntries(target.entries())
+                const keys = Object.keys(object)
+                // console.log(keys.map(data => event.currentTarget[`${data}`].value = ''))
+                load && keys.map(data => event.currentTarget[`${data}`].value = '') && setphone(''), setSelectOption('')
                 const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
-                formApi('google-api-create-row', form_value).then(res => {res.response ? toast.success(res.response) : toast.error(res.error),setload(true),event.currentTarget.reset()})
+                UseCallback(form_value)
             }
         }
     }
-    
-  return (
+    const optional = [
+        "Fraud & Dispute Support",
+        "Other inquiries",
+        // "Partnership",
+        // "Supplier / Service Provider",
+        // "Candidate / HR Related",
+        // "Corporate Services"
+    ]
+    return (
         <>
             <section className={styles.banner_consult}>
                 <div className={styles.container}>
@@ -57,8 +64,8 @@ const index = () => {
                                 <form onSubmit={form} className={styles.consult_form}>
                                     <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none' placeholder='Full Name' name="fullname" type="text"  />
                                     <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none' placeholder='Email Address' name="email" type="text"  />
-                                    <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none' placeholder='Inquiry Type' name="inquiry_type" type="" option={["Fraud & Dispute Support","Other inquiries","Partnership","Supplier / Service Provider","Candidate / HR Related","Corporate Services"]} />
-                                    <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none' placeholder='Phone Number' name="phone" type="number"  />
+                                    <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none' placeholder='Inquiry Type' name="inquiry_type" type="" setSelect={setSelectOption} selectOpt={selectOption} option={optional} />
+                                    <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none' placeholder='Phone Number' name="phone" type="number" setPhone={setphone} phoneData={phone} />
                                     {/* <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none' placeholder='Country' name="country" type="" option={map} /> */}
                                     <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none h-32' placeholder='How we can help you? Please provide as much details as possible ' name="description" type="textarea"  />
                                     
@@ -85,8 +92,8 @@ const index = () => {
                                 <div className='flex gap-4'>
                                 <span>Give feedback</span><i className={styles.plus_icon}></i>
                                 </div>
-                                <div className='p-2 border-white border-2' onClick={()=>{Debounce(() => console.log('hello'), 100)}}>
-                                <span>TRUSTPILOT</span> <i className={styles.arrow_right_icon}></i>
+                                <div className='p-2 border-white border-2' onClick={UseCallback}>
+                                    <span>TRUSTPILOT</span> <i className={styles.arrow_right_icon}></i>
                                 </div>
                             </div>
                         </div>

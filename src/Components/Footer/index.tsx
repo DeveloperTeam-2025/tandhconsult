@@ -14,7 +14,7 @@ const index = () => {
                     <div className={styles.footer_text}>
                         <p>Helping you prove the facts and turning it into an <br/> obtainable outcome</p>
                     </div>
-                    <div className={styles.footer_soc}>
+                    {/* <div className={styles.footer_soc}>
                         <a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F30123626%2F" className={styles.footer_socItem}>
                             <svg width="30" height="30" viewBox="0 0 30 30" fill="#012555" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" clipRule="evenodd" d="M2 0C0.895432 0 0 0.895508 0 2V28C0 29.1045 0.895432 30 2 30H28C29.1046 30 30 29.1045 30 28V2C30 0.895508 29.1046 0 28 0H2ZM20.9998 16.5986L20.9968 21H18.5143V17.0996C18.5143 16.1699 18.4953 14.978 17.2208 14.978C15.9273 14.978 15.7293 15.9883 15.7293 17.0327V20.9995H13.2443V12.9883H15.6308V14.0806H15.6658C15.9973 13.4512 16.8093 12.7871 18.0193 12.7871C20.5363 12.7871 20.9998 14.4453 20.9998 16.5986ZM9.19786 12.9888H11.6859V21H9.19786V12.9888ZM9 10.4409C9 9.64551 9.64549 9 10.441 9C11.236 9 11.8815 9.64551 11.882 10.4409C11.882 11.2363 11.2365 11.8955 10.441 11.8955C9.64549 11.8955 9 11.2363 9 10.4409Z" fill="#012555"/>
@@ -47,7 +47,7 @@ const index = () => {
                             </svg>
 
                         </a>
-                    </div>
+                    </div> */}
                 </div>
                 <div className={classNames(styles.add_foot,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>Menu</span>
@@ -79,7 +79,7 @@ const index = () => {
                 <div className={classNames(styles.footer__col__contacts,'wow animate__animated animate__fadeInUp')}>
                     <span className={styles.footer_title}>Contact Us</span>
                     <div>
-                        <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.phone_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>+3619010272</a></p></div>
+                        {/* <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.phone_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>+3619010272</a></p></div> */}
                         <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.email_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>info@tandhconsult.com</a></p></div>
                         <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.pin_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>Headquarters: 1052, Vármegye u. 3-5, 2nd floor, Budapest</a></p></div>
                     </div>

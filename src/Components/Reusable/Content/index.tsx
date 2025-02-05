@@ -34,7 +34,6 @@ const index = () => {
         prevArrow: <PrevArrow/>,
         nextArrow: <NextArrow/>
       };
-
   return (
         <>
             {
@@ -857,7 +856,7 @@ const index = () => {
                             <div className="card__row">
                             <picture className="card__pic wow animate__animated animate__fadeInUp" >
                                 <img
-                                src="https://tandhconsult.com/wp-content/uploads/2021/07/saul-bucio-p5yn73kruaa-unsplash-1-768x510.jpg"
+                                src="https://tandhconsult.com/wp-content/uploads/2021/07/thought-catalog-bj8u389a9n8-unsplash-768x512.jpg"
                                 alt=""
                                 />
                             </picture>
@@ -1754,48 +1753,132 @@ const index = () => {
                         {`
                             @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
                         `}
-                        </style>
+                    </style>
                     <section className="card" id="card">
                         <div className="container">
                             <h1 className="title card__name wow animate__animated animate__fadeInLeft">
-                            <span>Basic Dispute Settlement Package</span>
+                                <span>Chargeback Consultation</span>
                             </h1>
                             <div className="card__row">
-                            <picture className="card__pic wow animate__animated animate__fadeInUp">
-                                <img src="https://tandhconsult.com/wp-content/uploads/2021/06/beatriz-perez-moya-xn4t2pvuugk-unsplash-768x417.jpg" alt="" />
-                            </picture>
-                            <div className="card__right wow animate__animated animate__fadeInRight">
-                                <h2>Salient features</h2>
-                                <p>The Basic Tariff has the following salient features:</p>
-                                <ul>
-                                <li>Assessment of Case’s background.</li>
-                                <li>Opposing party/suspect’s website and background analysis.</li>
-                                <li>Evidence analysis. Investigation on the main company.</li>
-                                <li>Incongruence investigation.</li>
-                                <li>Personalized attention throughout the whole process with the consultant responsible for your case.</li>
-                                <li>60 minutes of specialized phone support and consultation.</li>
-                                <li>Case report elaboration.</li>
-                                <li>Dispute settlement letters – for two financial institutions/ organizations/ governmental institutions are included.</li>
-                                </ul>
-                                <div className="card__ctrl">
-                                <a  className="button product_type_simple add_to_cart_button ajax_add_to_cart" aria-label="Add to cart: “Dispute Settlement 'Basic Package'”" rel="nofollow">Add to cart</a>
-                                <span className="card__price">
-                                    <span className="price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">£</span>2,049.00</bdi></span></span>
-                                </span>
+                                <picture className="card__pic wow animate__animated animate__fadeInUp">
+                                    <img
+                                    src="https://tandhconsult.com/wp-content/uploads/2021/07/canva-credit-card-data-decryption-risk-768x511.jpg"
+                                    alt=""
+                                    />
+                                </picture>
+                                <div className="card__right wow animate__animated animate__fadeInRight">
+                                    <p>
+                                        Disputes can be easily handled with Chargeback Consultation: As a chargeback dispute is an
+                                        incredibly complex process that involves various parties, you may want to consider hiring
+                                        a company with experience in this field. Our trained professionals are versed in all
+                                        aspects of the process and will advise you in the various steps and how to avoid any
+                                        errors.
+                                    </p>
+                                    <h2>Under Chargeback Consultation we provide our customers with:</h2>
+                                    <ul>
+                                        <li>
+                                            Pre-Consultation Assessment – the pre-consultation questionnaire (KYC form) that the
+                                            client must fill prior to assessment/consultation along with a client’s information form
+                                            which will be used for consultation.
+                                        </li>
+                                        <li>45 minutes of consultation with our specialist.</li>
+                                    </ul>
+                                    <div className="card__ctrl">
+                                        <a className="button product_type_simple add_to_cart_button ajax_add_to_cart">
+                                            Add to cart
+                                        </a>
+                                        <span id="woocommerce_loop_add_to_cart_link_describedby_583" className="screen-reader-text"></span>
+                                        <span className="card__price">
+                                            <span className="price">
+                                            <span className="woocommerce-Price-amount amount">
+                                                <bdi><span className="woocommerce-Price-currencySymbol">£</span>189.00</bdi>
+                                            </span>
+                                            </span>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
                             </div>
 
                             <div className="card__desc wow animate__animated animate__fadeInUp">
-                            <h3 className="title card__subtit">Description</h3>
-                            <p>At Greyzone Consulting we take pride in the favorable results we have presented to our clients over the past years. We have an experienced and professional team that has been dealing with various categories of cases that involve single or multiple scams. Due to this, we maintain high standards of service quality and a strong vision on how to best assist our clients.</p>
-                            <p>The initial step in the processing of a priority case is the proper assembly and gathering of all necessary evidence pertaining to the case, in addition to all that the client can provide on his end. Based on the collected evidence, an assessment is made that determines where and how we can make the first move.</p>
-                            <p>Once the agreement is signed, the list of the documentation required by the agent must be sent in a period no longer than 30 calendar days. Additionally, should the compliance team find that some aspects of the information provided by the client are insufficient, further documents/evidence may be required.</p>
-                            <p>After the information and the strategic plan contained in the “Basic Package” case report is approved by the client, we begin with drafting the agreed-upon applications and documents to be sent to the financial and governmental institutions involved, as well as other organizations. Only two institutions correspondence is included in this package. Upon request, we assist the client in corresponding with the company/organization that defrauded the client, with the aim of reaching a settlement. This step is especially important when it comes to dealing with regulated brokers or established companies. Be aware that with this package, the waiting time to receive documents and letters drafted by our team is the standard timeframe of up to 7 business days. Delays may also occur due to the workload. However, your account manager is always available should you have any inquires or require any clarification.</p>
-                            <p>Should you have any further questions or doubts, do not hesitate to contact our agents, we will be happy to help you.</p>
+                                <h3 className="title card__subtit">Description</h3>
+                                <p>
+                                    At Greyzone Consulting, we are experts in transactions that involve payments with debit and
+                                    credit cards. The variety and complexity of the situations in which people lose money due
+                                    to scams in which card transactions are present are exhaustive. Visa and MasterCard, the
+                                    major card issuers, have specific rules of operation that financial institutions using their
+                                    cards must comply with. As a customer, you have established rights that must be respected,
+                                    but in order for your rights to be respected, you need to properly understand them and how
+                                    the chargeback process is conducted.
+                                </p>
+                                <p>
+                                    When the dispute leads to a positive result, a transfer is made by the issuing bank to the
+                                    customer, the amount of which will be debited from the involved merchant and returned to the
+                                    payer. In simple terms, it is the reversal of a credit or debit card payment that comes
+                                    directly from the bank and operates under the rules of the card issuer, be it VISA or
+                                    MasterCard.
+                                </p>
+                                <p>The process is as follows:</p>
+                                <ol>
+                                    <li>
+                                        The cardholder files a chargeback/A dissatisfied customer contacts the bank/issuer and
+                                        asks for a refund.
+                                    </li>
+                                    <li>
+                                        The issuer reviews and assigns a code to the case. These codes explain the reasons behind
+                                        the issuing of a dispute (for example: “goods or services not as described”). Each code
+                                        also comes with its own set of rules and conditions (filing time limits, necessary
+                                        documentation, etc…)
+                                    </li>
+                                    <li>
+                                        The issuer investigates and takes action. At this point, the issuer should fully
+                                        investigate the cardholder’s chargeback claim, and make sure that all the regulations have
+                                        been adhered to and that the complaint has merit. If the cardholder has a valid claim, the
+                                        funds will be removed from the merchant’s bank account and credited to the cardholder.
+                                        Notification of the chargeback will be sent to the merchant’s bank. (If the cardholder
+                                        does not have a valid claim, the chargeback will simply be null and void.)
+                                    </li>
+                                    <li>
+                                        The acquirer reviews the chargeback and takes action. The credit card networks (Visa,
+                                        Mastercard) have created various merchant’s rights, including the right to dispute an
+                                        illegitimate chargeback. If inaccurate claims are made, the merchant can try to regain
+                                        profits that were fraudulently removed.
+                                    </li>
+                                </ol>
+                                <p>
+                                    Our team is well versed and highly experienced in this process and can assist you with
+                                    raising a chargeback dispute with the bank in question. Remember, a chargeback is not just a
+                                    single event, it is a process, and one that can be lengthy and convoluted for all parties
+                                    involved. For the same reason, it is important to have a clear and proper understanding of
+                                    how to do it, as a single wrong word could be disruptive to the whole process.
+                                </p>
+                                <p>
+                                    At Greyzone our fundamental purpose is to give you the best attention and quality of service.
+                                    As such, you can always discuss your needs and concerns with our agents, who will be more
+                                    than happy to listen to and assist you.
+                                </p>
+                                <h2>Salient features</h2>
+                                <p>
+                                    The Client hereby agrees to engage the Consultant to provide the Client with the following
+                                    consulting services under the Chargeback Processing Consultation:
+                                </p>
+                                <ul>
+                                    <li>
+                                        Pre-Consultation Assessment – the pre-consultation questionnaire (KYC form) that the
+                                        client must fill prior to assessment/consultation along with a client’s information form
+                                        which will be used for consultation.
+                                    </li>
+                                    <li>45 minutes of consultation with our specialist.</li>
+                                </ul>
+                                <p>
+                                    The Services will also include any other consulting tasks which the Parties may agree on.
+                                    The Consultant hereby agrees to provide such Services to the Client.
+                                </p>
+                                <p>One-time payment – 189 GBP.</p>
                             </div>
                         </div>
                     </section>
+
+
 
                 </ShadowDOM.div>
                 </>

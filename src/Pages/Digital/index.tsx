@@ -26,7 +26,7 @@ const index = () => {
                 <a
                     className="dispute__link wow animate__animated animate__fadeInUp"
                     
-                    href="/solutions/digital-products/10-indicators-of-a-love-scam-a-comprehensive-checklist"
+                    href="/solutions/digital-goods/10-indicators-of-a-love-scam-a-comprehensive-checklist"
                 >
                     <picture className="dispute__pic">
                     <img src="https://tandhconsult.com/wp-content/uploads/2024/06/th-each-product-768x432.png" alt="" />
@@ -38,7 +38,7 @@ const index = () => {
                 <a
                     className="dispute__link wow animate__animated animate__fadeInUp"
                     
-                    href="/solutions/digital-products/online-fraud-protection-a-practical-guide"
+                    href="/solutions/digital-goods/online-fraud-protection-a-practical-guide"
                 >
                     <picture className="dispute__pic">
                     <img src="https://tandhconsult.com/wp-content/uploads/2024/05/th-each-product-768x432.png" alt="" />
@@ -50,7 +50,7 @@ const index = () => {
                 <a
                     className="dispute__link wow animate__animated animate__fadeInUp"
                     
-                    href="/solutions/digital-products/printable-fraud-awareness-workbook-with-exercises"
+                    href="/solutions/digital-goods/printable-fraud-awareness-workbook-with-exercises"
                 >
                     <picture className="dispute__pic">
                     <img src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-printable-workbook-768x432.png" alt="" />
@@ -62,7 +62,7 @@ const index = () => {
                 <a
                     className="dispute__link wow animate__animated animate__fadeInUp"
                     
-                    href="/solutions/digital-products/fraud-awareness-masterclass-with-detailed-presentation"
+                    href="/solutions/digital-goods/fraud-awareness-masterclass-with-detailed-presentation"
                 >
                     <picture className="dispute__pic">
                     <img src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-workshop_learnvent_edited-768x535.jpg" alt="" />

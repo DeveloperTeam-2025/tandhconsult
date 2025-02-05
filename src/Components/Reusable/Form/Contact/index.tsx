@@ -16,7 +16,7 @@ const index = () => {
               setload(false)
               const object = Object.fromEntries(target.entries())
               const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
-              formApi('google-api-create-row', form_value).then(res => { res.response ? toast.success(res.response) : toast.error(res.error) ,setload(true)})
+              formApi('google-api-create-row', form_value).then(res => { res.response ? toast.success(res.response) : toast.error(res.errors) ,setload(true), event.currentTarget.reset();})
             }
           }
 
