@@ -3,34 +3,90 @@ import styles from './style.module.scss'
 import classNames from 'classnames';
 const teamMembers = [
   {
-    name: 'Tahir Khan',
+    name: 'Benjamin Ford',
     role: 'Co-founder, CEO',
-    image: 'https://tandhconsult.com/wp-content/uploads/2022/07/img_9049-scaled.jpg',
-    linkedin: 'https://www.linkedin.com/in/tahirkhansehar/',
+    image: '/img/team/Benjamin_Ford.jpg',
+    linkedin: '',
     animationDelay: '0.1s',
   },
   {
-    name: 'Hanna Adynets',
+    name: 'Amanda Velasquez',
     role: 'Co-founder, Blockchain Investigator',
-    image: 'https://tandhconsult.com/wp-content/uploads/2022/06/hanna-adynets.jpg',
-    linkedin: 'https://www.linkedin.com/in/hanna-adynets-549137165/',
+    image: '/img/team/Amanda_Velasquez.jpg',
+    linkedin: '',
     animationDelay: '0.4s',
   },
   {
-    name: 'Hasan Muhandes',
+    name: 'Jon Snowden',
     role: 'Senior Consultant, Team Leader',
-    image: 'https://tandhconsult.com/wp-content/uploads/2022/07/rol00109-scaled-e1708700861880.jpg',
-    linkedin: 'https://www.linkedin.com/in/hasan-muhandes-9085a1194/',
+    image: '/img/team/Jon_Snowden.jpg',
+    linkedin: '',
     animationDelay: '0.7s',
   },
   {
-    name: 'Cristian Sepulveda',
+    name: 'John Davis',
     role: 'Senior Consultant',
-    image: 'https://tandhconsult.com/wp-content/uploads/2022/07/rol00067-scaled-e1708698887267.jpg',
-    linkedin: 'https://www.linkedin.com/in/cristiansepulvedar/',
+    image: '/img/team/John_Davis.jpg',
+    linkedin: '',
     animationDelay: '1s',
   },
   // Add more team members as needed
+  {
+    name: "Jasmine Velasquez",
+    role: "Consultant",
+    image: "/img/team/Jasmine_Valentine.jpg",
+    linkedin: "",
+    animationDelay: "0.4s",
+  },
+  {
+    name: "Richard Abdul",
+    role: "Consultant",
+    image: "/img/team/Richard_Abdul.jpg",
+    linkedin: "",
+    animationDelay: "0.7s",
+  },
+  {
+    name: "Jessica Sanchez",
+    role: "Consultant",
+    image: "/img/team/Jessica_Sanchez.jpg",
+    linkedin: "",
+    animationDelay: "1s",
+  },
+  {
+    name: "Gabriella Lauren",
+    role: "Consultant, Business Services",
+    image: "/img/team/Gabriella_Lauren.jpg",
+    linkedin: "",
+    animationDelay: "0.2s",
+  },
+  {
+    name: "Joseph Agabin",
+    role: "Consultant",
+    image: "/img/team/Joseph_Agabin.jpg",
+    linkedin: "",
+    animationDelay: "0.5s",
+  },
+  {
+    "name": "Phoebe Famia ",
+    "role": "Compliance Specialist, Cryptocurrency Investigator",
+    "image": "/img/team/Phoebe_Famia.jpg",
+    "linkedin": "",
+    "animationDelay": "0.6s"
+  },
+  {
+    "name": "Alfredo Suarez",
+    "role": "Team Leader, Senior Compliance Specialist, Cryptocurrency Investigator",
+    "image": "img/team/Alfredo_Suarez.jpg",
+    "linkedin": "",
+    "animationDelay": "0.9s"
+  },
+  {
+    "name": "Trixie Xhan",
+    "role": "HR Manager",
+    "image": "img/team/Trixie_Xhan.jpg",
+    "linkedin": "",
+    "animationDelay": "0.4s"
+  }
 ];
 
 const TeamSection = () => {
@@ -44,9 +100,15 @@ const TeamSection = () => {
       <div className={classNames(`${styles.container} ${styles.team_container}`)}>
         {teamMembers.map((member, index) => (
           <div className={styles.single_team} key={index} style={{ padding: '0 20px' }}>
-            <div>
+            <div style={{
+                  width: "100%",
+                  // display: "flex",
+                  height: "31rem",
+                  overflow: "hidden"
+              
+            }}>
               <img
-                style={{ objectFit: 'cover', width: '100%', height: '500px' }}
+                style={{ objectFit: 'contain', width: '100%'}}
                 src={member.image}
                 alt={`${member.name}'s photo`}
               />
