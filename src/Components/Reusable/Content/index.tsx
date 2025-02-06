@@ -11,7 +11,7 @@ interface ArrowProps {
 export const PrevArrow: React.FC<ArrowProps> = ({ onClick }) => {
   return (
     <button
-      className="related__arrow related__arrow--prev slick-arrow"
+      className="related__arrow related__arrow--prev slick-arrow wow animate__animated animate__fadeInLeft"
       onClick={onClick}
       style={{ backgroundColor: "transparent", border: "none" }}
     >
@@ -35,7 +35,7 @@ export const PrevArrow: React.FC<ArrowProps> = ({ onClick }) => {
 export const NextArrow: React.FC<ArrowProps> = ({ onClick }) => {
   return (
     <button
-      className="related__arrow related__arrow--next slick-arrow"
+      className="related__arrow related__arrow--next slick-arrow wow animate__animated animate__fadeInLeft"
       onClick={onClick}
       style={{ backgroundColor: "transparent", border: "none" }}
     >
@@ -509,13 +509,13 @@ const index = () => {
                     presentation PDF.
                   </p>
                   <div className={classNames(styles.card__ctrl)}>
-                    <a
+                    {/* <a
                       className={classNames(styles.add_to_cart_button)}
                       data-product_id="29378"
                       aria-label="Add to cart: Fraud Awareness Masterclass + Presentation"
                     >
                       Add to cart
-                    </a>
+                    </a> */}
                     {/* <span className={classNames(styles.card__price)}>
                                     <span className={classNames(styles.price)}>
                                     <del><span ><bdi><span>£</span>59.98</bdi></span></del>
@@ -1851,7 +1851,7 @@ const index = () => {
                       </li>
                     </ul>
                     <div className="card__ctrl">
-                      <a
+                      {/* <a
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_562"
                         data-quantity="1"
                         className="button product_type_simple add_to_cart_button ajax_add_to_cart"
@@ -1878,7 +1878,7 @@ const index = () => {
                             </bdi>
                           </span>
                         </span>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -2048,7 +2048,7 @@ const index = () => {
                       </li>
                     </ul>
                     <div className="card__ctrl">
-                      <a
+                      {/* <a
                         className="button product_type_simple add_to_cart_button ajax_add_to_cart"
                         data-product_id="558"
                         aria-label="Add to cart: “Dispute Settlement 'Optimal Package'”"
@@ -2067,7 +2067,7 @@ const index = () => {
                             </bdi>
                           </span>
                         </span>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -2321,7 +2321,7 @@ const index = () => {
                       </li>
                     </ul>
                     <div className="card__ctrl">
-                      <a
+                      {/* <a
                         className="button product_type_simple add_to_cart_button ajax_add_to_cart"
                         aria-label="Add to cart: “Dispute Settlement 'Basic Package'”"
                         rel="nofollow"
@@ -2339,7 +2339,7 @@ const index = () => {
                             </bdi>
                           </span>
                         </span>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -2442,7 +2442,7 @@ const index = () => {
                       <li>45 minutes of consultation with our specialist.</li>
                     </ul>
                     <div className="card__ctrl">
-                      <a className="button product_type_simple add_to_cart_button ajax_add_to_cart">
+                      {/* <a className="button product_type_simple add_to_cart_button ajax_add_to_cart">
                         Add to cart
                       </a>
                       <span
@@ -2460,7 +2460,7 @@ const index = () => {
                             </bdi>
                           </span>
                         </span>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -2598,7 +2598,7 @@ const index = () => {
                       <li>French</li>
                       <li>German</li>
                     </ul>
-                    <div className="card__ctrl">
+                    {/* <div className="card__ctrl">
                       <a
                         className="button product_type_simple add_to_cart_button ajax_add_to_cart"
                         aria-label="Add to cart: “Technical translation (non-certified)”"
@@ -2618,7 +2618,7 @@ const index = () => {
                           </span>
                         </span>
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -2775,7 +2775,7 @@ const index = () => {
                       confidently.
                     </p>
                     <div className="card__ctrl">
-                      <a
+                      {/* <a
                         className="button product_type_simple add_to_cart_button ajax_add_to_cart"
                         aria-label="Add to cart: “Case Assessment & Compilation Services”"
                         rel="nofollow"
@@ -2793,7 +2793,7 @@ const index = () => {
                             </bdi>
                           </span>
                         </span>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -2917,7 +2917,7 @@ const index = () => {
                       </li>
                     </ul>
                     <div className="card__ctrl">
-                      <a
+                      {/* <a
                         className="button product_type_simple add_to_cart_button ajax_add_to_cart"
                         aria-label="Add to cart: “Application Processing / Drafting”"
                         rel="nofollow"
@@ -2935,7 +2935,7 @@ const index = () => {
                             </bdi>
                           </span>
                         </span>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -3030,7 +3030,7 @@ const index = () => {
                       </li>
                     </ul>
                     <div className="card__ctrl">
-                      <a
+                      {/* <a
                         className="button product_type_simple add_to_cart_button ajax_add_to_cart"
                         aria-label="Add to cart: “Evaluation and Initial Consultation”"
                         rel="nofollow"
@@ -3048,7 +3048,7 @@ const index = () => {
                             </bdi>
                           </span>
                         </span>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>

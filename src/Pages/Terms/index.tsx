@@ -47,15 +47,15 @@ const Index = () => {
             </ol>
 
             <h3>Hyperlinking and Iframes</h3>
-            <p>Organizations may be permitted to link to our website under specific conditions, such as not falsely suggesting sponsorship, endorsement, or association. Any organization wishing to link to our website must notify us at <a href="mailto:marketing@tandhconsult.com" target="_new">marketing@tandhconsult.com</a>.</p>
+            <p>Organizations may be permitted to link to our website under specific conditions, such as not falsely suggesting sponsorship, endorsement, or association. Any organization wishing to link to our website must notify us at <a href="mailto:marketing@greyzone.com" target="_new">marketing@greyzone.com</a>.</p>
             <p>Without our express written permission, no organization may create frames around our web pages or use other techniques that alter the visual presentation or appearance of our site.</p>
 
             <h3>Services</h3>
             <p>Greyzone Consulting provides a range of consulting and investigation services. By engaging with our services, you accept these terms and conditions and are bound by them. Some services may require you to register or sign up. Specific terms may apply for different services, and you will be informed of these as necessary.</p>
 
             <h3>Making a Payment</h3>
-            <p>Upon selecting a service on our website, you will be prompted to enter personal data and choose a payment method. After payment, a confirmation email will be sent, and you must verify the accuracy of the payment details. For any discrepancies, promptly contact Greyzone Consulting at <a href="mailto:support@tandhconsult.com" target="_new">support@tandhconsult.com</a>.</p>
-            <p>Your payment is considered confirmed upon receipt of the deposit and confirmation email. Adherence to these Terms and Conditions, and any additional conditions that apply to the service, is expected. Payments are accepted in GB Pounds (GBP), with exchange rates set by the issuing bank or payment system. Clients are responsible for all transaction fees and must keep us informed of any changes to personal contact details. For payment queries, contact Greyzone Consulting through the website, live chat, phone call, or email at <a href="mailto:info@tandhconsult.com" target="_new">info@tandhconsult.com</a>.</p>
+            <p>Upon selecting a service on our website, you will be prompted to enter personal data and choose a payment method. After payment, a confirmation email will be sent, and you must verify the accuracy of the payment details. For any discrepancies, promptly contact Greyzone Consulting at <a href="mailto:support@greyzone.com" target="_new">support@greyzone.com</a>.</p>
+            <p>Your payment is considered confirmed upon receipt of the deposit and confirmation email. Adherence to these Terms and Conditions, and any additional conditions that apply to the service, is expected. Payments are accepted in GB Pounds (GBP), with exchange rates set by the issuing bank or payment system. Clients are responsible for all transaction fees and must keep us informed of any changes to personal contact details. For payment queries, contact Greyzone Consulting through the website, live chat, phone call, or email at <a href="mailto:info@greyzone.com" target="_new">info@greyzone.com</a>.</p>
 
             <h3>Refund & Cancellation Policy</h3>
             <h4>Changes to Services</h4>

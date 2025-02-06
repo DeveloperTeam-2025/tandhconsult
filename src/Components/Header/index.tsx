@@ -121,6 +121,7 @@ function App(props: any) {
     const option = ["Terms and Conditions", "Privacy Policy", "Fraud Awareness", "Partners", "FAQ"]
     const options = !option ? [""] : option;
     const solution = [    
+        "Digital Goods",
         "Cryptocurrency Investigations and Regulatory Compliance",
         "Research and Dispute Resolution",
         "Advisory and Documentation Assistance",

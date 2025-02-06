@@ -231,7 +231,7 @@ const index = () => {
             </div>
             <div className={styles.callMail}>
               <p>
-                <a href="mailto:partners@tandhconsult.com">partners@tandhconsult.com</a>
+                <a href="mailto:partners@greyzone.com">partners@greyzone.com</a>
               </p>
             </div>
           </div>
