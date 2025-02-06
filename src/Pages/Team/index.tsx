@@ -67,7 +67,7 @@ const teamMembers = [
     animationDelay: "0.5s",
   },
   {
-    "name": "Phoebe Famia ",
+    "name": "Phoebe Famia",
     "role": "Compliance Specialist, Cryptocurrency Investigator",
     "image": "/img/team/Phoebe_Famia.jpg",
     "linkedin": "",
