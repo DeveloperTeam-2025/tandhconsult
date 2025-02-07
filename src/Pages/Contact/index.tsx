@@ -104,7 +104,7 @@ const index = () => {
             </div>
           </div>
           <article className={classNames(`${styles.abt_block_2} wow animate__animated animate__fadeInUp mt-20`)}>
-            <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>Explore more:</span></h2>
+            {/* <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>Explore more:</span></h2>
             <div className={classNames(`${styles.abt_explore}`)}>
               <a className={classNames(`${styles.abt_explore_item}`)} href="/partners">
                 <i className={styles.partner_icon}></i>
@@ -122,7 +122,7 @@ const index = () => {
                 <i className={styles.join_icon}></i>
                 <span className={classNames(`${styles.abt_explore_name}`)}>Join our Team</span>
               </a>                     
-            </div>
+            </div> */}
           </article>
         </div>
       </div>

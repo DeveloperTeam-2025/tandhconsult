@@ -1,6 +1,8 @@
 
 import styles from './style.module.scss'
 import classNames from 'classnames';
+
+
 const teamMembers = [
   {
     name: 'Benjamin Ford',
@@ -32,7 +34,7 @@ const teamMembers = [
   },
   // Add more team members as needed
   {
-    name: "Jasmine Velasquez",
+    name: "Jasmine Valentine",
     role: "Consultant",
     image: "/img/team/Jasmine_Valentine.jpg",
     linkedin: "",

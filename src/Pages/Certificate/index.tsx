@@ -28,7 +28,7 @@ const certificates = [
     "caption": ""
   },
   {
-    "src": "/img/certificate/jasmine.jpg",
+    "src": "/img/certificate/jasmine_valentine.jpg",
     "alt": "Jasmine",
     "caption": ""
   },

@@ -72,8 +72,8 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
-                        `}
+                @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+              `}
             </style>
             <section className="card" id="card">
               <div className="container">
@@ -594,7 +594,7 @@ const index = () => {
                 <p>
                   Equip yourself with the tools and knowledge to stay one step
                   ahead of{" "}
-                  <a href="https://tandhconsult.com/blog/what-to-do-if-you-suspect-fraud/">
+                  <a href="/blog/what-to-do-if-you-suspect-fraud/">
                     fraudsters
                   </a>
                   . Purchase the Fraud Awareness Bundle today and start your
@@ -640,7 +640,7 @@ const index = () => {
                     </p>
                     <div className="card__ctrl">
                       <a
-                        href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-transaction-risk-analysis/"
+                        href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-transaction-risk-analysis/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33046"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -823,7 +823,7 @@ const index = () => {
                         cutting-edge technology
                       </a>{" "}
                       and{" "}
-                      <a href="https://tandhconsult.com/blog/understanding-cryptocurrency-investigations-key-insights/">
+                      <a href="/blog/understanding-cryptocurrency-investigations-key-insights/">
                         advanced investigative techniques
                       </a>{" "}
                       to uncover and trace assets, ensuring a seamless and
@@ -831,7 +831,7 @@ const index = () => {
                     </p>
                     <div className="card__ctrl">
                       <a
-                        href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/asset-location-and-tracing-services/"
+                        href="/solutions/cryptocurrency-investigation-compliance/asset-location-and-tracing-services/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33273"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -983,7 +983,7 @@ const index = () => {
                     </h3>
                     <p>
                       Our team at Greyzone Consulting conducts thorough{" "}
-                      <a href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
+                      <a href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                         cryptocurrency analysis and investigations
                       </a>{" "}
                       to deliver customized reports and case responses for our
@@ -1028,7 +1028,7 @@ const index = () => {
                     </p>
                     <div className="card__ctrl">
                       <a
-                        href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
+                        href="/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_605"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1149,7 +1149,7 @@ const index = () => {
                     </h3>
                     <p>
                       Our team at Greyzone Consulting conducts thorough{" "}
-                      <a href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
+                      <a href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                         cryptocurrency analysis and investigations
                       </a>{" "}
                       to deliver customized reports and case responses for our
@@ -1194,7 +1194,7 @@ const index = () => {
                     </p>
                     <div className="card__ctrl">
                       <a
-                        href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
+                        href="/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_605"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1299,7 +1299,7 @@ const index = () => {
                     </p>
                     <div className="card__ctrl">
                       <a
-                        href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/"
+                        href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_599"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1387,10 +1387,10 @@ const index = () => {
                       decoding="async"
                       className="aligncenter wp-image-28767 size-large"
                       src="https://tandhconsult.com/wp-content/uploads/2021/07/cryptocurrency_investigation_process_tandhconsult_background_line-1-820x1024.png"
-                      alt="cryptocurrency investigation process tandhconsult"
+                      alt="cryptocurrency investigation process greyzone"
                       width="640"
                       height="799"
-                      data-pin-description="cryptocurrency investigation process tandhconsult"
+                      data-pin-description="cryptocurrency investigation process greyzone"
                     />
                   </p>
                   <strong>Beyond Cryptocurrency Investigation:</strong>
@@ -1464,7 +1464,7 @@ const index = () => {
                     </p>
                     <div className="card__ctrl">
                       <a
-                        href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/general-cryptocurrency-intelligence-reports/"
+                        href="/solutions/cryptocurrency-investigation-compliance/general-cryptocurrency-intelligence-reports/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_597"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1592,7 +1592,7 @@ const index = () => {
                     <p>&nbsp;</p>
                     <div className="card__ctrl">
                       <a
-                        href="https://tandhconsult.com/solutions/cryptocurrency-investigation-compliance/cryptocurrency-information-gathering-support/"
+                        href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-information-gathering-support/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_589"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -3821,11 +3821,11 @@ const index = () => {
       <ShadowDOM.div>
         <style>
           {`
-                        @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
-                        .slick-track{
-                        gap: 1rem;
-                        }
-                    `}
+            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+            .slick-track{
+            gap: 1rem;
+            }
+          `}
         </style>
         <section className="related" id="related">
           <div className="container">

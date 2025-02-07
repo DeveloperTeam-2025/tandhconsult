@@ -19,10 +19,10 @@ const Index = () => {
             <h2 className={styles.wp_block_heading}>Websites</h2>
             <p>
               Please be aware that we exclusively conduct official business through our official website,{' '}
-              <a href="/">www.tandhconsult.com</a>. Which provides accurate and up-to-date
+              <a href="/">www.greyzone.com</a>. Which provides accurate and up-to-date
               information about Greyzone Consulting, our services, products, and more. If you have any doubts about the
               authenticity of a website using the Greyzone Consulting logo or brand, visit our official website at{' '}
-              <a href="/">www.tandhconsult.com</a>.
+              <a href="/">www.greyzone.com</a>.
             </p>
 
             <h2 className={styles.wp_block_heading}>Report Fraud</h2>
